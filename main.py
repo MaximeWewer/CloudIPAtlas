@@ -239,7 +239,7 @@ def generate_summary_report(results: Dict[str, Dict], total_elapsed_time: float)
     logger.info("PROVIDER DETAILS (sorted by duration)")
     logger.info(f"{'='*70}")
     for provider_name, result in sorted_results:
-        provider_dir = provider_name.lower()
+        provider_dir = os.path.join("cloud_ips", provider_name.lower())
         file_count = count_files_in_directory(provider_dir) if os.path.exists(provider_dir) else 0
         status = "OK" if result['success'] else "FAILED"
         logger.info(f"{provider_name:<20} [{status:<6}] {result['elapsed_time']:>6.2f}s | {file_count:>3} files")

@@ -81,7 +81,7 @@ if [ ! -d "cloud_ips" ]; then
 fi
 
 # Generate table content
-table_content=""
+table_content="\n"
 table_content+="| Provider | Description | Data |\n"
 table_content+="|----------|-------------|------|\n"
 
