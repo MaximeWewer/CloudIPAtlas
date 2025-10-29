@@ -1,0 +1,44 @@
+{
+  "aws": {
+    "url": "https://ip-ranges.amazonaws.com/ip-ranges.json"
+  },
+  "azure": {
+    "url": "https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_Latest.json"
+  },
+  "cloudflare": {
+    "urls": ["https://www.cloudflare.com/ips-v4/", "https://www.cloudflare.com/ips-v6/"]
+  },
+  "digitalocean": {
+    "url": "https://digitalocean.com/geo/google.csv"
+  },
+  "fastly": {
+    "url": "https://api.fastly.com/public-ip-list"
+  },
+  "gcp": {
+    "url": "https://www.gstatic.com/ipranges/cloud.json"
+  },
+  "ibm_cloud": {
+    "url": "https://cloud.ibm.com/docs/infrastructure-hub?topic=infrastructure-hub-ibm-cloud-ip-ranges"
+  },
+  "linode": {
+    "url": "https://geoip.linode.com/"
+  },
+  "oci": {
+    "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json"
+  },
+  "ovh": {
+    "url": "https://help.ovhcloud.com/csm/en-web-hosting-clusters-ip-addresses?id=kb_article_view&sysparm_article=KB0052388"
+  },
+  "scaleway": {
+    "url": "https://www.scaleway.com/en/docs/account/reference-content/scaleway-network-information/"
+  },
+  "starlink": {
+    "url": "https://geoip.starlinkisp.net/feed.csv"
+  },
+  "vultr": {
+    "url": "https://geofeed.constant.com/?json"
+  },
+  "zscaler": {
+    "urls": ["https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required", "http://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"]
+  }
+}
