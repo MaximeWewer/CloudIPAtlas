@@ -1,14 +1,14 @@
 # Vultr IP Ranges
 
-Last updated: 2025-10-29 10:21:26 UTC
+Last updated: 2025-10-30 10:13:05 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 495
-- **IPv4 ranges**: 446 (1,011,968 addresses)
-- **IPv6 ranges**: 49 (281,478,063,849,472 /64 subnets)
+- **Total IPs/Ranges**: 497
+- **IPv4 ranges**: 447 (1,014,016 addresses)
+- **IPv6 ranges**: 50 (281,478,130,958,336 /64 subnets)
 
-## Regions (33)
+## Regions (34)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -26,8 +26,9 @@ Last updated: 2025-10-29 10:21:26 UTC
 | London, GB | 28 |
 | Los Angeles, US | 30 |
 | Madrid, ES | 5 |
-| Maryland Heights, US | 11 |
+| Maryland Heights, US | 10 |
 | Miami, US | 22 |
+| Milan, IT | 3 |
 | Mumbai, IN | 2 |
 | Noida, IN | 2 |
 | Osaka, JP | 2 |
