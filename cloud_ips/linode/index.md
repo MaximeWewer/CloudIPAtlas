@@ -1,6 +1,6 @@
 # Linode IP Ranges
 
-Last updated: 2025-11-03 10:14:36 UTC
+Last updated: 2025-11-04 10:14:17 UTC
 
 ## Summary Statistics
 
@@ -17,7 +17,7 @@ Last updated: 2025-11-03 10:14:36 UTC
 | Atlanta, US | 265 |
 | Auckland, NZ | 4 |
 | Berlin, DE | 4 |
-| Bogota, CO | 4 |
+| Bogota, CO | 8 |
 | Cedar Knolls, US | 407 |
 | Chennai, IN | 97 |
 | Chicago, US | 258 |
@@ -32,7 +32,7 @@ Last updated: 2025-11-03 10:14:36 UTC
 | London, GB | 394 |
 | Los Angeles, US | 130 |
 | Madrid, ES | 66 |
-| Marseille, FR | 4 |
+| Marseille, FR | 8 |
 | Melbourne, AU | 66 |
 | Miami, US | 130 |
 | Milan, IT | 66 |
