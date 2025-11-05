@@ -1,31 +1,32 @@
 # OCI IP Ranges
 
-Last updated: 2025-11-04 10:14:13 UTC
+Last updated: 2025-11-05 10:14:10 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 978
-- **IPv4 ranges**: 978 (3,809,418 addresses)
+- **Total IPs/Ranges**: 1,008
+- **IPv4 ranges**: 1,008 (3,848,458 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
-| OBJECT_STORAGE | 52 |
-| OCI | 504 |
-| OSN | 474 |
+| OBJECT_STORAGE | 54 |
+| OCI | 509 |
+| OSN | 499 |
 
-## Regions (49)
+## Regions (52)
 
 | Region | IP Ranges |
 |--------|----------:|
 | af-johannesburg-1 | 12 |
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
+| ap-delhi-1 | 10 |
 | ap-hyderabad-1 | 20 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 19 |
-| ap-mumbai-1 | 26 |
+| ap-mumbai-1 | 27 |
 | ap-osaka-1 | 19 |
 | ap-seoul-1 | 28 |
 | ap-singapore-1 | 22 |
@@ -39,6 +40,7 @@ Last updated: 2025-11-04 10:14:13 UTC
 | eu-frankfurt-1 | 60 |
 | eu-jovanovac-1 | 9 |
 | eu-madrid-1 | 13 |
+| eu-madrid-3 | 9 |
 | eu-marseille-1 | 12 |
 | eu-milan-1 | 17 |
 | eu-paris-1 | 14 |
@@ -48,7 +50,7 @@ Last updated: 2025-11-04 10:14:13 UTC
 | me-abudhabi-1 | 9 |
 | me-dubai-1 | 16 |
 | me-jeddah-1 | 20 |
-| me-riyadh-1 | 10 |
+| me-riyadh-1 | 11 |
 | mx-monterrey-1 | 10 |
 | mx-queretaro-1 | 12 |
 | sa-bogota-1 | 10 |
@@ -68,4 +70,5 @@ Last updated: 2025-11-04 10:14:13 UTC
 | us-quincy-1 | 9 |
 | us-saltlake-2 | 8 |
 | us-sanjose-1 | 29 |
+| us-shawnee-1 | 9 |
 

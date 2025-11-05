@@ -1,12 +1,12 @@
 # AWS IP Ranges
 
-Last updated: 2025-11-04 10:14:15 UTC
+Last updated: 2025-11-05 10:14:13 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,379
+- **Total IPs/Ranges**: 9,381
 - **IPv4 ranges**: 7,090 (96,012,707 addresses)
-- **IPv6 ranges**: 2,289 (78,289,003,513 /64 subnets)
+- **IPv6 ranges**: 2,291 (78,289,527,801 /64 subnets)
 
 ## Services (26)
 
@@ -36,7 +36,7 @@ Last updated: 2025-11-04 10:14:15 UTC
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 692 |
+| S3 | 694 |
 | WORKSPACES_GATEWAYS | 110 |
 
 ## Regions (42)
@@ -84,5 +84,5 @@ Last updated: 2025-11-04 10:14:15 UTC
 | us-gov-east-1 | 103 |
 | us-gov-west-1 | 128 |
 | us-west-1 | 526 |
-| us-west-2 | 668 |
+| us-west-2 | 670 |
 
