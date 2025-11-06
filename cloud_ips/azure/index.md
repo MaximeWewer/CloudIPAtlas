@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2025-11-05 10:14:17 UTC
+Last updated: 2025-11-06 10:14:33 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 52,340
-- **IPv4 ranges**: 38,415 (49,939,925 addresses)
-- **IPv6 ranges**: 13,925 (106,511,744 /64 subnets)
+- **Total IPs/Ranges**: 53,586
+- **IPv4 ranges**: 39,638 (50,020,375 addresses)
+- **IPv6 ranges**: 13,948 (106,511,949 /64 subnets)
 
 ## Services (95)
 
@@ -26,7 +26,7 @@ Last updated: 2025-11-05 10:14:17 UTC
 | AzureAttestation | 185 |
 | AzureBackup | 514 |
 | AzureBotService | 204 |
-| AzureCloud | 13,080 |
+| AzureCloud | 13,155 |
 | AzureCognitiveSearch | 269 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,178 |
@@ -54,7 +54,7 @@ Last updated: 2025-11-05 10:14:17 UTC
 | AzurePortal | 399 |
 | AzureResourceManager | 376 |
 | AzureSecurityCenter | 324 |
-| AzureSentinel | 350 |
+| AzureSentinel | 383 |
 | AzureSignalR | 185 |
 | AzureSiteRecovery | 507 |
 | AzureSphere | 40 |
@@ -67,8 +67,8 @@ Last updated: 2025-11-05 10:14:17 UTC
 | ChaosStudio | 119 |
 | CognitiveServicesFrontend | 148 |
 | CognitiveServicesManagement | 1,484 |
-| DataFactory | 950 |
-| DataFactoryManagement | 659 |
+| DataFactory | 951 |
+| DataFactoryManagement | 660 |
 | Dynamics365BusinessCentral | 116 |
 | Dynamics365ForMarketingEmail | 17 |
 | EOPExternalPublishedIPs | 105 |
@@ -84,7 +84,7 @@ Last updated: 2025-11-05 10:14:17 UTC
 | M365ManagementActivityApiWebhook | 179 |
 | Marketplace | 112 |
 | MicrosoftAzureFluidRelay | 78 |
-| MicrosoftCloudAppSecurity | 1,167 |
+| MicrosoftCloudAppSecurity | 2,302 |
 | MicrosoftContainerRegistry | 359 |
 | MicrosoftDefenderForEndpoint | 27 |
 | MicrosoftPurviewPolicyDistribution | 99 |
@@ -94,14 +94,14 @@ Last updated: 2025-11-05 10:14:17 UTC
 | PowerPlatformPlex | 442 |
 | PowerQueryOnline | 593 |
 | SCCservice | 131 |
-| Scuba | 145 |
+| Scuba | 147 |
 | SecurityCopilot | 37 |
 | SerialConsole | 207 |
 | ServiceBus | 707 |
 | ServiceFabric | 454 |
 | Sql | 1,513 |
 | SqlManagement | 854 |
-| Storage | 1,831 |
+| Storage | 1,834 |
 | StorageMover | 22 |
 | StorageSyncService | 227 |
 | VideoIndexer | 223 |
@@ -114,37 +114,37 @@ Last updated: 2025-11-05 10:14:17 UTC
 |--------|----------:|
 | AustraliaCentral | 228 |
 | AustraliaCentral2 | 209 |
-| AustraliaEast | 528 |
-| AustraliaSoutheast | 489 |
+| AustraliaEast | 538 |
+| AustraliaSoutheast | 494 |
 | AustriaEast | 164 |
 | Backend | 198 |
 | BelgiumCentral | 147 |
-| BrazilSouth | 468 |
+| BrazilSouth | 472 |
 | BrazilSoutheast | 228 |
-| CanadaCentral | 547 |
+| CanadaCentral | 559 |
 | CanadaEast | 372 |
-| CentralIndia | 477 |
-| CentralUS | 714 |
+| CentralIndia | 491 |
+| CentralUS | 790 |
 | CentralUSEUAP | 287 |
 | ChileCentral | 162 |
 | Core | 776 |
-| EastAsia | 532 |
-| EastUS | 1,179 |
-| EastUS2 | 811 |
+| EastAsia | 536 |
+| EastUS | 1,320 |
+| EastUS2 | 875 |
 | EastUS2EUAP | 464 |
 | EastUS2Stage | 2 |
 | EastUSSTG | 217 |
 | FirstParty | 68 |
-| FranceCentral | 479 |
+| FranceCentral | 498 |
 | FranceSouth | 283 |
 | Frontend | 192 |
 | GermanyNorth | 268 |
-| GermanyWestCentral | 393 |
+| GermanyWestCentral | 401 |
 | IndonesiaCentral | 179 |
 | IsraelCentral | 244 |
 | IsraelNorthwest | 118 |
 | ItalyNorth | 240 |
-| JapanEast | 475 |
+| JapanEast | 484 |
 | JapanWest | 399 |
 | JioIndiaCentral | 192 |
 | JioIndiaWest | 284 |
@@ -157,7 +157,7 @@ Last updated: 2025-11-05 10:14:17 UTC
 | NewZealandNorth | 198 |
 | NorthCentralUS | 500 |
 | NorthCentralUSStage | 8 |
-| NorthEurope | 968 |
+| NorthEurope | 1,090 |
 | NorwayEast | 371 |
 | NorwayWest | 251 |
 | PolandCentral | 252 |
@@ -169,7 +169,7 @@ Last updated: 2025-11-05 10:14:17 UTC
 | SouthCentralUS2 | 115 |
 | SouthCentralUSSTG | 94 |
 | SouthIndia | 328 |
-| SoutheastAsia | 673 |
+| SoutheastAsia | 683 |
 | SoutheastUS | 121 |
 | SoutheastUS3 | 113 |
 | SpainCentral | 224 |
@@ -179,70 +179,70 @@ Last updated: 2025-11-05 10:14:17 UTC
 | SwitzerlandWest | 284 |
 | TaiwanNorth | 204 |
 | TaiwanNorthwest | 168 |
-| UAECentral | 282 |
+| UAECentral | 283 |
 | UAENorth | 396 |
-| UKSouth | 596 |
-| UKWest | 402 |
-| WestCentralUS | 426 |
-| WestEurope | 1,167 |
+| UKSouth | 720 |
+| UKWest | 493 |
+| WestCentralUS | 482 |
+| WestEurope | 1,307 |
 | WestIndia | 246 |
-| WestUS | 984 |
-| WestUS2 | 659 |
-| WestUS3 | 504 |
+| WestUS | 1,134 |
+| WestUS2 | 733 |
+| WestUS3 | 509 |
 | australiacentral | 63 |
 | australiacentral2 | 53 |
-| australiaeast | 229 |
+| australiaeast | 233 |
 | australiasoutheast | 164 |
-| austriaeast | 81 |
+| austriaeast | 82 |
 | belgiumcentral | 46 |
 | brazilne | 4 |
 | brazilse | 95 |
 | brazilsouth | 190 |
-| canadacentral | 171 |
-| canadaeast | 119 |
-| centralfrance | 196 |
-| centralindia | 210 |
-| centralus | 797 |
-| centraluseuap | 249 |
-| chilec | 76 |
-| eastasia | 221 |
-| eastus | 529 |
-| eastus2 | 1,192 |
-| eastus2euap | 505 |
+| canadacentral | 168 |
+| canadaeast | 120 |
+| centralfrance | 197 |
+| centralindia | 211 |
+| centralus | 807 |
+| centraluseuap | 255 |
+| chilec | 77 |
+| eastasia | 223 |
+| eastus | 527 |
+| eastus2 | 1,203 |
+| eastus2euap | 512 |
 | germanyn | 92 |
-| germanywc | 159 |
+| germanywc | 163 |
 | indonesiacentral | 87 |
-| israelcentral | 112 |
+| israelcentral | 114 |
 | israelnorthwest | 42 |
-| italynorth | 113 |
-| japaneast | 233 |
+| italynorth | 110 |
+| japaneast | 234 |
 | japanwest | 191 |
 | jioindiacentral | 46 |
 | jioindiawest | 51 |
 | koreacentral | 155 |
 | koreasouth | 108 |
-| malaysiasouth | 91 |
+| malaysiasouth | 95 |
 | malaysiawest | 84 |
-| mexicocentral | 96 |
-| newzealandnorth | 95 |
-| northcentralus | 314 |
-| northeurope | 388 |
+| mexicocentral | 98 |
+| newzealandnorth | 94 |
+| northcentralus | 315 |
+| northeurope | 391 |
 | northeurope2 | 10 |
 | norwaye | 116 |
 | norwayw | 88 |
-| polandcentral | 94 |
-| qatarcentral | 99 |
+| polandcentral | 97 |
+| qatarcentral | 103 |
 | southafricanorth | 145 |
 | southafricawest | 90 |
-| southcentralus | 546 |
+| southcentralus | 552 |
 | southcentralus2 | 36 |
 | southeastasia | 257 |
 | southeastus | 38 |
 | southeastus3 | 30 |
 | southfrance | 102 |
 | southindia | 130 |
-| spaincentral | 97 |
-| swedencentral | 169 |
+| spaincentral | 99 |
+| swedencentral | 171 |
 | swedensouth | 82 |
 | switzerlandn | 128 |
 | switzerlandw | 92 |
@@ -250,14 +250,14 @@ Last updated: 2025-11-05 10:14:17 UTC
 | taiwannorthwest | 84 |
 | uaecentral | 101 |
 | uaenorth | 140 |
-| uksouth | 220 |
+| uksouth | 221 |
 | ukwest | 132 |
 | usstagec | 83 |
 | usstagee | 88 |
-| westcentralus | 199 |
-| westeurope | 462 |
+| westcentralus | 200 |
+| westeurope | 461 |
 | westindia | 102 |
 | westus | 357 |
-| westus2 | 418 |
-| westus3 | 193 |
+| westus2 | 421 |
+| westus3 | 194 |
 
