@@ -1,6 +1,6 @@
 # Azure IP Ranges
 
-Last updated: 2025-11-12 10:14:32 UTC
+Last updated: 2025-11-13 10:14:09 UTC
 
 ## Summary Statistics
 
