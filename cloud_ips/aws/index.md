@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2025-11-17 10:14:16 UTC
+Last updated: 2025-11-18 10:14:42 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,450
-- **IPv4 ranges**: 7,148 (95,935,963 addresses)
-- **IPv6 ranges**: 2,302 (78,826,399,225 /64 subnets)
+- **Total IPs/Ranges**: 9,451
+- **IPv4 ranges**: 7,147 (95,935,707 addresses)
+- **IPv6 ranges**: 2,304 (78,826,530,297 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 7,665 |
+| AMAZON | 7,666 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
@@ -20,19 +20,19 @@ Last updated: 2025-11-17 10:14:16 UTC
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 23 |
 | CLOUD9 | 50 |
-| CLOUDFRONT | 227 |
+| CLOUDFRONT | 225 |
 | CLOUDFRONT_ORIGIN_FACING | 47 |
 | CODEBUILD | 57 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,241 |
+| EC2 | 3,245 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 204 |
 | KINESIS_VIDEO_STREAMS | 103 |
 | MEDIA_PACKAGE_V2 | 40 |
-| ROUTE53 | 5 |
+| ROUTE53 | 11 |
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
@@ -43,7 +43,7 @@ Last updated: 2025-11-17 10:14:16 UTC
 
 | Region | IP Ranges |
 |--------|----------:|
-| GLOBAL | 315 |
+| GLOBAL | 313 |
 | af-south-1 | 129 |
 | ap-east-1 | 129 |
 | ap-east-2 | 68 |
@@ -63,7 +63,7 @@ Last updated: 2025-11-17 10:14:16 UTC
 | ca-west-1 | 73 |
 | cn-north-1 | 135 |
 | cn-northwest-1 | 132 |
-| eu-central-1 | 533 |
+| eu-central-1 | 534 |
 | eu-central-2 | 81 |
 | eu-north-1 | 185 |
 | eu-south-1 | 196 |
@@ -83,6 +83,6 @@ Last updated: 2025-11-17 10:14:16 UTC
 | us-east-2 | 540 |
 | us-gov-east-1 | 103 |
 | us-gov-west-1 | 128 |
-| us-west-1 | 527 |
-| us-west-2 | 674 |
+| us-west-1 | 528 |
+| us-west-2 | 675 |
 
