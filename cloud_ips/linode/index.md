@@ -1,11 +1,11 @@
 # Linode IP Ranges
 
-Last updated: 2025-11-18 10:14:44 UTC
+Last updated: 2025-11-19 10:13:46 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 4,988
-- **IPv4 ranges**: 4,894 (1,260,800 addresses)
+- **Total IPs/Ranges**: 5,004
+- **IPv4 ranges**: 4,910 (1,264,896 addresses)
 - **IPv6 ranges**: 94 (146,250,072,064 /64 subnets)
 
 ## Regions (38)
@@ -49,5 +49,5 @@ Last updated: 2025-11-18 10:14:44 UTC
 | Sydney, AU | 92 |
 | Tokyo, JP | 285 |
 | Toronto, CA | 92 |
-| Tukwila, US | 114 |
+| Tukwila, US | 130 |
 
