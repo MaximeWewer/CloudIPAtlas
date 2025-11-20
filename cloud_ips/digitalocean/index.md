@@ -1,18 +1,18 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2025-11-19 10:13:45 UTC
+Last updated: 2025-11-20 10:13:46 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,185
-- **IPv4 ranges**: 1,040 (3,016,064 addresses)
+- **Total IPs/Ranges**: 1,186
+- **IPv4 ranges**: 1,041 (3,017,088 addresses)
 - **IPv6 ranges**: 145 (65,680 /64 subnets)
 
 ## Regions (13)
 
 | Region | IP Ranges |
 |--------|----------:|
-| Amsterdam, NL | 222 |
+| Amsterdam, NL | 223 |
 | Bangalore, IN | 34 |
 | Clifton, US | 102 |
 | Douglasville, US | 5 |
