@@ -1,6 +1,6 @@
 # Fastly IP Ranges
 
-Last updated: 2025-11-25 10:14:31 UTC
+Last updated: 2025-11-26 10:14:03 UTC
 
 ## Summary Statistics
 

@@ -1,11 +1,11 @@
 # Linode IP Ranges
 
-Last updated: 2025-11-25 10:14:32 UTC
+Last updated: 2025-11-26 10:14:04 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,004
-- **IPv4 ranges**: 4,910 (1,264,896 addresses)
+- **Total IPs/Ranges**: 5,036
+- **IPv4 ranges**: 4,942 (1,273,088 addresses)
 - **IPv6 ranges**: 94 (146,250,072,064 /64 subnets)
 
 ## Regions (38)
@@ -18,11 +18,11 @@ Last updated: 2025-11-25 10:14:32 UTC
 | Auckland, NZ | 4 |
 | Berlin, DE | 4 |
 | Bogota, CO | 8 |
-| Cedar Knolls, US | 407 |
+| Cedar Knolls, US | 406 |
 | Chennai, IN | 97 |
 | Chicago, US | 259 |
 | Denver, US | 4 |
-| Frankfurt, DE | 397 |
+| Frankfurt, DE | 429 |
 | Fremont, US | 296 |
 | Hamburg, DE | 4 |
 | Houston, US | 4 |
@@ -41,7 +41,7 @@ Last updated: 2025-11-25 10:14:32 UTC
 | Oslo, NO | 66 |
 | Paris, FR | 124 |
 | Queretaro, MX | 4 |
-| Richardson, US | 363 |
+| Richardson, US | 364 |
 | Santiago, CL | 4 |
 | Sao Paulo, BR | 84 |
 | Singapore, SG | 348 |

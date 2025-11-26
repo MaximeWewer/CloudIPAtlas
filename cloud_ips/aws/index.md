@@ -1,6 +1,6 @@
 # AWS IP Ranges
 
-Last updated: 2025-11-25 10:14:31 UTC
+Last updated: 2025-11-26 10:14:03 UTC
 
 ## Summary Statistics
 
@@ -79,10 +79,10 @@ Last updated: 2025-11-25 10:14:31 UTC
 | mx-central-1 | 67 |
 | sa-east-1 | 267 |
 | sa-west-1 | 35 |
-| us-east-1 | 1,191 |
+| us-east-1 | 1,190 |
 | us-east-2 | 540 |
 | us-gov-east-1 | 103 |
 | us-gov-west-1 | 128 |
 | us-west-1 | 528 |
-| us-west-2 | 674 |
+| us-west-2 | 675 |
 
