@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2025-12-01 10:15:10 UTC
+Last updated: 2025-12-02 10:14:16 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 498
-- **IPv4 ranges**: 448 (1,014,528 addresses)
+- **Total IPs/Ranges**: 499
+- **IPv4 ranges**: 449 (1,016,576 addresses)
 - **IPv6 ranges**: 50 (281,478,130,958,336 /64 subnets)
 
 ## Regions (34)
@@ -37,7 +37,7 @@ Last updated: 2025-12-01 10:15:10 UTC
 | Port Melbourne, AU | 3 |
 | Rosh HaAyin, IL | 3 |
 | Santa Clara, US | 12 |
-| Santiago de Queretaro, MX | 2 |
+| Santiago de Queretaro, MX | 3 |
 | Santiago, CL | 2 |
 | Seoul, KR | 4 |
 | Shinagawa-ku, JP | 44 |
