@@ -1,12 +1,12 @@
 # Linode IP Ranges
 
-Last updated: 2025-12-04 10:14:53 UTC
+Last updated: 2025-12-05 10:13:31 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,036
-- **IPv4 ranges**: 4,942 (1,273,088 addresses)
-- **IPv6 ranges**: 94 (146,250,072,064 /64 subnets)
+- **Total IPs/Ranges**: 5,032
+- **IPv4 ranges**: 4,940 (1,272,576 addresses)
+- **IPv6 ranges**: 92 (146,233,229,312 /64 subnets)
 
 ## Regions (38)
 
@@ -32,7 +32,7 @@ Last updated: 2025-12-04 10:14:53 UTC
 | London, GB | 394 |
 | Los Angeles, US | 130 |
 | Madrid, ES | 66 |
-| Marseille, FR | 8 |
+| Marseille, FR | 4 |
 | Melbourne, AU | 66 |
 | Miami, US | 130 |
 | Milan, IT | 66 |
