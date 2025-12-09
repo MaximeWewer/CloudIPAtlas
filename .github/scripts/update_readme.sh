@@ -66,6 +66,10 @@ get_provider_info() {
             name="Exoscale"
             desc="Exoscale European cloud IP ranges"
             ;;
+        googlebot)
+            name="Googlebot"
+            desc="Google crawler IP ranges"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')

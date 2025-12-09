@@ -41,6 +41,9 @@
   "exoscale": {
     "url": "https://exoscale-prefixes.sos-ch-dk-2.exo.io/exoscale_prefixes.json"
   },
+  "googlebot": {
+    "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
+  },
   "zscaler": {
     "urls": ["https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required", "http://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"]
   }
