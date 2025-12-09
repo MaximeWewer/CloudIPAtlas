@@ -21,5 +21,6 @@ __all__ = [
     'googlebot',
     'outscale',
     'bingbot',
+    'meta',
     'ip_utils'
 ]
