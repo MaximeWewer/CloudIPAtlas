@@ -15,11 +15,14 @@ Aggregates, organizes, and maintains up-to-date IP ranges from major cloud provi
 | **Microsoft Azure** | Azure Service Tags (95+ services, regional data) | [View](cloud_ips/azure/) |
 | **Cloudflare** | Cloudflare CDN and network IP ranges | [View](cloud_ips/cloudflare/) |
 | **DigitalOcean** | DigitalOcean IP ranges by region | [View](cloud_ips/digitalocean/) |
+| **Exoscale** | Exoscale European cloud IP ranges | [View](cloud_ips/exoscale/) |
 | **Fastly** | Fastly CDN IP ranges | [View](cloud_ips/fastly/) |
 | **Google Cloud Platform** | GCP IP ranges (services + scopes) | [View](cloud_ips/gcp/) |
+| **Googlebot** | Google crawler IP ranges | [View](cloud_ips/googlebot/) |
 | **IBM Cloud** | IBM Cloud infrastructure IP ranges | [View](cloud_ips/ibm_cloud/) |
 | **Linode** | Linode/Akamai IP ranges by region | [View](cloud_ips/linode/) |
 | **Oracle Cloud Infrastructure** | OCI IP ranges (regions + tags) | [View](cloud_ips/oci/) |
+| **Outscale** | Outscale cloud IP ranges | [View](cloud_ips/outscale/) |
 | **OVHcloud** | OVH IP ranges (web hosting clusters) | [View](cloud_ips/ovh/) |
 | **Scaleway** | Scaleway infrastructure IP ranges | [View](cloud_ips/scaleway/) |
 | **Starlink** | Starlink satellite internet IP ranges | [View](cloud_ips/starlink/) |
