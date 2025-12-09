@@ -1,6 +1,6 @@
 # CloudIPAtlas
 
-Automated collector for cloud provider IP ranges. Syncs daily with 14+ providers including AWS, Azure, GCP, and more.
+Automated collector for cloud provider IP ranges. Syncs daily with 17+ providers including AWS, Azure, GCP, and more.
 
 Aggregates, organizes, and maintains up-to-date IP ranges from major cloud providers, CDNs, and network services. Perfect for firewall rules, security policies, and network automation.
 

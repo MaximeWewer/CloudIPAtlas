@@ -171,6 +171,9 @@ def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
         elif provider_name == "Googlebot":
             from collectors_ips.googlebot import GooglebotIP
             collector = GooglebotIP()
+        elif provider_name == "Outscale":
+            from collectors_ips.outscale import OutscaleIP
+            collector = OutscaleIP()
         else:
             raise ValueError(f"Unknown provider: {provider_name}")
 
@@ -265,7 +268,7 @@ def main():
         nargs='+',
         choices=['azure', 'aws', 'gcp', 'oci', 'ovh', 'scaleway',
                  'cloudflare', 'fastly', 'linode', 'digitalocean',
-                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'all'],
+                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'all'],
         default=['all'],
         help="Specific providers to process (default: all)"
     )
@@ -286,7 +289,7 @@ def main():
     all_providers = [
         'Azure', 'AWS', 'GCP', 'OCI', 'OVH', 'Scaleway',
         'Cloudflare', 'Fastly', 'Linode', 'DigitalOcean',
-        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot'
+        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale'
     ]
 
     # Filter providers based on arguments

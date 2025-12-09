@@ -44,6 +44,9 @@
   "googlebot": {
     "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
+  "outscale": {
+    "url": "https://docs.outscale.com/en/userguide/OUTSCALE-Public-IPs.html"
+  },
   "zscaler": {
     "urls": ["https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required", "http://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"]
   }
