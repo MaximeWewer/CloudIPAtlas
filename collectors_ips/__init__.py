@@ -24,5 +24,6 @@ __all__ = [
     'meta',
     'openai',
     'perplexity',
+    'github',
     'ip_utils'
 ]
