@@ -82,6 +82,10 @@ get_provider_info() {
             name="Meta"
             desc="Meta/Facebook crawler IP ranges"
             ;;
+        openai)
+            name="OpenAI"
+            desc="OpenAI ChatGPT and GPTBot IP ranges"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')

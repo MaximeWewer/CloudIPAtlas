@@ -53,6 +53,9 @@
   "meta": {
     "url": "https://www.facebook.com/peering/geofeed"
   },
+  "openai": {
+    "urls": ["https://openai.com/chatgpt-user.json", "https://openai.com/gptbot.json"]
+  },
   "zscaler": {
     "urls": ["https://config.zscaler.com/api/zscaler.net/hubs/cidr/json/required", "http://config.zscaler.com/api/zscaler.net/hubs/cidr/json/recommended"]
   }
