@@ -165,6 +165,9 @@ def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
         elif provider_name == "IBM_Cloud":
             from collectors_ips.ibm_cloud import IBMCloudIP
             collector = IBMCloudIP()
+        elif provider_name == "Exoscale":
+            from collectors_ips.exoscale import ExoscaleIP
+            collector = ExoscaleIP()
         else:
             raise ValueError(f"Unknown provider: {provider_name}")
 
@@ -259,7 +262,7 @@ def main():
         nargs='+',
         choices=['azure', 'aws', 'gcp', 'oci', 'ovh', 'scaleway',
                  'cloudflare', 'fastly', 'linode', 'digitalocean',
-                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'all'],
+                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'all'],
         default=['all'],
         help="Specific providers to process (default: all)"
     )
@@ -280,7 +283,7 @@ def main():
     all_providers = [
         'Azure', 'AWS', 'GCP', 'OCI', 'OVH', 'Scaleway',
         'Cloudflare', 'Fastly', 'Linode', 'DigitalOcean',
-        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud'
+        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale'
     ]
 
     # Filter providers based on arguments

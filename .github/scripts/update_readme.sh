@@ -62,6 +62,10 @@ get_provider_info() {
             name="IBM Cloud"
             desc="IBM Cloud infrastructure IP ranges"
             ;;
+        exoscale)
+            name="Exoscale"
+            desc="Exoscale European cloud IP ranges"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
