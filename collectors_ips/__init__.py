@@ -17,5 +17,8 @@ __all__ = [
     'vultr',
     'zscaler',
     'ibm_cloud',
+    'exoscale',
+    'googlebot',
+    'outscale',
     'ip_utils'
 ]
