@@ -44,6 +44,9 @@
   "googlebot": {
     "url": "https://developers.google.com/static/search/apis/ipranges/googlebot.json"
   },
+  "bingbot": {
+    "url": "https://www.bing.com/toolbox/bingbot.json"
+  },
   "outscale": {
     "url": "https://docs.outscale.com/en/userguide/OUTSCALE-Public-IPs.html"
   },

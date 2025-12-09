@@ -20,5 +20,6 @@ __all__ = [
     'exoscale',
     'googlebot',
     'outscale',
+    'bingbot',
     'ip_utils'
 ]
