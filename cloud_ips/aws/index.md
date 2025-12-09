@@ -1,6 +1,6 @@
 # AWS IP Ranges
 
-Last updated: 2025-12-09 22:23:04 UTC
+Last updated: 2025-12-09 23:15:08 UTC
 
 ## Summary Statistics
 
