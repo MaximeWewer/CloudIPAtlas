@@ -189,6 +189,9 @@ def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
         elif provider_name == "GitHub":
             from collectors_ips.github import GitHubIP
             collector = GitHubIP()
+        elif provider_name == "Ahrefs":
+            from collectors_ips.ahrefs import AhrefsIP
+            collector = AhrefsIP()
         else:
             raise ValueError(f"Unknown provider: {provider_name}")
 
@@ -283,7 +286,7 @@ def main():
         nargs='+',
         choices=['azure', 'aws', 'gcp', 'oci', 'ovh', 'scaleway',
                  'cloudflare', 'fastly', 'linode', 'digitalocean',
-                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'bingbot', 'meta', 'openai', 'perplexity', 'github', 'all'],
+                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'bingbot', 'meta', 'openai', 'perplexity', 'github', 'ahrefs', 'all'],
         default=['all'],
         help="Specific providers to process (default: all)"
     )
@@ -304,7 +307,7 @@ def main():
     all_providers = [
         'Azure', 'AWS', 'GCP', 'OCI', 'OVH', 'Scaleway',
         'Cloudflare', 'Fastly', 'Linode', 'DigitalOcean',
-        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale', 'Bingbot', 'Meta', 'OpenAI', 'Perplexity', 'GitHub'
+        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale', 'Bingbot', 'Meta', 'OpenAI', 'Perplexity', 'GitHub', 'Ahrefs'
     ]
 
     # Filter providers based on arguments

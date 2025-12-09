@@ -25,5 +25,6 @@ __all__ = [
     'openai',
     'perplexity',
     'github',
+    'ahrefs',
     'ip_utils'
 ]

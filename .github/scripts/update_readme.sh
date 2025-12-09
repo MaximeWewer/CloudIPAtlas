@@ -94,6 +94,10 @@ get_provider_info() {
             name="GitHub"
             desc="GitHub services IP ranges (actions, pages, hooks, api, etc.)"
             ;;
+        ahrefs)
+            name="Ahrefs"
+            desc="Ahrefs SEO crawler IP addresses"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')

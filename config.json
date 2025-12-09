@@ -64,5 +64,8 @@
   },
   "github": {
     "url": "https://api.github.com/meta"
+  },
+  "ahrefs": {
+    "url": "https://api.ahrefs.com/v3/public/crawler-ips"
   }
 }
