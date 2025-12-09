@@ -183,6 +183,9 @@ def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
         elif provider_name == "OpenAI":
             from collectors_ips.openai import OpenAIIP
             collector = OpenAIIP()
+        elif provider_name == "Perplexity":
+            from collectors_ips.perplexity import PerplexityIP
+            collector = PerplexityIP()
         else:
             raise ValueError(f"Unknown provider: {provider_name}")
 
@@ -277,7 +280,7 @@ def main():
         nargs='+',
         choices=['azure', 'aws', 'gcp', 'oci', 'ovh', 'scaleway',
                  'cloudflare', 'fastly', 'linode', 'digitalocean',
-                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'bingbot', 'meta', 'openai', 'all'],
+                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'bingbot', 'meta', 'openai', 'perplexity', 'all'],
         default=['all'],
         help="Specific providers to process (default: all)"
     )
@@ -298,7 +301,7 @@ def main():
     all_providers = [
         'Azure', 'AWS', 'GCP', 'OCI', 'OVH', 'Scaleway',
         'Cloudflare', 'Fastly', 'Linode', 'DigitalOcean',
-        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale', 'Bingbot', 'Meta', 'OpenAI'
+        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale', 'Bingbot', 'Meta', 'OpenAI', 'Perplexity'
     ]
 
     # Filter providers based on arguments

@@ -23,5 +23,6 @@ __all__ = [
     'bingbot',
     'meta',
     'openai',
+    'perplexity',
     'ip_utils'
 ]
