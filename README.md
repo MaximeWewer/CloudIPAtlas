@@ -11,6 +11,7 @@ Aggregates, organizes, and maintains up-to-date IP ranges from major cloud provi
 
 | Provider | Description | Data |
 |----------|-------------|------|
+| **Ahrefs** | Ahrefs SEO crawler IP addresses | [View](cloud_ips/ahrefs/) |
 | **Amazon Web Services** | AWS IP ranges (services + regions) | [View](cloud_ips/aws/) |
 | **Microsoft Azure** | Azure Service Tags (95+ services, regional data) | [View](cloud_ips/azure/) |
 | **Bingbot** | Bing crawler IP ranges | [View](cloud_ips/bingbot/) |
