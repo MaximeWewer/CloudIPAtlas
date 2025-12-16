@@ -1,21 +1,21 @@
 # OCI IP Ranges
 
-Last updated: 2025-12-15 10:16:41 UTC
+Last updated: 2025-12-16 10:14:44 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,008
-- **IPv4 ranges**: 1,008 (3,848,458 addresses)
+- **Total IPs/Ranges**: 1,018
+- **IPv4 ranges**: 1,018 (3,861,130 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 54 |
-| OCI | 509 |
-| OSN | 499 |
+| OCI | 510 |
+| OSN | 508 |
 
-## Regions (52)
+## Regions (53)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -54,8 +54,9 @@ Last updated: 2025-12-15 10:16:41 UTC
 | mx-monterrey-1 | 10 |
 | mx-queretaro-1 | 12 |
 | sa-bogota-1 | 10 |
+| sa-riodejaneiro-2 | 9 |
 | sa-santiago-1 | 19 |
-| sa-saopaulo-1 | 39 |
+| sa-saopaulo-1 | 40 |
 | sa-valparaiso-1 | 9 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 14 |
