@@ -1,10 +1,10 @@
 # Zscaler IP Ranges
 
-Last updated: 2025-12-17 10:14:42 UTC
+Last updated: 2025-12-18 10:14:02 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 185
-- **IPv4 ranges**: 132 (675,329 addresses)
+- **Total IPs/Ranges**: 186
+- **IPv4 ranges**: 133 (676,353 addresses)
 - **IPv6 ranges**: 53 (3,473,408 /64 subnets)
 

@@ -1,25 +1,25 @@
 # OCI IP Ranges
 
-Last updated: 2025-12-17 10:14:37 UTC
+Last updated: 2025-12-18 10:13:56 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,018
-- **IPv4 ranges**: 1,018 (3,861,130 addresses)
+- **Total IPs/Ranges**: 1,020
+- **IPv4 ranges**: 1,020 (3,865,226 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 54 |
-| OCI | 510 |
+| OCI | 512 |
 | OSN | 508 |
 
 ## Regions (53)
 
 | Region | IP Ranges |
 |--------|----------:|
-| af-johannesburg-1 | 12 |
+| af-johannesburg-1 | 13 |
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
 | ap-delhi-1 | 10 |
@@ -57,7 +57,7 @@ Last updated: 2025-12-17 10:14:37 UTC
 | sa-riodejaneiro-2 | 9 |
 | sa-santiago-1 | 19 |
 | sa-saopaulo-1 | 40 |
-| sa-valparaiso-1 | 9 |
+| sa-valparaiso-1 | 10 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 14 |
 | uk-london-1 | 41 |
