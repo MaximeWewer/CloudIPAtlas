@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2025-12-19 10:13:35 UTC
+Last updated: 2025-12-20 10:12:08 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,527
-- **IPv4 ranges**: 7,191 (95,962,607 addresses)
-- **IPv6 ranges**: 2,336 (78,832,691,449 /64 subnets)
+- **Total IPs/Ranges**: 9,539
+- **IPv4 ranges**: 7,192 (95,963,119 addresses)
+- **IPv6 ranges**: 2,347 (78,874,700,025 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 7,739 |
+| AMAZON | 7,751 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
@@ -25,7 +25,7 @@ Last updated: 2025-12-19 10:13:35 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,295 |
+| EC2 | 3,306 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
@@ -44,16 +44,16 @@ Last updated: 2025-12-19 10:13:35 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | GLOBAL | 314 |
-| af-south-1 | 130 |
-| ap-east-1 | 130 |
+| af-south-1 | 131 |
+| ap-east-1 | 131 |
 | ap-east-2 | 68 |
-| ap-northeast-1 | 363 |
-| ap-northeast-2 | 226 |
-| ap-northeast-3 | 152 |
-| ap-south-1 | 256 |
+| ap-northeast-1 | 364 |
+| ap-northeast-2 | 227 |
+| ap-northeast-3 | 153 |
+| ap-south-1 | 257 |
 | ap-south-2 | 100 |
-| ap-southeast-1 | 372 |
-| ap-southeast-2 | 292 |
+| ap-southeast-1 | 373 |
+| ap-southeast-2 | 293 |
 | ap-southeast-3 | 118 |
 | ap-southeast-4 | 88 |
 | ap-southeast-5 | 81 |
@@ -74,15 +74,15 @@ Last updated: 2025-12-19 10:13:35 UTC
 | eusc-de-east-1 | 57 |
 | il-central-1 | 88 |
 | me-central-1 | 96 |
-| me-south-1 | 160 |
+| me-south-1 | 161 |
 | me-west-1 | 43 |
 | mx-central-1 | 67 |
 | sa-east-1 | 268 |
 | sa-west-1 | 35 |
-| us-east-1 | 1,200 |
+| us-east-1 | 1,202 |
 | us-east-2 | 544 |
 | us-gov-east-1 | 105 |
 | us-gov-west-1 | 132 |
 | us-west-1 | 531 |
-| us-west-2 | 682 |
+| us-west-2 | 683 |
 
