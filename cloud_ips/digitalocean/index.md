@@ -1,6 +1,6 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2025-12-21 10:12:01 UTC
+Last updated: 2025-12-22 10:14:19 UTC
 
 ## Summary Statistics
 
