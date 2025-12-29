@@ -1,6 +1,6 @@
 # GCP IP Ranges
 
-Last updated: 2025-12-28 10:12:10 UTC
+Last updated: 2025-12-29 10:15:08 UTC
 
 ## Summary Statistics
 
