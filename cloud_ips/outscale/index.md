@@ -1,6 +1,6 @@
 # Outscale IP Ranges
 
-Last updated: 2026-01-03 10:12:20 UTC
+Last updated: 2026-01-04 10:12:36 UTC
 
 ## Summary Statistics
 
