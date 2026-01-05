@@ -1,6 +1,6 @@
 # Bingbot IP Ranges
 
-Last updated: 2026-01-04 10:12:35 UTC
+Last updated: 2026-01-05 10:16:18 UTC
 
 ## Summary Statistics
 
