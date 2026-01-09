@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-01-08 10:15:28 UTC
+Last updated: 2026-01-09 10:14:23 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,622
-- **IPv4 ranges**: 7,238 (95,979,361 addresses)
-- **IPv6 ranges**: 2,384 (78,960,421,113 /64 subnets)
+- **Total IPs/Ranges**: 9,642
+- **IPv4 ranges**: 7,244 (95,980,161 addresses)
+- **IPv6 ranges**: 2,398 (78,962,387,193 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 7,824 |
+| AMAZON | 7,842 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
@@ -25,13 +25,13 @@ Last updated: 2026-01-08 10:15:28 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,366 |
+| EC2 | 3,383 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
-| IVS_REALTIME | 204 |
+| IVS_REALTIME | 216 |
 | KINESIS_VIDEO_STREAMS | 103 |
-| MEDIA_PACKAGE_V2 | 40 |
+| MEDIA_PACKAGE_V2 | 42 |
 | ROUTE53 | 31 |
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
@@ -56,14 +56,14 @@ Last updated: 2026-01-08 10:15:28 UTC
 | ap-southeast-2 | 293 |
 | ap-southeast-3 | 119 |
 | ap-southeast-4 | 90 |
-| ap-southeast-5 | 88 |
+| ap-southeast-5 | 90 |
 | ap-southeast-6 | 62 |
 | ap-southeast-7 | 72 |
 | ca-central-1 | 199 |
 | ca-west-1 | 75 |
 | cn-north-1 | 137 |
 | cn-northwest-1 | 134 |
-| eu-central-1 | 544 |
+| eu-central-1 | 547 |
 | eu-central-2 | 83 |
 | eu-north-1 | 189 |
 | eu-south-1 | 204 |
@@ -77,12 +77,12 @@ Last updated: 2026-01-08 10:15:28 UTC
 | me-south-1 | 163 |
 | me-west-1 | 43 |
 | mx-central-1 | 69 |
-| sa-east-1 | 271 |
+| sa-east-1 | 275 |
 | sa-west-1 | 38 |
-| us-east-1 | 1,204 |
-| us-east-2 | 545 |
+| us-east-1 | 1,207 |
+| us-east-2 | 548 |
 | us-gov-east-1 | 107 |
-| us-gov-west-1 | 132 |
+| us-gov-west-1 | 134 |
 | us-west-1 | 534 |
-| us-west-2 | 691 |
+| us-west-2 | 694 |
 
