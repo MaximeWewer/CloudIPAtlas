@@ -1,6 +1,6 @@
 # Vultr IP Ranges
 
-Last updated: 2026-01-10 10:12:48 UTC
+Last updated: 2026-01-11 10:12:41 UTC
 
 ## Summary Statistics
 
@@ -8,7 +8,7 @@ Last updated: 2026-01-10 10:12:48 UTC
 - **IPv4 ranges**: 434 (1,017,344 addresses)
 - **IPv6 ranges**: 53 (281,551,212,511,232 /64 subnets)
 
-## Regions (35)
+## Regions (36)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -18,6 +18,7 @@ Last updated: 2026-01-10 10:12:48 UTC
 | Atlanta, US | 21 |
 | Bangalore, IN | 4 |
 | Dallas, US | 29 |
+| East Wenatchee, US | 1 |
 | Elk Grove Village, US | 37 |
 | Frankfurt, DE | 29 |
 | Honolulu, US | 3 |
@@ -43,7 +44,7 @@ Last updated: 2026-01-10 10:12:48 UTC
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
 | Spanga, SE | 3 |
-| Springfield, US | 10 |
+| Springfield, US | 9 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
 | Warsaw, PL | 3 |

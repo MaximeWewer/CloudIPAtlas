@@ -1,6 +1,6 @@
 # AWS IP Ranges
 
-Last updated: 2026-01-10 10:12:46 UTC
+Last updated: 2026-01-11 10:12:38 UTC
 
 ## Summary Statistics
 
@@ -25,7 +25,7 @@ Last updated: 2026-01-10 10:12:46 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,384 |
+| EC2 | 3,387 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
