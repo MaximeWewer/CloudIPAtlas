@@ -1,6 +1,6 @@
 # IBM Cloud IP Ranges
 
-Last updated: 2026-01-11 10:12:42 UTC
+Last updated: 2026-01-12 10:16:47 UTC
 
 ## Summary Statistics
 
