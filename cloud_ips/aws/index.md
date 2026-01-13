@@ -1,22 +1,22 @@
 # AWS IP Ranges
 
-Last updated: 2026-01-12 10:16:43 UTC
+Last updated: 2026-01-13 10:15:12 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,646
-- **IPv4 ranges**: 7,247 (95,980,675 addresses)
-- **IPv6 ranges**: 2,399 (78,962,452,729 /64 subnets)
+- **Total IPs/Ranges**: 9,649
+- **IPv4 ranges**: 7,249 (95,984,899 addresses)
+- **IPv6 ranges**: 2,400 (78,962,452,985 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 7,846 |
+| AMAZON | 7,847 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
-| AURORA_DSQL | 20 |
+| AURORA_DSQL | 22 |
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 23 |
 | CLOUD9 | 50 |
@@ -25,7 +25,7 @@ Last updated: 2026-01-12 10:16:43 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,387 |
+| EC2 | 3,388 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
@@ -43,7 +43,7 @@ Last updated: 2026-01-12 10:16:43 UTC
 
 | Region | IP Ranges |
 |--------|----------:|
-| GLOBAL | 315 |
+| GLOBAL | 316 |
 | af-south-1 | 133 |
 | ap-east-1 | 133 |
 | ap-east-2 | 68 |
@@ -55,7 +55,7 @@ Last updated: 2026-01-12 10:16:43 UTC
 | ap-southeast-1 | 372 |
 | ap-southeast-2 | 293 |
 | ap-southeast-3 | 119 |
-| ap-southeast-4 | 90 |
+| ap-southeast-4 | 92 |
 | ap-southeast-5 | 90 |
 | ap-southeast-6 | 62 |
 | ap-southeast-7 | 72 |

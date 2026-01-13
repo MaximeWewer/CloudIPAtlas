@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-01-12 10:16:49 UTC
+Last updated: 2026-01-13 10:15:17 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 54,946
-- **IPv4 ranges**: 40,524 (50,448,611 addresses)
-- **IPv6 ranges**: 14,422 (106,512,691 /64 subnets)
+- **Total IPs/Ranges**: 54,956
+- **IPv4 ranges**: 40,531 (50,449,259 addresses)
+- **IPv6 ranges**: 14,425 (106,512,764 /64 subnets)
 
 ## Services (99)
 
@@ -26,7 +26,7 @@ Last updated: 2026-01-12 10:16:49 UTC
 | AzureAttestation | 243 |
 | AzureBackup | 514 |
 | AzureBotService | 204 |
-| AzureCloud | 13,337 |
+| AzureCloud | 13,338 |
 | AzureCognitiveSearch | 269 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,228 |
@@ -97,22 +97,22 @@ Last updated: 2026-01-12 10:16:49 UTC
 | PowerQueryOnline | 641 |
 | SCCservice | 132 |
 | Scuba | 247 |
-| SecurityCopilot | 37 |
+| SecurityCopilot | 45 |
 | SerialConsole | 212 |
 | ServiceBus | 707 |
 | ServiceFabric | 458 |
 | Sql | 1,513 |
 | SqlManagement | 858 |
-| Storage | 1,871 |
+| Storage | 1,876 |
 | StorageMover | 22 |
 | StorageSyncService | 229 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
 | VideoIndexer | 223 |
 | WindowsAdminCenter | 137 |
-| WindowsVirtualDesktop | 131 |
+| WindowsVirtualDesktop | 132 |
 | ZeroTrustSegmentation | 20 |
 
-## Regions (150)
+## Regions (152)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -132,8 +132,9 @@ Last updated: 2026-01-12 10:16:49 UTC
 | CentralUSEUAP | 291 |
 | ChileCentral | 184 |
 | Core | 841 |
+| DenmarkEast | 157 |
 | EastAsia | 540 |
-| EastUS | 1,328 |
+| EastUS | 1,329 |
 | EastUS2 | 903 |
 | EastUS2EUAP | 472 |
 | EastUS2Stage | 2 |
@@ -202,24 +203,25 @@ Last updated: 2026-01-12 10:16:49 UTC
 | belgiumcentral | 46 |
 | brazilne | 4 |
 | brazilse | 96 |
-| brazilsouth | 189 |
-| canadacentral | 173 |
+| brazilsouth | 191 |
+| canadacentral | 172 |
 | canadaeast | 121 |
 | centralfrance | 198 |
 | centralindia | 212 |
-| centralus | 810 |
+| centralus | 812 |
 | centraluseuap | 253 |
 | chilec | 77 |
+| denmarkeast | 62 |
 | eastasia | 224 |
 | eastus | 530 |
-| eastus2 | 1,254 |
+| eastus2 | 1,253 |
 | eastus2euap | 524 |
-| eastus3 | 33 |
+| eastus3 | 34 |
 | germanyn | 93 |
 | germanywc | 165 |
 | indonesiacentral | 85 |
-| israelcentral | 113 |
-| israelnorthwest | 42 |
+| israelcentral | 114 |
+| israelnorthwest | 39 |
 | italynorth | 113 |
 | japaneast | 235 |
 | japanwest | 192 |
@@ -230,8 +232,8 @@ Last updated: 2026-01-12 10:16:49 UTC
 | malaysiasouth | 95 |
 | malaysiawest | 83 |
 | mexicocentral | 100 |
-| newzealandnorth | 94 |
-| northcentralus | 318 |
+| newzealandnorth | 96 |
+| northcentralus | 319 |
 | northeurope | 394 |
 | northeurope2 | 10 |
 | norwaye | 117 |
@@ -240,15 +242,15 @@ Last updated: 2026-01-12 10:16:49 UTC
 | qatarcentral | 101 |
 | southafricanorth | 146 |
 | southafricawest | 91 |
-| southcentralus | 558 |
-| southcentralus2 | 35 |
+| southcentralus | 559 |
+| southcentralus2 | 38 |
 | southeastasia | 259 |
 | southeastus | 38 |
 | southeastus3 | 34 |
 | southfrance | 103 |
 | southindia | 132 |
 | spaincentral | 100 |
-| swedencentral | 175 |
+| swedencentral | 173 |
 | swedensouth | 83 |
 | switzerlandn | 133 |
 | switzerlandw | 95 |
@@ -256,14 +258,14 @@ Last updated: 2026-01-12 10:16:49 UTC
 | taiwannorthwest | 85 |
 | uaecentral | 102 |
 | uaenorth | 141 |
-| uksouth | 223 |
+| uksouth | 224 |
 | ukwest | 133 |
 | usstagec | 82 |
 | usstagee | 84 |
 | westcentralus | 201 |
-| westeurope | 468 |
+| westeurope | 463 |
 | westindia | 103 |
-| westus | 362 |
-| westus2 | 425 |
+| westus | 361 |
+| westus2 | 424 |
 | westus3 | 192 |
 
