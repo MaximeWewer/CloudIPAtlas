@@ -1,6 +1,6 @@
 # OVH IP Ranges
 
-Last updated: 2026-01-13 10:15:24 UTC
+Last updated: 2026-01-14 10:16:13 UTC
 
 ## Summary Statistics
 
