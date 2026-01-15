@@ -1,6 +1,6 @@
 # Cloudflare IP Ranges
 
-Last updated: 2026-01-14 10:16:00 UTC
+Last updated: 2026-01-15 10:14:55 UTC
 
 ## Summary Statistics
 
