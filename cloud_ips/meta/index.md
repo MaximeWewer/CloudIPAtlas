@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-01-15 10:15:03 UTC
+Last updated: 2026-01-16 10:14:36 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 676
-- **IPv4 ranges**: 260 (87,808 addresses)
-- **IPv6 ranges**: 416 (27,262,976 /64 subnets)
+- **Total IPs/Ranges**: 672
+- **IPv4 ranges**: 259 (87,552 addresses)
+- **IPv6 ranges**: 413 (27,066,368 /64 subnets)
 
 ## Regions (121)
 
@@ -36,7 +36,7 @@ Last updated: 2026-01-15 10:15:03 UTC
 | Cape Town, ZA | 4 |
 | Chai Wan, HK | 10 |
 | Chandler, US | 2 |
-| Chennai, IN | 16 |
+| Chennai, IN | 12 |
 | Cheyenne, US | 2 |
 | Chicago, US | 12 |
 | Clonee, IE | 2 |
