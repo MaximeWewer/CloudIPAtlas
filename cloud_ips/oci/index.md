@@ -1,19 +1,19 @@
 # OCI IP Ranges
 
-Last updated: 2026-01-16 10:14:26 UTC
+Last updated: 2026-01-17 10:12:39 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,032
-- **IPv4 ranges**: 1,032 (3,929,226 addresses)
+- **Total IPs/Ranges**: 1,038
+- **IPv4 ranges**: 1,038 (3,950,218 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 54 |
-| OCI | 524 |
-| OSN | 508 |
+| OCI | 526 |
+| OSN | 512 |
 
 ## Regions (53)
 
@@ -23,7 +23,7 @@ Last updated: 2026-01-16 10:14:26 UTC
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
 | ap-delhi-1 | 10 |
-| ap-hyderabad-1 | 20 |
+| ap-hyderabad-1 | 21 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 19 |
 | ap-mumbai-1 | 27 |
@@ -37,7 +37,7 @@ Last updated: 2026-01-16 10:14:26 UTC
 | ca-toronto-1 | 20 |
 | eu-amsterdam-1 | 33 |
 | eu-dublin-3 | 10 |
-| eu-frankfurt-1 | 60 |
+| eu-frankfurt-1 | 61 |
 | eu-jovanovac-1 | 9 |
 | eu-madrid-1 | 13 |
 | eu-madrid-3 | 9 |
@@ -60,7 +60,7 @@ Last updated: 2026-01-16 10:14:26 UTC
 | sa-valparaiso-1 | 11 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 14 |
-| uk-london-1 | 41 |
+| uk-london-1 | 43 |
 | us-abilene-1 | 10 |
 | us-ashburn-1 | 69 |
 | us-boardman-1 | 9 |
@@ -70,6 +70,6 @@ Last updated: 2026-01-16 10:14:26 UTC
 | us-phoenix-1 | 57 |
 | us-quincy-1 | 9 |
 | us-saltlake-2 | 8 |
-| us-sanjose-1 | 29 |
+| us-sanjose-1 | 31 |
 | us-shawnee-1 | 9 |
 

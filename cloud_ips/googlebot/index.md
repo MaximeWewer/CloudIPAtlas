@@ -1,6 +1,6 @@
 # Googlebot IP Ranges
 
-Last updated: 2026-01-16 10:14:34 UTC
+Last updated: 2026-01-17 10:12:45 UTC
 
 ## Summary Statistics
 
