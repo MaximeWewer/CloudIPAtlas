@@ -1,6 +1,6 @@
 # OCI IP Ranges
 
-Last updated: 2026-01-23 10:15:55 UTC
+Last updated: 2026-01-24 10:12:45 UTC
 
 ## Summary Statistics
 
