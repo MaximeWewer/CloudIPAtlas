@@ -1,6 +1,6 @@
 # AWS IP Ranges
 
-Last updated: 2026-01-25 10:13:08 UTC
+Last updated: 2026-01-26 10:17:53 UTC
 
 ## Summary Statistics
 
@@ -36,7 +36,7 @@ Last updated: 2026-01-25 10:13:08 UTC
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 724 |
+| S3 | 730 |
 | WORKSPACES_GATEWAYS | 110 |
 
 ## Regions (42)
