@@ -1,6 +1,6 @@
 # Zscaler IP Ranges
 
-Last updated: 2026-01-27 10:18:06 UTC
+Last updated: 2026-01-28 10:19:24 UTC
 
 ## Summary Statistics
 

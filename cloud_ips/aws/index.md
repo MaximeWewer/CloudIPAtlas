@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-01-27 10:18:03 UTC
+Last updated: 2026-01-28 10:19:21 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,863
-- **IPv4 ranges**: 7,354 (101,918,167 addresses)
-- **IPv6 ranges**: 2,509 (79,752,706,809 /64 subnets)
+- **Total IPs/Ranges**: 9,879
+- **IPv4 ranges**: 7,358 (101,919,959 addresses)
+- **IPv6 ranges**: 2,521 (79,970,482,937 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,055 |
+| AMAZON | 8,075 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
@@ -25,7 +25,7 @@ Last updated: 2026-01-27 10:18:03 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 91 |
 | EBS | 99 |
-| EC2 | 3,505 |
+| EC2 | 3,506 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 149 |
 | IVS_LOW_LATENCY | 2 |
@@ -36,7 +36,7 @@ Last updated: 2026-01-27 10:18:03 UTC
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 736 |
+| S3 | 762 |
 | WORKSPACES_GATEWAYS | 110 |
 
 ## Regions (42)
@@ -46,43 +46,43 @@ Last updated: 2026-01-27 10:18:03 UTC
 | GLOBAL | 324 |
 | af-south-1 | 136 |
 | ap-east-1 | 135 |
-| ap-east-2 | 72 |
+| ap-east-2 | 73 |
 | ap-northeast-1 | 375 |
 | ap-northeast-2 | 232 |
 | ap-northeast-3 | 159 |
 | ap-south-1 | 267 |
 | ap-south-2 | 105 |
-| ap-southeast-1 | 377 |
+| ap-southeast-1 | 379 |
 | ap-southeast-2 | 303 |
 | ap-southeast-3 | 122 |
 | ap-southeast-4 | 94 |
-| ap-southeast-5 | 91 |
-| ap-southeast-6 | 66 |
-| ap-southeast-7 | 75 |
+| ap-southeast-5 | 92 |
+| ap-southeast-6 | 67 |
+| ap-southeast-7 | 76 |
 | ca-central-1 | 207 |
-| ca-west-1 | 78 |
+| ca-west-1 | 79 |
 | cn-north-1 | 139 |
 | cn-northwest-1 | 137 |
-| eu-central-1 | 555 |
+| eu-central-1 | 558 |
 | eu-central-2 | 86 |
 | eu-north-1 | 193 |
 | eu-south-1 | 210 |
 | eu-south-2 | 140 |
-| eu-west-1 | 467 |
+| eu-west-1 | 469 |
 | eu-west-2 | 369 |
 | eu-west-3 | 195 |
 | eusc-de-east-1 | 69 |
 | il-central-1 | 93 |
 | me-central-1 | 101 |
 | me-south-1 | 167 |
-| me-west-1 | 44 |
-| mx-central-1 | 72 |
+| me-west-1 | 45 |
+| mx-central-1 | 73 |
 | sa-east-1 | 280 |
-| sa-west-1 | 40 |
-| us-east-1 | 1,228 |
+| sa-west-1 | 41 |
+| us-east-1 | 1,230 |
 | us-east-2 | 554 |
 | us-gov-east-1 | 112 |
 | us-gov-west-1 | 139 |
 | us-west-1 | 544 |
-| us-west-2 | 711 |
+| us-west-2 | 710 |
 
