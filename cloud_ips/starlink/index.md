@@ -1,6 +1,6 @@
 # Starlink IP Ranges
 
-Last updated: 2026-01-28 10:19:23 UTC
+Last updated: 2026-01-29 10:27:06 UTC
 
 ## Summary Statistics
 
