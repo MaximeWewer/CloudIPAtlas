@@ -1,18 +1,18 @@
 # Azure IP Ranges
 
-Last updated: 2026-01-29 10:27:10 UTC
+Last updated: 2026-01-30 10:23:40 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 55,444
-- **IPv4 ranges**: 40,932 (50,520,113 addresses)
-- **IPv6 ranges**: 14,512 (106,578,365 /64 subnets)
+- **Total IPs/Ranges**: 55,637
+- **IPv4 ranges**: 41,067 (50,554,502 addresses)
+- **IPv6 ranges**: 14,570 (106,578,473 /64 subnets)
 
 ## Services (99)
 
 | Service | IP Ranges |
 |---------|----------:|
-| ActionGroup | 328 |
+| ActionGroup | 330 |
 | ApiManagement | 363 |
 | AppConfiguration | 729 |
 | AppService | 1,295 |
@@ -26,7 +26,7 @@ Last updated: 2026-01-29 10:27:10 UTC
 | AzureAttestation | 243 |
 | AzureBackup | 514 |
 | AzureBotService | 204 |
-| AzureCloud | 13,621 |
+| AzureCloud | 13,644 |
 | AzureCognitiveSearch | 269 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,228 |
@@ -47,7 +47,7 @@ Last updated: 2026-01-29 10:27:10 UTC
 | AzureLoadTestingInstanceManagement | 24 |
 | AzureMachineLearning | 336 |
 | AzureMachineLearningInference | 244 |
-| AzureManagedGrafana | 424 |
+| AzureManagedGrafana | 427 |
 | AzureMonitor | 2,868 |
 | AzureMonitorForSAP | 20 |
 | AzureOpenDatasets | 50 |
@@ -68,8 +68,8 @@ Last updated: 2026-01-29 10:27:10 UTC
 | CognitiveServicesFrontend | 148 |
 | CognitiveServicesManagement | 1,484 |
 | CopilotActions | 7 |
-| DataFactory | 952 |
-| DataFactoryManagement | 661 |
+| DataFactory | 955 |
+| DataFactoryManagement | 664 |
 | Dynamics365BusinessCentral | 120 |
 | Dynamics365ForMarketingEmail | 17 |
 | EOPExternalPublishedIPs | 98 |
@@ -83,34 +83,34 @@ Last updated: 2026-01-29 10:27:10 UTC
 | LogicAppsManagement | 820 |
 | M365LighthouseProd | 28 |
 | M365ManagementActivityApi | 319 |
-| M365ManagementActivityApiWebhook | 185 |
+| M365ManagementActivityApiWebhook | 307 |
 | Marketplace | 116 |
 | MicrosoftAzureFluidRelay | 78 |
 | MicrosoftCloudAppSecurity | 2,302 |
-| MicrosoftContainerRegistry | 363 |
+| MicrosoftContainerRegistry | 365 |
 | MicrosoftDefenderForEndpoint | 27 |
 | MicrosoftPurviewPolicyDistribution | 55 |
 | OneDsCollector | 190 |
 | PowerBI | 867 |
 | PowerPlatformInfra | 1,537 |
 | PowerPlatformPlex | 442 |
-| PowerQueryOnline | 641 |
+| PowerQueryOnline | 643 |
 | SCCservice | 132 |
 | Scuba | 250 |
 | SecurityCopilot | 55 |
-| SerialConsole | 212 |
+| SerialConsole | 207 |
 | ServiceBus | 707 |
-| ServiceFabric | 458 |
+| ServiceFabric | 460 |
 | Sql | 1,513 |
-| SqlManagement | 858 |
-| Storage | 1,878 |
+| SqlManagement | 860 |
+| Storage | 1,918 |
 | StorageMover | 22 |
 | StorageSyncService | 229 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
 | VideoIndexer | 223 |
 | WindowsAdminCenter | 137 |
-| WindowsVirtualDesktop | 132 |
-| ZeroTrustSegmentation | 20 |
+| WindowsVirtualDesktop | 130 |
+| ZeroTrustSegmentation | 48 |
 
 ## Regions (152)
 
@@ -130,15 +130,15 @@ Last updated: 2026-01-29 10:27:10 UTC
 | CentralIndia | 497 |
 | CentralUS | 800 |
 | CentralUSEUAP | 291 |
-| ChileCentral | 184 |
+| ChileCentral | 182 |
 | Core | 841 |
 | DenmarkEast | 157 |
-| EastAsia | 540 |
-| EastUS | 1,329 |
-| EastUS2 | 903 |
-| EastUS2EUAP | 472 |
+| EastAsia | 545 |
+| EastUS | 1,331 |
+| EastUS2 | 905 |
+| EastUS2EUAP | 474 |
 | EastUS2Stage | 2 |
-| EastUS3 | 112 |
+| EastUS3 | 125 |
 | EastUSSTG | 217 |
 | FirstParty | 68 |
 | FranceCentral | 504 |
@@ -149,7 +149,7 @@ Last updated: 2026-01-29 10:27:10 UTC
 | IndonesiaCentral | 213 |
 | IsraelCentral | 254 |
 | IsraelNorthwest | 126 |
-| ItalyNorth | 254 |
+| ItalyNorth | 255 |
 | JapanEast | 489 |
 | JapanWest | 405 |
 | JioIndiaCentral | 197 |
@@ -161,7 +161,7 @@ Last updated: 2026-01-29 10:27:10 UTC
 | MexicoCentral | 215 |
 | MicrosoftSecurity | 7 |
 | NewZealandNorth | 215 |
-| NorthCentralUS | 507 |
+| NorthCentralUS | 510 |
 | NorthCentralUSStage | 8 |
 | NorthEurope | 1,099 |
 | NorwayEast | 387 |
@@ -171,11 +171,11 @@ Last updated: 2026-01-29 10:27:10 UTC
 | ServiceEndpoint | 1,244 |
 | SouthAfricaNorth | 396 |
 | SouthAfricaWest | 254 |
-| SouthCentralUS | 815 |
+| SouthCentralUS | 818 |
 | SouthCentralUS2 | 120 |
 | SouthCentralUSSTG | 94 |
 | SouthIndia | 334 |
-| SoutheastAsia | 687 |
+| SoutheastAsia | 693 |
 | SoutheastUS | 126 |
 | SoutheastUS3 | 117 |
 | SpainCentral | 239 |
@@ -189,83 +189,83 @@ Last updated: 2026-01-29 10:27:10 UTC
 | UAENorth | 402 |
 | UKSouth | 723 |
 | UKWest | 499 |
-| WestCentralUS | 488 |
+| WestCentralUS | 495 |
 | WestEurope | 1,316 |
 | WestIndia | 247 |
-| WestUS | 1,149 |
+| WestUS | 1,151 |
 | WestUS2 | 740 |
-| WestUS3 | 518 |
+| WestUS3 | 523 |
 | australiacentral | 64 |
 | australiacentral2 | 53 |
 | australiaeast | 233 |
 | australiasoutheast | 165 |
-| austriaeast | 85 |
+| austriaeast | 86 |
 | belgiumcentral | 46 |
 | brazilne | 4 |
 | brazilse | 96 |
-| brazilsouth | 192 |
-| canadacentral | 171 |
+| brazilsouth | 191 |
+| canadacentral | 172 |
 | canadaeast | 121 |
 | centralfrance | 206 |
-| centralindia | 214 |
-| centralus | 835 |
+| centralindia | 213 |
+| centralus | 832 |
 | centraluseuap | 253 |
-| chilec | 77 |
+| chilec | 79 |
 | denmarkeast | 62 |
-| eastasia | 224 |
-| eastus | 554 |
-| eastus2 | 1,267 |
-| eastus2euap | 526 |
-| eastus3 | 34 |
+| eastasia | 227 |
+| eastus | 559 |
+| eastus2 | 1,271 |
+| eastus2euap | 527 |
+| eastus3 | 39 |
 | germanyn | 93 |
 | germanywc | 167 |
 | indonesiacentral | 85 |
 | israelcentral | 114 |
 | israelnorthwest | 39 |
-| italynorth | 113 |
+| italynorth | 114 |
 | japaneast | 244 |
 | japanwest | 211 |
 | jioindiacentral | 46 |
 | jioindiawest | 52 |
-| koreacentral | 160 |
+| koreacentral | 161 |
 | koreasouth | 109 |
 | malaysiasouth | 116 |
 | malaysiawest | 83 |
 | mexicocentral | 100 |
-| newzealandnorth | 96 |
+| newzealandnorth | 95 |
 | northcentralus | 319 |
-| northeurope | 433 |
+| northeurope | 430 |
 | northeurope2 | 10 |
 | norwaye | 117 |
 | norwayw | 89 |
-| polandcentral | 97 |
+| polandcentral | 92 |
 | qatarcentral | 101 |
 | southafricanorth | 146 |
 | southafricawest | 91 |
-| southcentralus | 564 |
+| southcentralus | 566 |
 | southcentralus2 | 39 |
-| southeastasia | 259 |
+| southeastasia | 264 |
 | southeastus | 38 |
-| southeastus3 | 36 |
+| southeastus3 | 33 |
 | southfrance | 103 |
 | southindia | 133 |
-| spaincentral | 96 |
+| spaincentral | 98 |
 | swedencentral | 180 |
 | swedensouth | 83 |
-| switzerlandn | 133 |
+| switzerlandn | 134 |
 | switzerlandw | 95 |
 | taiwannorth | 92 |
 | taiwannorthwest | 85 |
 | uaecentral | 102 |
 | uaenorth | 141 |
-| uksouth | 232 |
+| uksouth | 230 |
 | ukwest | 137 |
 | usstagec | 82 |
 | usstagee | 84 |
-| westcentralus | 201 |
-| westeurope | 502 |
+| westcentralus | 206 |
+| westeurope | 501 |
 | westindia | 103 |
-| westus | 406 |
+| westus | 410 |
 | westus2 | 425 |
-| westus3 | 193 |
+| westus3 | 196 |
 
