@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-02-05 10:31:46 UTC
+Last updated: 2026-02-06 10:30:26 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 9,871
+- **Total IPs/Ranges**: 9,872
 - **IPv4 ranges**: 7,365 (101,800,311 addresses)
-- **IPv6 ranges**: 2,506 (79,953,705,977 /64 subnets)
+- **IPv6 ranges**: 2,507 (79,954,754,553 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,065 |
+| AMAZON | 8,066 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 209 |
@@ -25,7 +25,7 @@ Last updated: 2026-02-05 10:31:46 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 92 |
 | EBS | 99 |
-| EC2 | 3,485 |
+| EC2 | 3,486 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 150 |
 | IVS_LOW_LATENCY | 2 |
@@ -79,7 +79,7 @@ Last updated: 2026-02-05 10:31:46 UTC
 | mx-central-1 | 73 |
 | sa-east-1 | 279 |
 | sa-west-1 | 41 |
-| us-east-1 | 1,230 |
+| us-east-1 | 1,231 |
 | us-east-2 | 554 |
 | us-gov-east-1 | 112 |
 | us-gov-west-1 | 139 |

@@ -1,19 +1,19 @@
 # OCI IP Ranges
 
-Last updated: 2026-02-05 10:31:44 UTC
+Last updated: 2026-02-06 10:30:23 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,038
-- **IPv4 ranges**: 1,038 (3,950,218 addresses)
+- **Total IPs/Ranges**: 1,042
+- **IPv4 ranges**: 1,042 (3,993,226 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 54 |
-| OCI | 526 |
-| OSN | 512 |
+| OCI | 528 |
+| OSN | 514 |
 
 ## Regions (53)
 
@@ -25,7 +25,7 @@ Last updated: 2026-02-05 10:31:44 UTC
 | ap-delhi-1 | 10 |
 | ap-hyderabad-1 | 21 |
 | ap-kulai-1 | 10 |
-| ap-melbourne-1 | 19 |
+| ap-melbourne-1 | 20 |
 | ap-mumbai-1 | 27 |
 | ap-osaka-1 | 19 |
 | ap-seoul-1 | 28 |
@@ -33,7 +33,7 @@ Last updated: 2026-02-05 10:31:44 UTC
 | ap-singapore-2 | 9 |
 | ap-sydney-1 | 30 |
 | ap-tokyo-1 | 37 |
-| ca-montreal-1 | 14 |
+| ca-montreal-1 | 15 |
 | ca-toronto-1 | 20 |
 | eu-amsterdam-1 | 33 |
 | eu-dublin-3 | 10 |
@@ -49,14 +49,14 @@ Last updated: 2026-02-05 10:31:44 UTC
 | il-jerusalem-1 | 12 |
 | me-abudhabi-1 | 9 |
 | me-dubai-1 | 16 |
-| me-jeddah-1 | 20 |
+| me-jeddah-1 | 21 |
 | me-riyadh-1 | 11 |
 | mx-monterrey-1 | 10 |
 | mx-queretaro-1 | 12 |
 | sa-bogota-1 | 10 |
 | sa-riodejaneiro-2 | 9 |
 | sa-santiago-1 | 20 |
-| sa-saopaulo-1 | 40 |
+| sa-saopaulo-1 | 41 |
 | sa-valparaiso-1 | 11 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 14 |
