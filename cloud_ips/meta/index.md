@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-02-06 10:30:32 UTC
+Last updated: 2026-02-07 10:16:07 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 675
-- **IPv4 ranges**: 260 (88,064 addresses)
-- **IPv6 ranges**: 415 (27,197,440 /64 subnets)
+- **Total IPs/Ranges**: 677
+- **IPv4 ranges**: 261 (88,320 addresses)
+- **IPv6 ranges**: 416 (27,262,976 /64 subnets)
 
 ## Regions (122)
 
@@ -93,7 +93,7 @@ Last updated: 2026-02-06 10:30:32 UTC
 | Mritini Mombasa, KE | 2 |
 | Mumbai, IN | 13 |
 | Munich, DE | 4 |
-| New Albany, US | 10 |
+| New Albany, US | 12 |
 | New York, US | 11 |
 | Noida, IN | 11 |
 | Odense, DK | 2 |
