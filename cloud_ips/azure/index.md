@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-02-18 10:34:43 UTC
+Last updated: 2026-02-19 10:33:51 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 55,862
-- **IPv4 ranges**: 41,278 (50,663,226 addresses)
-- **IPv6 ranges**: 14,584 (106,611,406 /64 subnets)
+- **Total IPs/Ranges**: 55,957
+- **IPv4 ranges**: 41,370 (50,686,082 addresses)
+- **IPv6 ranges**: 14,587 (106,677,216 /64 subnets)
 
 ## Services (99)
 
@@ -19,14 +19,14 @@ Last updated: 2026-02-18 10:34:43 UTC
 | AppServiceManagement | 509 |
 | ApplicationInsightsAvailability | 31 |
 | AutonomousDevelopmentPlatform | 133 |
-| AzureActiveDirectory | 1,458 |
+| AzureActiveDirectory | 1,466 |
 | AzureActiveDirectoryDomainServices | 101 |
 | AzureAdvancedThreatProtection | 168 |
 | AzureArcInfrastructure | 555 |
 | AzureAttestation | 243 |
 | AzureBackup | 514 |
 | AzureBotService | 204 |
-| AzureCloud | 13,714 |
+| AzureCloud | 13,801 |
 | AzureCognitiveSearch | 269 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,228 |
@@ -168,7 +168,7 @@ Last updated: 2026-02-18 10:34:43 UTC
 | NorwayWest | 255 |
 | PolandCentral | 267 |
 | QatarCentral | 269 |
-| ServiceEndpoint | 1,244 |
+| ServiceEndpoint | 1,252 |
 | SouthAfricaNorth | 397 |
 | SouthAfricaWest | 253 |
 | SouthCentralUS | 819 |
@@ -198,43 +198,43 @@ Last updated: 2026-02-18 10:34:43 UTC
 | australiacentral | 64 |
 | australiacentral2 | 53 |
 | australiaeast | 233 |
-| australiasoutheast | 166 |
+| australiasoutheast | 167 |
 | austriaeast | 87 |
 | belgiumcentral | 46 |
 | brazilne | 4 |
 | brazilse | 96 |
 | brazilsouth | 192 |
 | canadacentral | 175 |
-| canadaeast | 121 |
-| centralfrance | 207 |
+| canadaeast | 122 |
+| centralfrance | 210 |
 | centralindia | 215 |
-| centralus | 846 |
+| centralus | 851 |
 | centraluseuap | 260 |
 | chilec | 79 |
 | denmarkeast | 63 |
 | eastasia | 230 |
-| eastus | 559 |
-| eastus2 | 1,272 |
+| eastus | 572 |
+| eastus2 | 1,281 |
 | eastus2euap | 527 |
-| eastus3 | 39 |
+| eastus3 | 42 |
 | germanyn | 93 |
-| germanywc | 167 |
-| indonesiacentral | 84 |
+| germanywc | 170 |
+| indonesiacentral | 86 |
 | israelcentral | 115 |
 | israelnorthwest | 39 |
 | italynorth | 115 |
-| japaneast | 247 |
-| japanwest | 211 |
+| japaneast | 250 |
+| japanwest | 216 |
 | jioindiacentral | 46 |
 | jioindiawest | 52 |
-| koreacentral | 162 |
-| koreasouth | 110 |
+| koreacentral | 165 |
+| koreasouth | 109 |
 | malaysiasouth | 116 |
 | malaysiawest | 84 |
 | mexicocentral | 103 |
-| newzealandnorth | 98 |
+| newzealandnorth | 92 |
 | northcentralus | 320 |
-| northeurope | 432 |
+| northeurope | 433 |
 | northeurope2 | 10 |
 | norwaye | 117 |
 | norwayw | 89 |
@@ -258,14 +258,14 @@ Last updated: 2026-02-18 10:34:43 UTC
 | taiwannorthwest | 80 |
 | uaecentral | 103 |
 | uaenorth | 142 |
-| uksouth | 231 |
+| uksouth | 229 |
 | ukwest | 137 |
 | usstagec | 82 |
 | usstagee | 84 |
-| westcentralus | 206 |
-| westeurope | 504 |
+| westcentralus | 207 |
+| westeurope | 513 |
 | westindia | 104 |
-| westus | 407 |
-| westus2 | 427 |
+| westus | 442 |
+| westus2 | 426 |
 | westus3 | 198 |
 
