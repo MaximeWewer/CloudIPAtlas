@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-02-20 10:28:09 UTC
+Last updated: 2026-02-21 10:16:57 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 672
-- **IPv4 ranges**: 261 (88,832 addresses)
-- **IPv6 ranges**: 411 (26,935,296 /64 subnets)
+- **Total IPs/Ranges**: 674
+- **IPv4 ranges**: 262 (89,344 addresses)
+- **IPv6 ranges**: 412 (27,000,832 /64 subnets)
 
 ## Regions (121)
 
@@ -16,7 +16,7 @@ Last updated: 2026-02-20 10:28:09 UTC
 | Altoona, US | 4 |
 | Amsterdam, NL | 6 |
 | Apodaca, MX | 4 |
-| Ashburn, US | 31 |
+| Ashburn, US | 33 |
 | Atlanta, US | 12 |
 | Auckland, NZ | 4 |
 | Aurora, US | 2 |

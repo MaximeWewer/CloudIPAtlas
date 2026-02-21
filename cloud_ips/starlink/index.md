@@ -1,10 +1,10 @@
 # Starlink IP Ranges
 
-Last updated: 2026-02-20 10:28:05 UTC
+Last updated: 2026-02-21 10:16:54 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 3,565
-- **IPv4 ranges**: 2,735 (594,338 addresses)
-- **IPv6 ranges**: 830 (13,171,163,136 /64 subnets)
+- **Total IPs/Ranges**: 3,618
+- **IPv4 ranges**: 2,769 (603,042 addresses)
+- **IPv6 ranges**: 849 (13,489,930,240 /64 subnets)
 
