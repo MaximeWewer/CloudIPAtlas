@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-02-24 10:38:25 UTC
+Last updated: 2026-02-25 10:40:42 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 55,957
-- **IPv4 ranges**: 41,370 (50,686,082 addresses)
-- **IPv6 ranges**: 14,587 (106,677,216 /64 subnets)
+- **Total IPs/Ranges**: 56,069
+- **IPv4 ranges**: 41,475 (50,739,384 addresses)
+- **IPv6 ranges**: 14,594 (106,742,867 /64 subnets)
 
 ## Services (99)
 
@@ -26,7 +26,7 @@ Last updated: 2026-02-24 10:38:25 UTC
 | AzureAttestation | 243 |
 | AzureBackup | 514 |
 | AzureBotService | 204 |
-| AzureCloud | 13,801 |
+| AzureCloud | 13,909 |
 | AzureCognitiveSearch | 269 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,228 |
@@ -39,13 +39,13 @@ Last updated: 2026-02-24 10:38:25 UTC
 | AzureDeviceUpdate | 157 |
 | AzureDigitalTwins | 367 |
 | AzureEventGrid | 464 |
-| AzureFrontDoor | 482 |
+| AzureFrontDoor | 483 |
 | AzureHealthcareAPIs | 382 |
 | AzureInformationProtection | 254 |
 | AzureIoTHub | 510 |
 | AzureKeyVault | 713 |
 | AzureLoadTestingInstanceManagement | 24 |
-| AzureMachineLearning | 336 |
+| AzureMachineLearning | 337 |
 | AzureMachineLearningInference | 244 |
 | AzureManagedGrafana | 427 |
 | AzureMonitor | 2,789 |
@@ -91,7 +91,7 @@ Last updated: 2026-02-24 10:38:25 UTC
 | MicrosoftDefenderForEndpoint | 27 |
 | MicrosoftPurviewPolicyDistribution | 55 |
 | OneDsCollector | 190 |
-| PowerBI | 875 |
+| PowerBI | 877 |
 | PowerPlatformInfra | 1,537 |
 | PowerPlatformPlex | 442 |
 | PowerQueryOnline | 643 |
@@ -135,12 +135,12 @@ Last updated: 2026-02-24 10:38:25 UTC
 | DenmarkEast | 156 |
 | EastAsia | 548 |
 | EastUS | 1,331 |
-| EastUS2 | 906 |
+| EastUS2 | 907 |
 | EastUS2EUAP | 475 |
 | EastUS2Stage | 2 |
 | EastUS3 | 125 |
 | EastUSSTG | 217 |
-| FirstParty | 68 |
+| FirstParty | 69 |
 | FranceCentral | 505 |
 | FranceSouth | 287 |
 | Frontend | 199 |
@@ -151,7 +151,7 @@ Last updated: 2026-02-24 10:38:25 UTC
 | IsraelNorthwest | 125 |
 | ItalyNorth | 256 |
 | JapanEast | 489 |
-| JapanWest | 406 |
+| JapanWest | 408 |
 | JioIndiaCentral | 196 |
 | JioIndiaWest | 291 |
 | KoreaCentral | 429 |
@@ -197,44 +197,44 @@ Last updated: 2026-02-24 10:38:25 UTC
 | WestUS3 | 522 |
 | australiacentral | 64 |
 | australiacentral2 | 53 |
-| australiaeast | 233 |
+| australiaeast | 234 |
 | australiasoutheast | 167 |
 | austriaeast | 87 |
 | belgiumcentral | 46 |
 | brazilne | 4 |
 | brazilse | 96 |
-| brazilsouth | 192 |
+| brazilsouth | 194 |
 | canadacentral | 175 |
 | canadaeast | 122 |
-| centralfrance | 210 |
+| centralfrance | 212 |
 | centralindia | 215 |
-| centralus | 851 |
+| centralus | 854 |
 | centraluseuap | 260 |
 | chilec | 79 |
 | denmarkeast | 63 |
 | eastasia | 230 |
-| eastus | 572 |
-| eastus2 | 1,281 |
+| eastus | 589 |
+| eastus2 | 1,280 |
 | eastus2euap | 527 |
-| eastus3 | 42 |
+| eastus3 | 45 |
 | germanyn | 93 |
 | germanywc | 170 |
 | indonesiacentral | 86 |
 | israelcentral | 115 |
 | israelnorthwest | 39 |
 | italynorth | 115 |
-| japaneast | 250 |
-| japanwest | 216 |
+| japaneast | 259 |
+| japanwest | 217 |
 | jioindiacentral | 46 |
 | jioindiawest | 52 |
-| koreacentral | 165 |
+| koreacentral | 166 |
 | koreasouth | 109 |
 | malaysiasouth | 116 |
 | malaysiawest | 84 |
 | mexicocentral | 103 |
-| newzealandnorth | 92 |
-| northcentralus | 320 |
-| northeurope | 433 |
+| newzealandnorth | 94 |
+| northcentralus | 321 |
+| northeurope | 434 |
 | northeurope2 | 10 |
 | norwaye | 117 |
 | norwayw | 89 |
@@ -242,15 +242,15 @@ Last updated: 2026-02-24 10:38:25 UTC
 | qatarcentral | 101 |
 | southafricanorth | 147 |
 | southafricawest | 92 |
-| southcentralus | 565 |
+| southcentralus | 568 |
 | southcentralus2 | 39 |
 | southeastasia | 259 |
 | southeastus | 38 |
-| southeastus3 | 37 |
+| southeastus3 | 39 |
 | southfrance | 104 |
 | southindia | 134 |
-| spaincentral | 100 |
-| swedencentral | 182 |
+| spaincentral | 101 |
+| swedencentral | 179 |
 | swedensouth | 83 |
 | switzerlandn | 137 |
 | switzerlandw | 96 |
@@ -259,13 +259,13 @@ Last updated: 2026-02-24 10:38:25 UTC
 | uaecentral | 103 |
 | uaenorth | 142 |
 | uksouth | 229 |
-| ukwest | 137 |
+| ukwest | 138 |
 | usstagec | 82 |
 | usstagee | 84 |
-| westcentralus | 207 |
-| westeurope | 513 |
+| westcentralus | 209 |
+| westeurope | 514 |
 | westindia | 104 |
-| westus | 442 |
-| westus2 | 426 |
-| westus3 | 198 |
+| westus | 470 |
+| westus2 | 427 |
+| westus3 | 201 |
 

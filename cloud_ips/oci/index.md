@@ -1,19 +1,19 @@
 # OCI IP Ranges
 
-Last updated: 2026-02-24 10:38:16 UTC
+Last updated: 2026-02-25 10:40:33 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,042
-- **IPv4 ranges**: 1,042 (3,993,226 addresses)
+- **Total IPs/Ranges**: 1,047
+- **IPv4 ranges**: 1,047 (4,019,594 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
-| OBJECT_STORAGE | 54 |
-| OCI | 528 |
-| OSN | 514 |
+| OBJECT_STORAGE | 65 |
+| OCI | 530 |
+| OSN | 517 |
 
 ## Regions (53)
 
@@ -23,7 +23,7 @@ Last updated: 2026-02-24 10:38:16 UTC
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
 | ap-delhi-1 | 10 |
-| ap-hyderabad-1 | 21 |
+| ap-hyderabad-1 | 22 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 20 |
 | ap-mumbai-1 | 27 |
@@ -44,7 +44,7 @@ Last updated: 2026-02-24 10:38:16 UTC
 | eu-marseille-1 | 14 |
 | eu-milan-1 | 19 |
 | eu-paris-1 | 14 |
-| eu-stockholm-1 | 14 |
+| eu-stockholm-1 | 15 |
 | eu-zurich-1 | 16 |
 | il-jerusalem-1 | 12 |
 | me-abudhabi-1 | 9 |
@@ -62,9 +62,9 @@ Last updated: 2026-02-24 10:38:16 UTC
 | uk-cardiff-1 | 14 |
 | uk-london-1 | 43 |
 | us-abilene-1 | 10 |
-| us-ashburn-1 | 69 |
+| us-ashburn-1 | 70 |
 | us-boardman-1 | 9 |
-| us-chicago-1 | 30 |
+| us-chicago-1 | 32 |
 | us-dallas-1 | 13 |
 | us-desmoines-1 | 9 |
 | us-phoenix-1 | 57 |
