@@ -1,16 +1,16 @@
 # OpenAI IP Ranges
 
-Last updated: 2026-02-27 10:28:23 UTC
+Last updated: 2026-02-28 10:14:12 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 247
-- **IPv4 ranges**: 247 (7,088 addresses)
+- **Total IPs/Ranges**: 251
+- **IPv4 ranges**: 251 (7,152 addresses)
 
 ## Services (2)
 
 | Service | IP Ranges |
 |---------|----------:|
-| chatgpt-user | 226 |
+| chatgpt-user | 230 |
 | gptbot | 21 |
 
