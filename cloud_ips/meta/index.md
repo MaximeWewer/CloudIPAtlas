@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-03-03 10:29:52 UTC
+Last updated: 2026-03-04 10:26:26 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 675
-- **IPv4 ranges**: 263 (89,856 addresses)
-- **IPv6 ranges**: 412 (27,000,832 /64 subnets)
+- **Total IPs/Ranges**: 677
+- **IPv4 ranges**: 264 (90,368 addresses)
+- **IPv6 ranges**: 413 (27,066,368 /64 subnets)
 
 ## Regions (121)
 
@@ -104,7 +104,7 @@ Last updated: 2026-03-03 10:29:52 UTC
 | Prague, CZ | 4 |
 | Prineville, US | 4 |
 | Reston, US | 6 |
-| Rio de Janeiro, BR | 4 |
+| Rio de Janeiro, BR | 6 |
 | Rome, IT | 4 |
 | Rosemount, US | 2 |
 | Saint-Denis, FR | 8 |
