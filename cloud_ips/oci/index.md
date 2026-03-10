@@ -1,24 +1,25 @@
 # OCI IP Ranges
 
-Last updated: 2026-03-09 10:36:14 UTC
+Last updated: 2026-03-10 10:29:43 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,047
-- **IPv4 ranges**: 1,047 (4,019,594 addresses)
+- **Total IPs/Ranges**: 1,067
+- **IPv4 ranges**: 1,067 (4,070,026 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
-| OBJECT_STORAGE | 65 |
-| OCI | 530 |
-| OSN | 517 |
+| OBJECT_STORAGE | 67 |
+| OCI | 533 |
+| OSN | 534 |
 
-## Regions (53)
+## Regions (55)
 
 | Region | IP Ranges |
 |--------|----------:|
+| af-casablanca-1 | 10 |
 | af-johannesburg-1 | 14 |
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
@@ -62,11 +63,12 @@ Last updated: 2026-03-09 10:36:14 UTC
 | uk-cardiff-1 | 14 |
 | uk-london-1 | 43 |
 | us-abilene-1 | 10 |
-| us-ashburn-1 | 70 |
+| us-ashburn-1 | 71 |
 | us-boardman-1 | 9 |
 | us-chicago-1 | 32 |
 | us-dallas-1 | 13 |
 | us-desmoines-1 | 9 |
+| us-lenexa-1 | 9 |
 | us-phoenix-1 | 57 |
 | us-quincy-1 | 9 |
 | us-saltlake-2 | 8 |
