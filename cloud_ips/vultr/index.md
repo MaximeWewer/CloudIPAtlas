@@ -1,6 +1,6 @@
 # Vultr IP Ranges
 
-Last updated: 2026-03-10 10:29:48 UTC
+Last updated: 2026-03-11 10:29:49 UTC
 
 ## Summary Statistics
 

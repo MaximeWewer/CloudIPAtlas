@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-03-10 10:29:50 UTC
+Last updated: 2026-03-11 10:29:53 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 677
-- **IPv4 ranges**: 264 (90,368 addresses)
-- **IPv6 ranges**: 413 (27,066,368 /64 subnets)
+- **Total IPs/Ranges**: 678
+- **IPv4 ranges**: 264 (90,624 addresses)
+- **IPv6 ranges**: 414 (27,131,904 /64 subnets)
 
 ## Regions (121)
 
@@ -23,7 +23,7 @@ Last updated: 2026-03-10 10:29:50 UTC
 | BARUERI, BR | 10 |
 | BOGOTA, CO | 6 |
 | Ballerup, DK | 4 |
-| Bangkok, TH | 5 |
+| Bangkok, TH | 6 |
 | Barcelona, ES | 4 |
 | Barka, OM | 6 |
 | Bengaluru, IN | 4 |
