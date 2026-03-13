@@ -1,14 +1,14 @@
 # Vultr IP Ranges
 
-Last updated: 2026-03-12 10:29:54 UTC
+Last updated: 2026-03-13 10:26:22 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 488
+- **Total IPs/Ranges**: 487
 - **IPv4 ranges**: 434 (1,017,344 addresses)
-- **IPv6 ranges**: 54 (281,551,212,511,233 /64 subnets)
+- **IPv6 ranges**: 53 (281,551,212,511,232 /64 subnets)
 
-## Regions (37)
+## Regions (36)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -24,7 +24,6 @@ Last updated: 2026-03-12 10:29:54 UTC
 | Honolulu, US | 3 |
 | Isando Gauteng, ZA | 2 |
 | Kent, US | 15 |
-| Lisle, US | 1 |
 | London, GB | 25 |
 | Los Angeles, US | 27 |
 | Madrid, ES | 5 |
