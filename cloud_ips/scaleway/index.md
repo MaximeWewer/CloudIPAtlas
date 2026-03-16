@@ -1,12 +1,12 @@
 # Scaleway IP Ranges
 
-Last updated: 2026-03-15 10:19:34 UTC
+Last updated: 2026-03-16 10:45:00 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 52
+- **Total IPs/Ranges**: 53
 - **IPv4 single IPs**: 21
-- **IPv4 ranges**: 12 (508,181 addresses)
+- **IPv4 ranges**: 13 (573,717 addresses)
 - **IPv6 single IPs**: 18
 - **IPv6 ranges**: 1 (4,294,967,296 /64 subnets)
 
@@ -14,7 +14,7 @@ Last updated: 2026-03-15 10:19:34 UTC
 
 | Service | IP Ranges |
 |---------|----------:|
-| Core-IPv4-Ranges | 11 |
+| Core-IPv4-Ranges | 12 |
 | Core-IPv6-Ranges | 1 |
 | DNS-NTP-Servers | 36 |
 | Monitoring | 1 |

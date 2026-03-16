@@ -1,14 +1,14 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2026-03-15 10:19:36 UTC
+Last updated: 2026-03-16 10:45:01 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,204
-- **IPv4 ranges**: 1,058 (3,052,928 addresses)
-- **IPv6 ranges**: 146 (65,681 /64 subnets)
+- **Total IPs/Ranges**: 1,207
+- **IPv4 ranges**: 1,060 (3,056,000 addresses)
+- **IPv6 ranges**: 147 (65,682 /64 subnets)
 
-## Regions (14)
+## Regions (15)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -17,6 +17,7 @@ Last updated: 2026-03-15 10:19:36 UTC
 | Clifton, US | 102 |
 | Douglasville, US | 7 |
 | Frankfurt, DE | 108 |
+| Kansas City, US | 3 |
 | London, GB | 65 |
 | North Bergen, US | 158 |
 | San Francisco, US | 151 |
