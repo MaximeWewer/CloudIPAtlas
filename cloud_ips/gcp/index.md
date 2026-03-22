@@ -1,18 +1,18 @@
 # GCP IP Ranges
 
-Last updated: 2026-03-21 10:17:19 UTC
+Last updated: 2026-03-22 10:17:41 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 896
-- **IPv4 ranges**: 848 (16,471,168 addresses)
+- **Total IPs/Ranges**: 897
+- **IPv4 ranges**: 849 (16,479,360 addresses)
 - **IPv6 ranges**: 48 (49,348,608 /64 subnets)
 
 ## Services (1)
 
 | Service | IP Ranges |
 |---------|----------:|
-| Google Cloud | 896 |
+| Google Cloud | 897 |
 
 ## Regions (48)
 
@@ -60,7 +60,7 @@ Last updated: 2026-03-21 10:17:19 UTC
 | us-east4 | 43 |
 | us-east5 | 11 |
 | us-east7 | 7 |
-| us-south1 | 8 |
+| us-south1 | 9 |
 | us-west1 | 40 |
 | us-west2 | 17 |
 | us-west3 | 10 |
