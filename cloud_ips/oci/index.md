@@ -1,18 +1,18 @@
 # OCI IP Ranges
 
-Last updated: 2026-03-26 10:43:08 UTC
+Last updated: 2026-03-27 10:38:19 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,067
-- **IPv4 ranges**: 1,067 (4,070,026 addresses)
+- **Total IPs/Ranges**: 1,069
+- **IPv4 ranges**: 1,069 (4,086,410 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 67 |
-| OCI | 533 |
+| OCI | 535 |
 | OSN | 534 |
 
 ## Regions (55)
@@ -40,8 +40,8 @@ Last updated: 2026-03-26 10:43:08 UTC
 | eu-dublin-3 | 10 |
 | eu-frankfurt-1 | 61 |
 | eu-jovanovac-1 | 9 |
-| eu-madrid-1 | 13 |
-| eu-madrid-3 | 9 |
+| eu-madrid-1 | 14 |
+| eu-madrid-3 | 10 |
 | eu-marseille-1 | 14 |
 | eu-milan-1 | 19 |
 | eu-paris-1 | 14 |
