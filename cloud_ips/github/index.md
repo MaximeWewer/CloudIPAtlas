@@ -1,18 +1,18 @@
 # GitHub IP Ranges
 
-Last updated: 2026-04-01 10:45:42 UTC
+Last updated: 2026-04-02 10:42:56 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 6,042
-- **IPv4 ranges**: 4,871 (25,361,357 addresses)
-- **IPv6 ranges**: 1,171 (231,939,409,165 /64 subnets)
+- **Total IPs/Ranges**: 6,050
+- **IPv4 ranges**: 4,882 (25,429,191 addresses)
+- **IPv6 ranges**: 1,168 (231,939,409,190 /64 subnets)
 
 ## Services (11)
 
 | Service | IP Ranges |
 |---------|----------:|
-| actions | 5,881 |
+| actions | 5,889 |
 | actions_macos | 8 |
 | api | 22 |
 | copilot | 17 |

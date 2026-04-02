@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-04-01 10:45:35 UTC
+Last updated: 2026-04-02 10:42:50 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,146
-- **IPv4 ranges**: 7,475 (101,962,868 addresses)
-- **IPv6 ranges**: 2,671 (85,107,512,440 /64 subnets)
+- **Total IPs/Ranges**: 10,159
+- **IPv4 ranges**: 7,485 (101,962,948 addresses)
+- **IPv6 ranges**: 2,674 (85,107,515,512 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,334 |
+| AMAZON | 8,337 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 212 |
@@ -25,18 +25,18 @@ Last updated: 2026-04-01 10:45:35 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 92 |
 | EBS | 100 |
-| EC2 | 3,702 |
+| EC2 | 3,705 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 153 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 236 |
 | KINESIS_VIDEO_STREAMS | 105 |
-| MEDIA_PACKAGE_V2 | 42 |
+| MEDIA_PACKAGE_V2 | 52 |
 | ROUTE53 | 33 |
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 868 |
+| S3 | 869 |
 | WORKSPACES_GATEWAYS | 110 |
 
 ## Regions (42)
@@ -63,13 +63,13 @@ Last updated: 2026-04-01 10:45:35 UTC
 | ca-west-1 | 83 |
 | cn-north-1 | 140 |
 | cn-northwest-1 | 138 |
-| eu-central-1 | 579 |
+| eu-central-1 | 581 |
 | eu-central-2 | 88 |
 | eu-north-1 | 196 |
 | eu-south-1 | 214 |
 | eu-south-2 | 145 |
 | eu-west-1 | 478 |
-| eu-west-2 | 381 |
+| eu-west-2 | 383 |
 | eu-west-3 | 197 |
 | eusc-de-east-1 | 71 |
 | il-central-1 | 98 |
@@ -79,10 +79,10 @@ Last updated: 2026-04-01 10:45:35 UTC
 | mx-central-1 | 76 |
 | sa-east-1 | 286 |
 | sa-west-1 | 53 |
-| us-east-1 | 1,265 |
-| us-east-2 | 569 |
+| us-east-1 | 1,267 |
+| us-east-2 | 571 |
 | us-gov-east-1 | 118 |
 | us-gov-west-1 | 145 |
 | us-west-1 | 548 |
-| us-west-2 | 720 |
+| us-west-2 | 725 |
 
