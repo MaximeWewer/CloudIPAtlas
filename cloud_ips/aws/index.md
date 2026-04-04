@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-04-03 10:34:50 UTC
+Last updated: 2026-04-04 10:23:55 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,162
-- **IPv4 ranges**: 7,487 (101,967,556 addresses)
-- **IPv6 ranges**: 2,675 (85,141,069,944 /64 subnets)
+- **Total IPs/Ranges**: 10,171
+- **IPv4 ranges**: 7,491 (101,983,940 addresses)
+- **IPv6 ranges**: 2,680 (85,308,842,104 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,340 |
+| AMAZON | 8,349 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 212 |
@@ -59,7 +59,7 @@ Last updated: 2026-04-03 10:34:50 UTC
 | ap-southeast-5 | 95 |
 | ap-southeast-6 | 72 |
 | ap-southeast-7 | 82 |
-| ca-central-1 | 209 |
+| ca-central-1 | 211 |
 | ca-west-1 | 83 |
 | cn-north-1 | 140 |
 | cn-northwest-1 | 138 |
@@ -69,7 +69,7 @@ Last updated: 2026-04-03 10:34:50 UTC
 | eu-south-1 | 214 |
 | eu-south-2 | 145 |
 | eu-west-1 | 478 |
-| eu-west-2 | 383 |
+| eu-west-2 | 385 |
 | eu-west-3 | 199 |
 | eusc-de-east-1 | 71 |
 | il-central-1 | 98 |
@@ -77,10 +77,10 @@ Last updated: 2026-04-03 10:34:50 UTC
 | me-south-1 | 172 |
 | me-west-1 | 48 |
 | mx-central-1 | 76 |
-| sa-east-1 | 286 |
+| sa-east-1 | 287 |
 | sa-west-1 | 53 |
-| us-east-1 | 1,267 |
-| us-east-2 | 571 |
+| us-east-1 | 1,269 |
+| us-east-2 | 573 |
 | us-gov-east-1 | 118 |
 | us-gov-west-1 | 145 |
 | us-west-1 | 548 |
