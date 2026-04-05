@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-04-04 10:24:02 UTC
+Last updated: 2026-04-05 10:24:06 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 683
+- **Total IPs/Ranges**: 682
 - **IPv4 ranges**: 266 (92,416 addresses)
-- **IPv6 ranges**: 417 (27,328,512 /64 subnets)
+- **IPv6 ranges**: 416 (27,262,976 /64 subnets)
 
 ## Regions (122)
 
@@ -112,7 +112,7 @@ Last updated: 2026-04-04 10:24:02 UTC
 | San Francisco, US | 2 |
 | San Jose, US | 12 |
 | Sandston, US | 4 |
-| Santa Clara, US | 18 |
+| Santa Clara, US | 17 |
 | Santiago de Queretaro, MX | 9 |
 | Seattle, US | 10 |
 | Seongnam, KR | 4 |
