@@ -1,6 +1,6 @@
 # Exoscale IP Ranges
 
-Last updated: 2026-04-05 10:24:05 UTC
+Last updated: 2026-04-06 10:47:56 UTC
 
 ## Summary Statistics
 
