@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2026-04-08 10:49:17 UTC
+Last updated: 2026-04-09 10:52:21 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 487
-- **IPv4 ranges**: 434 (1,017,344 addresses)
+- **Total IPs/Ranges**: 488
+- **IPv4 ranges**: 435 (1,019,392 addresses)
 - **IPv6 ranges**: 53 (281,551,212,511,232 /64 subnets)
 
 ## Regions (35)
@@ -31,7 +31,7 @@ Last updated: 2026-04-08 10:49:17 UTC
 | Milan, IT | 2 |
 | Mumbai, IN | 2 |
 | Noida, IN | 2 |
-| Osaka, JP | 10 |
+| Osaka, JP | 11 |
 | Osasco, BR | 2 |
 | Piscataway, US | 64 |
 | Port Melbourne, AU | 3 |
