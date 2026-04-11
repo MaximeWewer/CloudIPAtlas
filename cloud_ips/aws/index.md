@@ -1,22 +1,22 @@
 # AWS IP Ranges
 
-Last updated: 2026-04-10 10:42:56 UTC
+Last updated: 2026-04-11 10:24:54 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,198
-- **IPv4 ranges**: 7,506 (101,991,396 addresses)
-- **IPv6 ranges**: 2,692 (85,577,998,984 /64 subnets)
+- **Total IPs/Ranges**: 10,214
+- **IPv4 ranges**: 7,515 (101,995,620 addresses)
+- **IPv6 ranges**: 2,699 (85,578,066,056 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,375 |
+| AMAZON | 8,381 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 212 |
-| AURORA_DSQL | 28 |
+| AURORA_DSQL | 38 |
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 23 |
 | CLOUD9 | 50 |
@@ -25,7 +25,7 @@ Last updated: 2026-04-10 10:42:56 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 92 |
 | EBS | 100 |
-| EC2 | 3,716 |
+| EC2 | 3,721 |
 | EC2_INSTANCE_CONNECT | 72 |
 | GLOBALACCELERATOR | 154 |
 | IVS_LOW_LATENCY | 2 |
@@ -36,7 +36,7 @@ Last updated: 2026-04-10 10:42:56 UTC
 | ROUTE53_HEALTHCHECKS | 56 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 878 |
+| S3 | 881 |
 | WORKSPACES_GATEWAYS | 110 |
 
 ## Regions (42)
@@ -45,14 +45,14 @@ Last updated: 2026-04-10 10:42:56 UTC
 |--------|----------:|
 | GLOBAL | 333 |
 | af-south-1 | 138 |
-| ap-east-1 | 143 |
+| ap-east-1 | 145 |
 | ap-east-2 | 78 |
 | ap-northeast-1 | 383 |
 | ap-northeast-2 | 246 |
 | ap-northeast-3 | 162 |
-| ap-south-1 | 272 |
+| ap-south-1 | 274 |
 | ap-south-2 | 108 |
-| ap-southeast-1 | 387 |
+| ap-southeast-1 | 389 |
 | ap-southeast-2 | 308 |
 | ap-southeast-3 | 125 |
 | ap-southeast-4 | 103 |
@@ -60,12 +60,12 @@ Last updated: 2026-04-10 10:42:56 UTC
 | ap-southeast-6 | 72 |
 | ap-southeast-7 | 82 |
 | ca-central-1 | 211 |
-| ca-west-1 | 83 |
+| ca-west-1 | 84 |
 | cn-north-1 | 141 |
 | cn-northwest-1 | 138 |
 | eu-central-1 | 582 |
 | eu-central-2 | 88 |
-| eu-north-1 | 196 |
+| eu-north-1 | 198 |
 | eu-south-1 | 214 |
 | eu-south-2 | 146 |
 | eu-west-1 | 479 |
@@ -77,12 +77,12 @@ Last updated: 2026-04-10 10:42:56 UTC
 | me-south-1 | 172 |
 | me-west-1 | 48 |
 | mx-central-1 | 76 |
-| sa-east-1 | 287 |
+| sa-east-1 | 289 |
 | sa-west-1 | 53 |
-| us-east-1 | 1,273 |
-| us-east-2 | 580 |
+| us-east-1 | 1,274 |
+| us-east-2 | 583 |
 | us-gov-east-1 | 118 |
 | us-gov-west-1 | 145 |
-| us-west-1 | 548 |
+| us-west-1 | 549 |
 | us-west-2 | 726 |
 
