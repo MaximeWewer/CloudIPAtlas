@@ -1,14 +1,14 @@
 # Linode IP Ranges
 
-Last updated: 2026-04-16 10:55:03 UTC
+Last updated: 2026-04-17 10:45:59 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,288
-- **IPv4 ranges**: 5,196 (1,338,112 addresses)
-- **IPv6 ranges**: 92 (146,233,229,312 /64 subnets)
+- **Total IPs/Ranges**: 5,322
+- **IPv4 ranges**: 5,228 (1,346,304 addresses)
+- **IPv6 ranges**: 94 (150,528,262,144 /64 subnets)
 
-## Regions (38)
+## Regions (39)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -41,6 +41,7 @@ Last updated: 2026-04-16 10:55:03 UTC
 | Oslo, NO | 66 |
 | Paris, FR | 188 |
 | Queretaro, MX | 4 |
+| Reno, US | 34 |
 | Richardson, US | 364 |
 | Santiago, CL | 4 |
 | Sao Paulo, BR | 84 |

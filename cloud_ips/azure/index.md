@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-04-16 10:55:08 UTC
+Last updated: 2026-04-17 10:46:03 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 57,145
-- **IPv4 ranges**: 42,186 (51,122,135 addresses)
-- **IPv6 ranges**: 14,959 (106,776,310 /64 subnets)
+- **Total IPs/Ranges**: 57,106
+- **IPv4 ranges**: 42,138 (51,199,151 addresses)
+- **IPv6 ranges**: 14,968 (106,776,573 /64 subnets)
 
 ## Services (99)
 
@@ -24,21 +24,21 @@ Last updated: 2026-04-16 10:55:08 UTC
 | AzureAdvancedThreatProtection | 180 |
 | AzureArcInfrastructure | 559 |
 | AzureAttestation | 243 |
-| AzureBackup | 535 |
+| AzureBackup | 538 |
 | AzureBotService | 204 |
-| AzureCloud | 14,087 |
-| AzureCognitiveSearch | 269 |
+| AzureCloud | 14,100 |
+| AzureCognitiveSearch | 203 |
 | AzureConnectors | 605 |
 | AzureContainerRegistry | 1,228 |
 | AzureCosmosDB | 798 |
 | AzureDataExplorerManagement | 312 |
 | AzureDataLake | 21 |
-| AzureDatabricks | 646 |
+| AzureDatabricks | 651 |
 | AzureDevOps | 67 |
 | AzureDevSpaces | 36 |
 | AzureDeviceUpdate | 157 |
 | AzureDigitalTwins | 367 |
-| AzureEventGrid | 465 |
+| AzureEventGrid | 467 |
 | AzureFrontDoor | 497 |
 | AzureHealthcareAPIs | 382 |
 | AzureInformationProtection | 254 |
@@ -91,25 +91,25 @@ Last updated: 2026-04-16 10:55:08 UTC
 | MicrosoftDefenderForEndpoint | 27 |
 | MicrosoftPurviewPolicyDistribution | 55 |
 | OneDsCollector | 190 |
-| PowerBI | 892 |
+| PowerBI | 893 |
 | PowerPlatformInfra | 1,543 |
 | PowerPlatformPlex | 450 |
 | PowerQueryOnline | 643 |
 | SCCservice | 95 |
 | Scuba | 251 |
 | SecurityCopilot | 37 |
-| SerialConsole | 209 |
+| SerialConsole | 211 |
 | ServiceBus | 707 |
 | ServiceFabric | 460 |
 | Sql | 1,513 |
 | SqlManagement | 860 |
-| Storage | 1,957 |
+| Storage | 1,960 |
 | StorageMover | 24 |
 | StorageSyncService | 231 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
 | VideoIndexer | 227 |
 | WindowsAdminCenter | 137 |
-| WindowsVirtualDesktop | 185 |
+| WindowsVirtualDesktop | 186 |
 | ZeroTrustSegmentation | 48 |
 
 ## Regions (152)
@@ -118,30 +118,30 @@ Last updated: 2026-04-16 10:55:08 UTC
 |--------|----------:|
 | AustraliaCentral | 236 |
 | AustraliaCentral2 | 214 |
-| AustraliaEast | 561 |
+| AustraliaEast | 559 |
 | AustraliaSoutheast | 513 |
 | AustriaEast | 184 |
 | Backend | 213 |
 | BelgiumCentral | 166 |
-| BrazilSouth | 495 |
+| BrazilSouth | 494 |
 | BrazilSoutheast | 237 |
-| CanadaCentral | 582 |
+| CanadaCentral | 581 |
 | CanadaEast | 394 |
-| CentralIndia | 510 |
-| CentralUS | 815 |
+| CentralIndia | 509 |
+| CentralUS | 813 |
 | CentralUSEUAP | 299 |
 | ChileCentral | 186 |
 | Core | 851 |
 | DenmarkEast | 160 |
-| EastAsia | 559 |
-| EastUS | 1,323 |
-| EastUS2 | 930 |
-| EastUS2EUAP | 477 |
+| EastAsia | 557 |
+| EastUS | 1,316 |
+| EastUS2 | 927 |
+| EastUS2EUAP | 476 |
 | EastUS2Stage | 2 |
 | EastUS3 | 127 |
 | EastUSSTG | 218 |
 | FirstParty | 69 |
-| FranceCentral | 518 |
+| FranceCentral | 517 |
 | FranceSouth | 289 |
 | Frontend | 208 |
 | GermanyNorth | 289 |
@@ -151,7 +151,7 @@ Last updated: 2026-04-16 10:55:08 UTC
 | IsraelNorthwest | 127 |
 | ItalyNorth | 269 |
 | JapanEast | 503 |
-| JapanWest | 419 |
+| JapanWest | 417 |
 | JioIndiaCentral | 197 |
 | JioIndiaWest | 303 |
 | KoreaCentral | 443 |
@@ -161,21 +161,21 @@ Last updated: 2026-04-16 10:55:08 UTC
 | MexicoCentral | 216 |
 | MicrosoftSecurity | 7 |
 | NewZealandNorth | 216 |
-| NorthCentralUS | 522 |
+| NorthCentralUS | 520 |
 | NorthCentralUSStage | 8 |
-| NorthEurope | 1,116 |
+| NorthEurope | 1,111 |
 | NorwayEast | 400 |
 | NorwayWest | 267 |
 | PolandCentral | 279 |
 | QatarCentral | 280 |
 | ServiceEndpoint | 1,260 |
-| SouthAfricaNorth | 410 |
+| SouthAfricaNorth | 409 |
 | SouthAfricaWest | 266 |
-| SouthCentralUS | 833 |
+| SouthCentralUS | 828 |
 | SouthCentralUS2 | 121 |
 | SouthCentralUSSTG | 95 |
 | SouthIndia | 348 |
-| SoutheastAsia | 714 |
+| SoutheastAsia | 711 |
 | SoutheastUS | 127 |
 | SoutheastUS3 | 118 |
 | SpainCentral | 252 |
@@ -183,66 +183,66 @@ Last updated: 2026-04-16 10:55:08 UTC
 | SwedenSouth | 205 |
 | SwitzerlandNorth | 405 |
 | SwitzerlandWest | 302 |
-| TaiwanNorth | 220 |
+| TaiwanNorth | 221 |
 | TaiwanNorthwest | 175 |
 | UAECentral | 291 |
 | UAENorth | 415 |
-| UKSouth | 738 |
+| UKSouth | 737 |
 | UKWest | 512 |
-| WestCentralUS | 509 |
-| WestEurope | 1,333 |
+| WestCentralUS | 510 |
+| WestEurope | 1,328 |
 | WestIndia | 249 |
-| WestUS | 1,151 |
-| WestUS2 | 755 |
+| WestUS | 1,141 |
+| WestUS2 | 750 |
 | WestUS3 | 535 |
 | australiacentral | 64 |
 | australiacentral2 | 53 |
 | australiaeast | 236 |
 | australiasoutheast | 172 |
-| austriaeast | 88 |
-| belgiumcentral | 46 |
+| austriaeast | 84 |
+| belgiumcentral | 48 |
 | brazilne | 4 |
 | brazilse | 96 |
-| brazilsouth | 196 |
+| brazilsouth | 197 |
 | canadacentral | 176 |
 | canadaeast | 123 |
 | centralfrance | 221 |
-| centralindia | 215 |
-| centralus | 867 |
-| centraluseuap | 263 |
+| centralindia | 218 |
+| centralus | 872 |
+| centraluseuap | 260 |
 | chilec | 79 |
-| denmarkeast | 67 |
+| denmarkeast | 69 |
 | eastasia | 230 |
-| eastus | 594 |
-| eastus2 | 1,307 |
-| eastus2euap | 531 |
+| eastus | 595 |
+| eastus2 | 1,311 |
+| eastus2euap | 528 |
 | eastus3 | 47 |
 | germanyn | 93 |
-| germanywc | 172 |
-| indonesiacentral | 86 |
+| germanywc | 169 |
+| indonesiacentral | 85 |
 | israelcentral | 118 |
 | israelnorthwest | 51 |
-| italynorth | 119 |
-| japaneast | 261 |
+| italynorth | 121 |
+| japaneast | 260 |
 | japanwest | 217 |
 | jioindiacentral | 46 |
 | jioindiawest | 52 |
 | koreacentral | 168 |
 | koreasouth | 110 |
 | malaysiasouth | 116 |
-| malaysiawest | 87 |
+| malaysiawest | 89 |
 | mexicocentral | 101 |
-| newzealandnorth | 97 |
-| northcentralus | 324 |
-| northeurope | 434 |
+| newzealandnorth | 95 |
+| northcentralus | 325 |
+| northeurope | 439 |
 | northeurope2 | 10 |
 | norwaye | 117 |
 | norwayw | 89 |
 | polandcentral | 99 |
 | qatarcentral | 101 |
-| southafricanorth | 153 |
+| southafricanorth | 154 |
 | southafricawest | 93 |
-| southcentralus | 572 |
+| southcentralus | 571 |
 | southcentralus2 | 38 |
 | southeastasia | 260 |
 | southeastus | 38 |
@@ -250,7 +250,7 @@ Last updated: 2026-04-16 10:55:08 UTC
 | southfrance | 105 |
 | southindia | 135 |
 | spaincentral | 102 |
-| swedencentral | 191 |
+| swedencentral | 193 |
 | swedensouth | 83 |
 | switzerlandn | 139 |
 | switzerlandw | 96 |
@@ -258,14 +258,14 @@ Last updated: 2026-04-16 10:55:08 UTC
 | taiwannorthwest | 80 |
 | uaecentral | 103 |
 | uaenorth | 143 |
-| uksouth | 231 |
+| uksouth | 232 |
 | ukwest | 138 |
 | usstagec | 82 |
-| usstagee | 84 |
-| westcentralus | 212 |
-| westeurope | 518 |
+| usstagee | 87 |
+| westcentralus | 213 |
+| westeurope | 512 |
 | westindia | 105 |
-| westus | 472 |
-| westus2 | 428 |
-| westus3 | 201 |
+| westus | 470 |
+| westus2 | 430 |
+| westus3 | 203 |
 
