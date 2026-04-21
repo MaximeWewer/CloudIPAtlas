@@ -1,25 +1,25 @@
 # OCI IP Ranges
 
-Last updated: 2026-04-20 11:12:01 UTC
+Last updated: 2026-04-21 10:58:26 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,069
-- **IPv4 ranges**: 1,069 (4,086,410 addresses)
+- **Total IPs/Ranges**: 1,077
+- **IPv4 ranges**: 1,077 (4,120,202 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 67 |
-| OCI | 535 |
-| OSN | 534 |
+| OCI | 542 |
+| OSN | 535 |
 
 ## Regions (55)
 
 | Region | IP Ranges |
 |--------|----------:|
-| af-casablanca-1 | 10 |
+| af-casablanca-1 | 12 |
 | af-johannesburg-1 | 14 |
 | ap-batam-1 | 10 |
 | ap-chuncheon-1 | 23 |
@@ -35,7 +35,7 @@ Last updated: 2026-04-20 11:12:01 UTC
 | ap-sydney-1 | 30 |
 | ap-tokyo-1 | 37 |
 | ca-montreal-1 | 15 |
-| ca-toronto-1 | 20 |
+| ca-toronto-1 | 23 |
 | eu-amsterdam-1 | 33 |
 | eu-dublin-3 | 10 |
 | eu-frankfurt-1 | 61 |
@@ -48,7 +48,7 @@ Last updated: 2026-04-20 11:12:01 UTC
 | eu-stockholm-1 | 15 |
 | eu-zurich-1 | 16 |
 | il-jerusalem-1 | 12 |
-| me-abudhabi-1 | 9 |
+| me-abudhabi-1 | 10 |
 | me-dubai-1 | 16 |
 | me-jeddah-1 | 21 |
 | me-riyadh-1 | 11 |
@@ -56,7 +56,7 @@ Last updated: 2026-04-20 11:12:01 UTC
 | mx-queretaro-1 | 12 |
 | sa-bogota-1 | 10 |
 | sa-riodejaneiro-2 | 9 |
-| sa-santiago-1 | 20 |
+| sa-santiago-1 | 22 |
 | sa-saopaulo-1 | 41 |
 | sa-valparaiso-1 | 11 |
 | sa-vinhedo-1 | 22 |
