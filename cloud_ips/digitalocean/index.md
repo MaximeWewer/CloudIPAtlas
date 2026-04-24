@@ -1,11 +1,11 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2026-04-23 11:00:11 UTC
+Last updated: 2026-04-24 10:57:47 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,214
-- **IPv4 ranges**: 1,067 (3,078,528 addresses)
+- **Total IPs/Ranges**: 1,217
+- **IPv4 ranges**: 1,070 (3,090,816 addresses)
 - **IPv6 ranges**: 147 (65,682 /64 subnets)
 
 ## Regions (15)
@@ -13,10 +13,10 @@ Last updated: 2026-04-23 11:00:11 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | Amsterdam, NL | 224 |
-| Bangalore, IN | 39 |
+| Bangalore, IN | 40 |
 | Clifton, US | 102 |
 | Douglasville, US | 7 |
-| Frankfurt, DE | 109 |
+| Frankfurt, DE | 110 |
 | Kansas City, US | 3 |
 | London, GB | 65 |
 | North Bergen, US | 158 |
@@ -24,7 +24,7 @@ Last updated: 2026-04-23 11:00:11 UTC
 | Sandston, US | 3 |
 | Santa Clara, US | 133 |
 | Secaucus, US | 89 |
-| Singapore, SG | 88 |
+| Singapore, SG | 89 |
 | Sydney, AU | 12 |
 | Toronto, CA | 31 |
 
