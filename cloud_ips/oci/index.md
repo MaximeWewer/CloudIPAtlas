@@ -1,11 +1,11 @@
 # OCI IP Ranges
 
-Last updated: 2026-04-27 11:29:42 UTC
+Last updated: 2026-04-28 11:40:20 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,077
-- **IPv4 ranges**: 1,077 (4,120,202 addresses)
+- **Total IPs/Ranges**: 1,078
+- **IPv4 ranges**: 1,078 (4,121,226 addresses)
 
 ## Services (3)
 
@@ -13,7 +13,7 @@ Last updated: 2026-04-27 11:29:42 UTC
 |---------|----------:|
 | OBJECT_STORAGE | 67 |
 | OCI | 542 |
-| OSN | 535 |
+| OSN | 536 |
 
 ## Regions (55)
 
@@ -27,7 +27,7 @@ Last updated: 2026-04-27 11:29:42 UTC
 | ap-hyderabad-1 | 22 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 20 |
-| ap-mumbai-1 | 27 |
+| ap-mumbai-1 | 28 |
 | ap-osaka-1 | 19 |
 | ap-seoul-1 | 28 |
 | ap-singapore-1 | 22 |
