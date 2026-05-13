@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-05-12 11:46:58 UTC
+Last updated: 2026-05-13 11:55:14 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 688
-- **IPv4 ranges**: 269 (94,976 addresses)
-- **IPv6 ranges**: 419 (27,459,584 /64 subnets)
+- **Total IPs/Ranges**: 689
+- **IPv4 ranges**: 269 (95,232 addresses)
+- **IPv6 ranges**: 420 (27,525,120 /64 subnets)
 
 ## Regions (125)
 
@@ -71,7 +71,7 @@ Last updated: 2026-05-12 11:46:58 UTC
 | Jeffersonville, US | 2 |
 | Johannesburg, ZA | 4 |
 | Kansas City, US | 2 |
-| Kolkata, IN | 9 |
+| Kolkata, IN | 10 |
 | Kuala Lumpur, MY | 9 |
 | Kuna, US | 2 |
 | Kyiv, UA | 4 |
