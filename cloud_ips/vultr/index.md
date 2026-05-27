@@ -1,12 +1,12 @@
 # Vultr IP Ranges
 
-Last updated: 2026-05-25 12:55:45 UTC
+Last updated: 2026-05-27 12:46:30 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 490
+- **Total IPs/Ranges**: 492
 - **IPv4 ranges**: 437 (1,024,000 addresses)
-- **IPv6 ranges**: 53 (281,551,212,511,232 /64 subnets)
+- **IPv6 ranges**: 55 (281,551,279,685,632 /64 subnets)
 
 ## Regions (35)
 
@@ -33,7 +33,7 @@ Last updated: 2026-05-25 12:55:45 UTC
 | Noida, IN | 2 |
 | Osaka, JP | 10 |
 | Osasco, BR | 2 |
-| Piscataway, US | 64 |
+| Piscataway, US | 65 |
 | Port Melbourne, AU | 3 |
 | Rosh HaAyin, IL | 3 |
 | Santa Clara, US | 12 |
@@ -42,7 +42,7 @@ Last updated: 2026-05-25 12:55:45 UTC
 | Seoul, KR | 4 |
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
-| Spanga, SE | 3 |
+| Spanga, SE | 4 |
 | Springfield, US | 2 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
