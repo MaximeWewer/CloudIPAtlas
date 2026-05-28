@@ -1,12 +1,12 @@
 # Vultr IP Ranges
 
-Last updated: 2026-05-27 12:46:30 UTC
+Last updated: 2026-05-28 13:40:09 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 492
+- **Total IPs/Ranges**: 493
 - **IPv4 ranges**: 437 (1,024,000 addresses)
-- **IPv6 ranges**: 55 (281,551,279,685,632 /64 subnets)
+- **IPv6 ranges**: 56 (281,551,279,751,168 /64 subnets)
 
 ## Regions (35)
 
@@ -43,7 +43,7 @@ Last updated: 2026-05-27 12:46:30 UTC
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
 | Spanga, SE | 4 |
-| Springfield, US | 2 |
+| Springfield, US | 3 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
 | Warsaw, PL | 3 |
