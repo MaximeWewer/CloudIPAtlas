@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-06-03 14:20:57 UTC
+Last updated: 2026-06-04 12:37:59 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 707
-- **IPv4 ranges**: 278 (98,816 addresses)
-- **IPv6 ranges**: 429 (28,114,944 /64 subnets)
+- **Total IPs/Ranges**: 709
+- **IPv4 ranges**: 279 (99,328 addresses)
+- **IPv6 ranges**: 430 (28,180,480 /64 subnets)
 
-## Regions (126)
+## Regions (127)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -101,6 +101,7 @@ Last updated: 2026-06-03 14:20:57 UTC
 | Odense, DK | 2 |
 | Osaka, JP | 4 |
 | Palermo, IT | 4 |
+| Patna, IN | 2 |
 | Philadelphia, US | 2 |
 | Port Melbourne, AU | 2 |
 | Porto Alegre, BR | 2 |

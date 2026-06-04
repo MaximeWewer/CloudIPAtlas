@@ -1,12 +1,12 @@
 # Vultr IP Ranges
 
-Last updated: 2026-06-03 14:20:54 UTC
+Last updated: 2026-06-04 12:37:56 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 493
+- **Total IPs/Ranges**: 494
 - **IPv4 ranges**: 437 (1,024,000 addresses)
-- **IPv6 ranges**: 56 (281,551,279,751,168 /64 subnets)
+- **IPv6 ranges**: 57 (281,551,279,816,704 /64 subnets)
 
 ## Regions (35)
 
@@ -15,7 +15,7 @@ Last updated: 2026-06-03 14:20:54 UTC
 | AUBERVILLIERS, FR | 20 |
 | Alexandria, AU | 20 |
 | Amsterdam, NL | 33 |
-| Atlanta, US | 23 |
+| Atlanta, US | 24 |
 | Bangalore, IN | 4 |
 | Dallas, US | 29 |
 | Elk Grove Village, US | 38 |
