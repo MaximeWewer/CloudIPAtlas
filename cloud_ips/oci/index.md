@@ -1,19 +1,19 @@
 # OCI IP Ranges
 
-Last updated: 2026-06-04 12:37:48 UTC
+Last updated: 2026-06-05 12:30:58 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,078
-- **IPv4 ranges**: 1,078 (4,121,226 addresses)
+- **Total IPs/Ranges**: 1,089
+- **IPv4 ranges**: 1,089 (4,190,346 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 67 |
-| OCI | 542 |
-| OSN | 536 |
+| OCI | 550 |
+| OSN | 539 |
 
 ## Regions (55)
 
@@ -22,7 +22,7 @@ Last updated: 2026-06-04 12:37:48 UTC
 | af-casablanca-1 | 12 |
 | af-johannesburg-1 | 14 |
 | ap-batam-1 | 10 |
-| ap-chuncheon-1 | 23 |
+| ap-chuncheon-1 | 25 |
 | ap-delhi-1 | 10 |
 | ap-hyderabad-1 | 22 |
 | ap-kulai-1 | 10 |
@@ -31,9 +31,9 @@ Last updated: 2026-06-04 12:37:48 UTC
 | ap-osaka-1 | 19 |
 | ap-seoul-1 | 28 |
 | ap-singapore-1 | 22 |
-| ap-singapore-2 | 9 |
-| ap-sydney-1 | 30 |
-| ap-tokyo-1 | 37 |
+| ap-singapore-2 | 10 |
+| ap-sydney-1 | 31 |
+| ap-tokyo-1 | 38 |
 | ca-montreal-1 | 15 |
 | ca-toronto-1 | 23 |
 | eu-amsterdam-1 | 33 |
@@ -44,26 +44,26 @@ Last updated: 2026-06-04 12:37:48 UTC
 | eu-madrid-3 | 10 |
 | eu-marseille-1 | 14 |
 | eu-milan-1 | 19 |
-| eu-paris-1 | 14 |
+| eu-paris-1 | 15 |
 | eu-stockholm-1 | 15 |
 | eu-zurich-1 | 16 |
-| il-jerusalem-1 | 12 |
+| il-jerusalem-1 | 14 |
 | me-abudhabi-1 | 10 |
 | me-dubai-1 | 16 |
 | me-jeddah-1 | 21 |
 | me-riyadh-1 | 11 |
 | mx-monterrey-1 | 10 |
-| mx-queretaro-1 | 12 |
+| mx-queretaro-1 | 13 |
 | sa-bogota-1 | 10 |
 | sa-riodejaneiro-2 | 9 |
 | sa-santiago-1 | 22 |
 | sa-saopaulo-1 | 41 |
 | sa-valparaiso-1 | 11 |
 | sa-vinhedo-1 | 22 |
-| uk-cardiff-1 | 14 |
+| uk-cardiff-1 | 15 |
 | uk-london-1 | 43 |
 | us-abilene-1 | 10 |
-| us-ashburn-1 | 71 |
+| us-ashburn-1 | 72 |
 | us-boardman-1 | 9 |
 | us-chicago-1 | 32 |
 | us-dallas-1 | 13 |
