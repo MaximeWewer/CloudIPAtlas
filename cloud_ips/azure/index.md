@@ -1,32 +1,32 @@
 # Azure IP Ranges
 
-Last updated: 2026-06-10 12:48:14 UTC
+Last updated: 2026-06-11 13:51:44 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 58,599
-- **IPv4 ranges**: 42,943 (52,056,180 addresses)
-- **IPv6 ranges**: 15,656 (106,778,595 /64 subnets)
+- **Total IPs/Ranges**: 59,080
+- **IPv4 ranges**: 43,184 (52,204,582 addresses)
+- **IPv6 ranges**: 15,896 (106,778,607 /64 subnets)
 
 ## Services (99)
 
 | Service | IP Ranges |
 |---------|----------:|
-| ActionGroup | 334 |
+| ActionGroup | 336 |
 | ApiManagement | 365 |
 | AppConfiguration | 730 |
 | AppService | 1,295 |
 | AppServiceManagement | 511 |
 | ApplicationInsightsAvailability | 31 |
 | AutonomousDevelopmentPlatform | 133 |
-| AzureActiveDirectory | 1,474 |
+| AzureActiveDirectory | 1,477 |
 | AzureActiveDirectoryDomainServices | 101 |
 | AzureAdvancedThreatProtection | 180 |
 | AzureArcInfrastructure | 574 |
 | AzureAttestation | 407 |
 | AzureBackup | 565 |
 | AzureBotService | 204 |
-| AzureCloud | 15,349 |
+| AzureCloud | 15,348 |
 | AzureCognitiveSearch | 167 |
 | AzureConnectors | 607 |
 | AzureContainerRegistry | 1,230 |
@@ -42,27 +42,27 @@ Last updated: 2026-06-10 12:48:14 UTC
 | AzureFrontDoor | 497 |
 | AzureHealthcareAPIs | 383 |
 | AzureInformationProtection | 254 |
-| AzureIoTHub | 510 |
+| AzureIoTHub | 814 |
 | AzureKeyVault | 714 |
 | AzureLoadTestingInstanceManagement | 24 |
 | AzureMachineLearning | 801 |
 | AzureMachineLearningInference | 464 |
 | AzureManagedGrafana | 429 |
-| AzureMonitor | 2,811 |
+| AzureMonitor | 2,925 |
 | AzureMonitorForSAP | 20 |
 | AzureOpenDatasets | 50 |
 | AzurePortal | 353 |
 | AzureResourceManager | 377 |
 | AzureSecurityCenter | 402 |
 | AzureSentinel | 454 |
-| AzureSignalR | 185 |
+| AzureSignalR | 189 |
 | AzureSiteRecovery | 864 |
 | AzureSphere | 40 |
 | AzureSpringCloud | 265 |
 | AzureStack | 23 |
 | AzureTrafficManager | 369 |
 | AzureUpdateDelivery | 184 |
-| AzureWebPubSub | 187 |
+| AzureWebPubSub | 191 |
 | BatchNodeManagement | 455 |
 | ChaosStudio | 121 |
 | CognitiveServicesFrontend | 148 |
@@ -83,7 +83,7 @@ Last updated: 2026-06-10 12:48:14 UTC
 | LogicAppsManagement | 821 |
 | M365LighthouseProd | 28 |
 | M365ManagementActivityApi | 334 |
-| M365ManagementActivityApiWebhook | 321 |
+| M365ManagementActivityApiWebhook | 372 |
 | Marketplace | 121 |
 | MicrosoftAzureFluidRelay | 78 |
 | MicrosoftCloudAppSecurity | 2,299 |
@@ -103,7 +103,7 @@ Last updated: 2026-06-10 12:48:14 UTC
 | ServiceFabric | 464 |
 | Sql | 1,513 |
 | SqlManagement | 864 |
-| Storage | 1,994 |
+| Storage | 1,998 |
 | StorageMover | 24 |
 | StorageSyncService | 232 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
@@ -116,92 +116,92 @@ Last updated: 2026-06-10 12:48:14 UTC
 
 | Region | IP Ranges |
 |--------|----------:|
-| AustraliaCentral | 239 |
-| AustraliaCentral2 | 219 |
-| AustraliaEast | 563 |
-| AustraliaSoutheast | 520 |
-| AustriaEast | 193 |
+| AustraliaCentral | 245 |
+| AustraliaCentral2 | 225 |
+| AustraliaEast | 572 |
+| AustraliaSoutheast | 528 |
+| AustriaEast | 194 |
 | Backend | 213 |
-| BelgiumCentral | 173 |
-| BrazilSouth | 501 |
-| BrazilSoutheast | 242 |
-| CanadaCentral | 585 |
-| CanadaEast | 398 |
-| CentralIndia | 515 |
-| CentralUS | 816 |
-| CentralUSEUAP | 306 |
-| ChileCentral | 196 |
-| Core | 861 |
-| DenmarkEast | 167 |
-| EastAsia | 564 |
-| EastUS | 1,320 |
-| EastUS2 | 956 |
-| EastUS2EUAP | 483 |
+| BelgiumCentral | 177 |
+| BrazilSouth | 509 |
+| BrazilSoutheast | 245 |
+| CanadaCentral | 593 |
+| CanadaEast | 406 |
+| CentralIndia | 524 |
+| CentralUS | 831 |
+| CentralUSEUAP | 314 |
+| ChileCentral | 200 |
+| Core | 886 |
+| DenmarkEast | 169 |
+| EastAsia | 572 |
+| EastUS | 1,336 |
+| EastUS2 | 963 |
+| EastUS2EUAP | 492 |
 | EastUS2Stage | 2 |
 | EastUS3 | 137 |
 | EastUSSTG | 220 |
 | FirstParty | 69 |
-| FranceCentral | 521 |
-| FranceSouth | 293 |
+| FranceCentral | 533 |
+| FranceSouth | 301 |
 | Frontend | 208 |
-| GermanyNorth | 294 |
-| GermanyWestCentral | 430 |
-| IndiaSouthCentral | 142 |
-| IndonesiaCentral | 235 |
-| IsraelCentral | 272 |
+| GermanyNorth | 301 |
+| GermanyWestCentral | 439 |
+| IndiaSouthCentral | 144 |
+| IndonesiaCentral | 236 |
+| IsraelCentral | 276 |
 | IsraelNorthwest | 149 |
-| ItalyNorth | 275 |
-| JapanEast | 508 |
-| JapanWest | 425 |
-| JioIndiaCentral | 201 |
-| JioIndiaWest | 308 |
-| KoreaCentral | 449 |
-| KoreaSouth | 295 |
-| MalaysiaSouth | 160 |
+| ItalyNorth | 277 |
+| JapanEast | 517 |
+| JapanWest | 433 |
+| JioIndiaCentral | 202 |
+| JioIndiaWest | 309 |
+| KoreaCentral | 459 |
+| KoreaSouth | 303 |
+| MalaysiaSouth | 162 |
 | MalaysiaWest | 218 |
-| MexicoCentral | 222 |
+| MexicoCentral | 223 |
 | MicrosoftSecurity | 7 |
-| NewZealandNorth | 226 |
-| NorthCentralUS | 525 |
+| NewZealandNorth | 227 |
+| NorthCentralUS | 532 |
 | NorthCentralUSStage | 8 |
-| NorthEurope | 1,114 |
+| NorthEurope | 1,129 |
 | NortheastUS5 | 121 |
-| NorwayEast | 405 |
-| NorwayWest | 270 |
-| PolandCentral | 289 |
-| QatarCentral | 284 |
+| NorwayEast | 414 |
+| NorwayWest | 277 |
+| PolandCentral | 290 |
+| QatarCentral | 292 |
 | ServiceEndpoint | 1,260 |
-| SouthAfricaNorth | 416 |
-| SouthAfricaWest | 270 |
-| SouthCentralUS | 836 |
+| SouthAfricaNorth | 425 |
+| SouthAfricaWest | 278 |
+| SouthCentralUS | 845 |
 | SouthCentralUS2 | 123 |
-| SouthCentralUSSTG | 100 |
-| SouthIndia | 354 |
-| SoutheastAsia | 714 |
+| SouthCentralUSSTG | 101 |
+| SouthIndia | 361 |
+| SoutheastAsia | 729 |
 | SoutheastUS | 130 |
 | SoutheastUS3 | 121 |
-| SpainCentral | 259 |
-| SwedenCentral | 402 |
-| SwedenSouth | 207 |
-| SwitzerlandNorth | 411 |
-| SwitzerlandWest | 306 |
+| SpainCentral | 260 |
+| SwedenCentral | 404 |
+| SwedenSouth | 209 |
+| SwitzerlandNorth | 418 |
+| SwitzerlandWest | 314 |
 | TaiwanNorth | 229 |
 | TaiwanNorthwest | 181 |
-| UAECentral | 293 |
-| UAENorth | 418 |
-| UKSouth | 738 |
-| UKWest | 515 |
-| WestCentralUS | 513 |
-| WestEurope | 1,323 |
+| UAECentral | 301 |
+| UAENorth | 427 |
+| UKSouth | 748 |
+| UKWest | 523 |
+| WestCentralUS | 520 |
+| WestEurope | 1,338 |
 | WestIndia | 251 |
-| WestUS | 1,138 |
-| WestUS2 | 754 |
-| WestUS3 | 539 |
+| WestUS | 1,145 |
+| WestUS2 | 768 |
+| WestUS3 | 548 |
 | australiacentral | 66 |
 | australiacentral2 | 53 |
 | australiaeast | 255 |
 | australiasoutheast | 173 |
-| austriaeast | 80 |
+| austriaeast | 81 |
 | belgiumcentral | 51 |
 | brazilne | 4 |
 | brazilse | 96 |
@@ -209,14 +209,14 @@ Last updated: 2026-06-10 12:48:14 UTC
 | canadacentral | 187 |
 | canadaeast | 124 |
 | centralfrance | 231 |
-| centralindia | 217 |
+| centralindia | 218 |
 | centralus | 1,035 |
 | centraluseuap | 262 |
-| chilec | 86 |
-| denmarkeast | 66 |
+| chilec | 82 |
+| denmarkeast | 68 |
 | eastasia | 246 |
-| eastus | 651 |
-| eastus2 | 1,796 |
+| eastus | 653 |
+| eastus2 | 1,783 |
 | eastus2euap | 561 |
 | eastus3 | 50 |
 | germanyn | 93 |
@@ -237,7 +237,7 @@ Last updated: 2026-06-10 12:48:14 UTC
 | mexicocentral | 102 |
 | newzealandnorth | 98 |
 | northcentralus | 324 |
-| northeastus5 | 38 |
+| northeastus5 | 39 |
 | northeurope | 449 |
 | northeurope2 | 10 |
 | norwaye | 117 |
@@ -260,7 +260,7 @@ Last updated: 2026-06-10 12:48:14 UTC
 | switzerlandw | 97 |
 | taiwannorth | 98 |
 | taiwannorthwest | 81 |
-| uaecentral | 105 |
+| uaecentral | 106 |
 | uaenorth | 146 |
 | uksouth | 233 |
 | ukwest | 138 |
@@ -270,6 +270,6 @@ Last updated: 2026-06-10 12:48:14 UTC
 | westeurope | 543 |
 | westindia | 105 |
 | westus | 500 |
-| westus2 | 437 |
-| westus3 | 220 |
+| westus2 | 439 |
+| westus3 | 222 |
 
