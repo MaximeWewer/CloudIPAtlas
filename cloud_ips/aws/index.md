@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-06-11 13:51:39 UTC
+Last updated: 2026-06-12 12:49:01 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,555
-- **IPv4 ranges**: 7,675 (102,294,196 addresses)
-- **IPv6 ranges**: 2,880 (87,882,317,816 /64 subnets)
+- **Total IPs/Ranges**: 10,561
+- **IPv4 ranges**: 7,677 (102,294,964 addresses)
+- **IPv6 ranges**: 2,884 (87,882,579,960 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,716 |
+| AMAZON | 8,719 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -25,7 +25,7 @@ Last updated: 2026-06-11 13:51:39 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 93 |
 | EBS | 102 |
-| EC2 | 3,928 |
+| EC2 | 3,930 |
 | EC2_INSTANCE_CONNECT | 74 |
 | GLOBALACCELERATOR | 157 |
 | IVS_LOW_LATENCY | 2 |
@@ -37,7 +37,7 @@ Last updated: 2026-06-11 13:51:39 UTC
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
 | S3 | 949 |
-| WORKSPACES_GATEWAYS | 113 |
+| WORKSPACES_GATEWAYS | 116 |
 
 ## Regions (43)
 
@@ -49,7 +49,7 @@ Last updated: 2026-06-11 13:51:39 UTC
 | ap-east-2 | 79 |
 | ap-northeast-1 | 387 |
 | ap-northeast-2 | 255 |
-| ap-northeast-3 | 165 |
+| ap-northeast-3 | 166 |
 | ap-south-1 | 284 |
 | ap-south-2 | 109 |
 | ap-southeast-1 | 400 |
@@ -60,11 +60,11 @@ Last updated: 2026-06-11 13:51:39 UTC
 | ap-southeast-6 | 75 |
 | ap-southeast-7 | 83 |
 | ca-central-1 | 218 |
-| ca-west-1 | 86 |
+| ca-west-1 | 87 |
 | cn-north-1 | 140 |
 | cn-northwest-1 | 138 |
 | eu-central-1 | 596 |
-| eu-central-2 | 90 |
+| eu-central-2 | 91 |
 | eu-north-1 | 203 |
 | eu-south-1 | 222 |
 | eu-south-2 | 151 |
@@ -76,14 +76,14 @@ Last updated: 2026-06-11 13:51:39 UTC
 | me-central-1 | 105 |
 | me-south-1 | 184 |
 | me-west-1 | 51 |
-| mx-central-1 | 77 |
+| mx-central-1 | 78 |
 | sa-east-1 | 299 |
 | sa-west-1 | 56 |
-| us-east-1 | 1,308 |
+| us-east-1 | 1,309 |
 | us-east-2 | 601 |
 | us-gov-east-1 | 119 |
 | us-gov-west-1 | 146 |
 | us-south-1 | 41 |
-| us-west-1 | 554 |
+| us-west-1 | 555 |
 | us-west-2 | 777 |
 
