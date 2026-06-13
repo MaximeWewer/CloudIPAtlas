@@ -1,6 +1,6 @@
 # Scaleway IP Ranges
 
-Last updated: 2026-06-12 12:49:00 UTC
+Last updated: 2026-06-13 11:47:03 UTC
 
 ## Summary Statistics
 
