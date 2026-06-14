@@ -1,6 +1,6 @@
 # Linode IP Ranges
 
-Last updated: 2026-06-13 11:47:05 UTC
+Last updated: 2026-06-14 11:48:59 UTC
 
 ## Summary Statistics
 
