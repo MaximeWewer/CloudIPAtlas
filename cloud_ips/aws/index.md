@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-06-15 15:35:58 UTC
+Last updated: 2026-06-16 14:51:12 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,570
-- **IPv4 ranges**: 7,683 (102,296,260 addresses)
-- **IPv6 ranges**: 2,887 (87,882,711,304 /64 subnets)
+- **Total IPs/Ranges**: 10,580
+- **IPv4 ranges**: 7,692 (102,300,606 addresses)
+- **IPv6 ranges**: 2,888 (87,882,711,560 /64 subnets)
 
 ## Services (26)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,728 |
+| AMAZON | 8,738 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -25,7 +25,7 @@ Last updated: 2026-06-15 15:35:58 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 93 |
 | EBS | 102 |
-| EC2 | 3,934 |
+| EC2 | 3,948 |
 | EC2_INSTANCE_CONNECT | 74 |
 | GLOBALACCELERATOR | 157 |
 | IVS_LOW_LATENCY | 2 |
@@ -44,15 +44,15 @@ Last updated: 2026-06-15 15:35:58 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | GLOBAL | 343 |
-| af-south-1 | 139 |
+| af-south-1 | 140 |
 | ap-east-1 | 153 |
 | ap-east-2 | 79 |
-| ap-northeast-1 | 387 |
+| ap-northeast-1 | 391 |
 | ap-northeast-2 | 255 |
 | ap-northeast-3 | 166 |
 | ap-south-1 | 284 |
 | ap-south-2 | 109 |
-| ap-southeast-1 | 400 |
+| ap-southeast-1 | 403 |
 | ap-southeast-2 | 319 |
 | ap-southeast-3 | 130 |
 | ap-southeast-4 | 104 |
@@ -63,12 +63,12 @@ Last updated: 2026-06-15 15:35:58 UTC
 | ca-west-1 | 87 |
 | cn-north-1 | 140 |
 | cn-northwest-1 | 138 |
-| eu-central-1 | 596 |
+| eu-central-1 | 599 |
 | eu-central-2 | 91 |
 | eu-north-1 | 203 |
 | eu-south-1 | 222 |
 | eu-south-2 | 151 |
-| eu-west-1 | 489 |
+| eu-west-1 | 493 |
 | eu-west-2 | 395 |
 | eu-west-3 | 209 |
 | eusc-de-east-1 | 77 |
@@ -79,11 +79,11 @@ Last updated: 2026-06-15 15:35:58 UTC
 | mx-central-1 | 78 |
 | sa-east-1 | 299 |
 | sa-west-1 | 56 |
-| us-east-1 | 1,314 |
+| us-east-1 | 1,312 |
 | us-east-2 | 602 |
 | us-gov-east-1 | 119 |
-| us-gov-west-1 | 146 |
+| us-gov-west-1 | 147 |
 | us-south-1 | 41 |
-| us-west-1 | 558 |
-| us-west-2 | 777 |
+| us-west-1 | 559 |
+| us-west-2 | 772 |
 
