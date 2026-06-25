@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-06-24 12:13:33 UTC
+Last updated: 2026-06-25 12:11:38 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 59,450
-- **IPv4 ranges**: 43,326 (52,324,465 addresses)
-- **IPv6 ranges**: 16,124 (106,778,722 /64 subnets)
+- **Total IPs/Ranges**: 59,457
+- **IPv4 ranges**: 43,345 (52,490,221 addresses)
+- **IPv6 ranges**: 16,112 (106,778,753 /64 subnets)
 
 ## Services (99)
 
@@ -26,7 +26,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | AzureAttestation | 407 |
 | AzureBackup | 565 |
 | AzureBotService | 204 |
-| AzureCloud | 15,375 |
+| AzureCloud | 15,322 |
 | AzureCognitiveSearch | 167 |
 | AzureConnectors | 607 |
 | AzureContainerRegistry | 1,236 |
@@ -48,7 +48,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | AzureMachineLearning | 801 |
 | AzureMachineLearningInference | 464 |
 | AzureManagedGrafana | 429 |
-| AzureMonitor | 3,084 |
+| AzureMonitor | 3,141 |
 | AzureMonitorForSAP | 20 |
 | AzureOpenDatasets | 50 |
 | AzurePortal | 353 |
@@ -105,7 +105,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | SqlManagement | 864 |
 | Storage | 2,001 |
 | StorageMover | 24 |
-| StorageSyncService | 232 |
+| StorageSyncService | 235 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
 | VideoIndexer | 228 |
 | WindowsAdminCenter | 138 |
@@ -116,87 +116,87 @@ Last updated: 2026-06-24 12:13:33 UTC
 
 | Region | IP Ranges |
 |--------|----------:|
-| AustraliaCentral | 247 |
+| AustraliaCentral | 248 |
 | AustraliaCentral2 | 227 |
-| AustraliaEast | 580 |
-| AustraliaSoutheast | 531 |
+| AustraliaEast | 581 |
+| AustraliaSoutheast | 533 |
 | AustriaEast | 196 |
 | Backend | 229 |
 | BelgiumCentral | 179 |
 | BrazilSouth | 514 |
-| BrazilSoutheast | 247 |
-| CanadaCentral | 600 |
-| CanadaEast | 410 |
-| CentralIndia | 529 |
-| CentralUS | 838 |
-| CentralUSEUAP | 320 |
+| BrazilSoutheast | 248 |
+| CanadaCentral | 601 |
+| CanadaEast | 411 |
+| CentralIndia | 530 |
+| CentralUS | 839 |
+| CentralUSEUAP | 321 |
 | ChileCentral | 202 |
-| Core | 965 |
-| DenmarkEast | 172 |
-| EastAsia | 576 |
-| EastUS | 1,340 |
-| EastUS2 | 968 |
-| EastUS2EUAP | 499 |
+| Core | 977 |
+| DenmarkEast | 173 |
+| EastAsia | 577 |
+| EastUS | 1,341 |
+| EastUS2 | 970 |
+| EastUS2EUAP | 501 |
 | EastUS2Stage | 2 |
 | EastUS3 | 139 |
-| EastUSSTG | 221 |
+| EastUSSTG | 222 |
 | FirstParty | 69 |
-| FranceCentral | 534 |
-| FranceSouth | 303 |
+| FranceCentral | 535 |
+| FranceSouth | 304 |
 | Frontend | 224 |
-| GermanyNorth | 302 |
-| GermanyWestCentral | 441 |
+| GermanyNorth | 303 |
+| GermanyWestCentral | 442 |
 | IndiaSouthCentral | 145 |
 | IndonesiaCentral | 238 |
 | IsraelCentral | 277 |
 | IsraelNorthwest | 150 |
-| ItalyNorth | 279 |
+| ItalyNorth | 280 |
 | JapanEast | 518 |
-| JapanWest | 434 |
+| JapanWest | 436 |
 | JioIndiaCentral | 203 |
-| JioIndiaWest | 311 |
-| KoreaCentral | 460 |
-| KoreaSouth | 305 |
+| JioIndiaWest | 312 |
+| KoreaCentral | 462 |
+| KoreaSouth | 306 |
 | MalaysiaSouth | 164 |
 | MalaysiaWest | 221 |
-| MexicoCentral | 225 |
+| MexicoCentral | 227 |
 | MicrosoftSecurity | 7 |
 | NewZealandNorth | 229 |
-| NorthCentralUS | 537 |
+| NorthCentralUS | 538 |
 | NorthCentralUSStage | 8 |
-| NorthEurope | 1,135 |
+| NorthEurope | 1,136 |
 | NortheastUS5 | 123 |
-| NorwayEast | 416 |
-| NorwayWest | 279 |
-| PolandCentral | 291 |
-| QatarCentral | 293 |
+| NorwayEast | 418 |
+| NorwayWest | 280 |
+| PolandCentral | 295 |
+| QatarCentral | 294 |
 | ServiceEndpoint | 1,260 |
-| SouthAfricaNorth | 427 |
-| SouthAfricaWest | 280 |
-| SouthCentralUS | 851 |
+| SouthAfricaNorth | 428 |
+| SouthAfricaWest | 281 |
+| SouthCentralUS | 852 |
 | SouthCentralUS2 | 125 |
 | SouthCentralUSSTG | 102 |
 | SouthIndia | 365 |
-| SoutheastAsia | 735 |
+| SoutheastAsia | 736 |
 | SoutheastUS | 132 |
 | SoutheastUS3 | 123 |
 | SpainCentral | 262 |
-| SwedenCentral | 409 |
-| SwedenSouth | 213 |
+| SwedenCentral | 410 |
+| SwedenSouth | 214 |
 | SwitzerlandNorth | 421 |
-| SwitzerlandWest | 315 |
+| SwitzerlandWest | 317 |
 | TaiwanNorth | 231 |
 | TaiwanNorthwest | 183 |
 | UAECentral | 304 |
-| UAENorth | 431 |
-| UKSouth | 753 |
-| UKWest | 527 |
-| WestCentralUS | 526 |
-| WestEurope | 1,344 |
+| UAENorth | 433 |
+| UKSouth | 754 |
+| UKWest | 528 |
+| WestCentralUS | 527 |
+| WestEurope | 1,345 |
 | WestIndia | 253 |
-| WestUS | 1,149 |
-| WestUS2 | 774 |
-| WestUS3 | 552 |
+| WestUS | 1,150 |
+| WestUS2 | 775 |
+| WestUS3 | 555 |
 | australiacentral | 66 |
 | australiacentral2 | 53 |
 | australiaeast | 249 |
@@ -210,18 +210,18 @@ Last updated: 2026-06-24 12:13:33 UTC
 | canadaeast | 124 |
 | centralfrance | 231 |
 | centralindia | 218 |
-| centralus | 1,036 |
-| centraluseuap | 262 |
+| centralus | 1,037 |
+| centraluseuap | 263 |
 | chilec | 83 |
 | denmarkeast | 72 |
 | eastasia | 246 |
-| eastus | 655 |
+| eastus | 656 |
 | eastus2 | 1,781 |
-| eastus2euap | 563 |
-| eastus3 | 55 |
+| eastus2euap | 565 |
+| eastus3 | 54 |
 | germanyn | 93 |
-| germanywc | 171 |
-| indiasouthcentral | 52 |
+| germanywc | 172 |
+| indiasouthcentral | 49 |
 | indonesiacentral | 88 |
 | israelcentral | 117 |
 | israelnorthwest | 54 |
@@ -233,7 +233,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | koreacentral | 170 |
 | koreasouth | 112 |
 | malaysiasouth | 132 |
-| malaysiawest | 89 |
+| malaysiawest | 90 |
 | mexicocentral | 102 |
 | newzealandnorth | 98 |
 | northcentralus | 324 |
@@ -246,7 +246,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | qatarcentral | 102 |
 | southafricanorth | 154 |
 | southafricawest | 94 |
-| southcentralus | 858 |
+| southcentralus | 803 |
 | southcentralus2 | 38 |
 | southeastasia | 261 |
 | southeastus | 38 |
@@ -254,7 +254,7 @@ Last updated: 2026-06-24 12:13:33 UTC
 | southfrance | 105 |
 | southindia | 137 |
 | spaincentral | 103 |
-| swedencentral | 195 |
+| swedencentral | 194 |
 | swedensouth | 83 |
 | switzerlandn | 142 |
 | switzerlandw | 97 |
@@ -267,9 +267,9 @@ Last updated: 2026-06-24 12:13:33 UTC
 | usstagec | 82 |
 | usstagee | 84 |
 | westcentralus | 216 |
-| westeurope | 543 |
+| westeurope | 544 |
 | westindia | 105 |
 | westus | 500 |
 | westus2 | 439 |
-| westus3 | 221 |
+| westus3 | 223 |
 
