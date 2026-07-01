@@ -1,11 +1,11 @@
 # Linode IP Ranges
 
-Last updated: 2026-06-30 12:03:50 UTC
+Last updated: 2026-07-01 12:27:16 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,346
-- **IPv4 ranges**: 5,248 (1,351,424 addresses)
+- **Total IPs/Ranges**: 5,410
+- **IPv4 ranges**: 5,312 (1,367,808 addresses)
 - **IPv6 ranges**: 98 (154,840,137,728 /64 subnets)
 
 ## Regions (39)
@@ -47,7 +47,7 @@ Last updated: 2026-06-30 12:03:50 UTC
 | Sao Paulo, BR | 84 |
 | Singapore, SG | 380 |
 | Stockholm, SE | 114 |
-| Sydney, AU | 126 |
+| Sydney, AU | 190 |
 | Tokyo, JP | 317 |
 | Toronto, CA | 92 |
 | Tukwila, US | 130 |

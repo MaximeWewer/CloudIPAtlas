@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-06-30 12:03:50 UTC
+Last updated: 2026-07-01 12:27:13 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,720
+- **Total IPs/Ranges**: 10,722
 - **IPv4 ranges**: 7,804 (102,414,398 addresses)
-- **IPv6 ranges**: 2,916 (87,967,602,808 /64 subnets)
+- **IPv6 ranges**: 2,918 (88,085,158,008 /64 subnets)
 
 ## Services (27)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,876 |
+| AMAZON | 8,878 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -25,7 +25,7 @@ Last updated: 2026-06-30 12:03:50 UTC
 | CODEBUILD | 60 |
 | DYNAMODB | 93 |
 | EBS | 102 |
-| EC2 | 4,084 |
+| EC2 | 4,086 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 2 |
 | GLOBALACCELERATOR | 157 |
@@ -55,7 +55,7 @@ Last updated: 2026-06-30 12:03:50 UTC
 | ap-south-2 | 113 |
 | ap-southeast-1 | 405 |
 | ap-southeast-2 | 321 |
-| ap-southeast-3 | 134 |
+| ap-southeast-3 | 135 |
 | ap-southeast-4 | 108 |
 | ap-southeast-5 | 101 |
 | ap-southeast-6 | 78 |
@@ -64,11 +64,11 @@ Last updated: 2026-06-30 12:03:50 UTC
 | ca-west-1 | 91 |
 | cn-north-1 | 144 |
 | cn-northwest-1 | 141 |
-| eu-central-1 | 601 |
+| eu-central-1 | 604 |
 | eu-central-2 | 95 |
 | eu-north-1 | 208 |
 | eu-south-1 | 226 |
-| eu-south-2 | 155 |
+| eu-south-2 | 158 |
 | eu-west-1 | 496 |
 | eu-west-2 | 400 |
 | eu-west-3 | 214 |
@@ -80,11 +80,11 @@ Last updated: 2026-06-30 12:03:50 UTC
 | mx-central-1 | 82 |
 | sa-east-1 | 304 |
 | sa-west-1 | 56 |
-| us-east-1 | 1,317 |
-| us-east-2 | 616 |
+| us-east-1 | 1,318 |
+| us-east-2 | 615 |
 | us-gov-east-1 | 119 |
 | us-gov-west-1 | 147 |
 | us-south-1 | 41 |
 | us-west-1 | 560 |
-| us-west-2 | 776 |
+| us-west-2 | 771 |
 
