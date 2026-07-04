@@ -1,6 +1,6 @@
 # AWS IP Ranges
 
-Last updated: 2026-07-03 11:59:53 UTC
+Last updated: 2026-07-04 11:17:25 UTC
 
 ## Summary Statistics
 
@@ -28,7 +28,7 @@ Last updated: 2026-07-03 11:59:53 UTC
 | EC2 | 4,095 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 7 |
-| GLOBALACCELERATOR | 166 |
+| GLOBALACCELERATOR | 171 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 242 |
 | KINESIS_VIDEO_STREAMS | 105 |
