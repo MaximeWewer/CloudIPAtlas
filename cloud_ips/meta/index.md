@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-07-05 11:23:16 UTC
+Last updated: 2026-07-06 13:37:35 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 705
-- **IPv4 ranges**: 277 (98,304 addresses)
-- **IPv6 ranges**: 428 (28,049,408 /64 subnets)
+- **Total IPs/Ranges**: 707
+- **IPv4 ranges**: 278 (98,816 addresses)
+- **IPv6 ranges**: 429 (28,114,944 /64 subnets)
 
 ## Regions (127)
 
@@ -132,7 +132,7 @@ Last updated: 2026-07-05 11:23:16 UTC
 | Taipei, TW | 6 |
 | Tempe, US | 2 |
 | Temple, US | 2 |
-| Tokyo, JP | 7 |
+| Tokyo, JP | 9 |
 | Toronto, CA | 4 |
 | Trenton, US | 2 |
 | Vienna, AT | 4 |
