@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-07-10 12:19:20 UTC
+Last updated: 2026-07-11 10:54:23 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,682
-- **IPv4 ranges**: 7,747 (102,315,678 addresses)
-- **IPv6 ranges**: 2,935 (88,458,600,344 /64 subnets)
+- **Total IPs/Ranges**: 10,650
+- **IPv4 ranges**: 7,751 (102,317,470 addresses)
+- **IPv6 ranges**: 2,899 (87,853,440,920 /64 subnets)
 
 ## Services (27)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,803 |
+| AMAZON | 8,771 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -20,12 +20,12 @@ Last updated: 2026-07-10 12:19:20 UTC
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 24 |
 | CLOUD9 | 44 |
-| CLOUDFRONT | 241 |
+| CLOUDFRONT | 242 |
 | CLOUDFRONT_ORIGIN_FACING | 48 |
 | CODEBUILD | 60 |
 | DYNAMODB | 94 |
 | EBS | 102 |
-| EC2 | 4,024 |
+| EC2 | 4,014 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 37 |
 | GLOBALACCELERATOR | 171 |
@@ -37,54 +37,54 @@ Last updated: 2026-07-10 12:19:20 UTC
 | ROUTE53_HEALTHCHECKS | 57 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 949 |
+| S3 | 950 |
 | WORKSPACES_GATEWAYS | 116 |
 
 ## Regions (43)
 
 | Region | IP Ranges |
 |--------|----------:|
-| GLOBAL | 348 |
+| GLOBAL | 349 |
 | af-south-1 | 143 |
 | ap-east-1 | 159 |
 | ap-east-2 | 84 |
 | ap-northeast-1 | 393 |
 | ap-northeast-2 | 262 |
 | ap-northeast-3 | 171 |
-| ap-south-1 | 284 |
+| ap-south-1 | 286 |
 | ap-south-2 | 116 |
 | ap-southeast-1 | 405 |
-| ap-southeast-2 | 319 |
-| ap-southeast-3 | 134 |
+| ap-southeast-2 | 317 |
+| ap-southeast-3 | 135 |
 | ap-southeast-4 | 110 |
 | ap-southeast-5 | 103 |
 | ap-southeast-6 | 80 |
 | ap-southeast-7 | 86 |
-| ca-central-1 | 221 |
+| ca-central-1 | 218 |
 | ca-west-1 | 92 |
 | cn-north-1 | 144 |
 | cn-northwest-1 | 141 |
-| eu-central-1 | 593 |
+| eu-central-1 | 587 |
 | eu-central-2 | 96 |
 | eu-north-1 | 209 |
 | eu-south-1 | 229 |
 | eu-south-2 | 159 |
-| eu-west-1 | 493 |
-| eu-west-2 | 399 |
-| eu-west-3 | 211 |
+| eu-west-1 | 488 |
+| eu-west-2 | 397 |
+| eu-west-3 | 208 |
 | eusc-de-east-1 | 79 |
 | il-central-1 | 107 |
 | me-central-1 | 105 |
 | me-south-1 | 184 |
 | me-west-1 | 52 |
 | mx-central-1 | 84 |
-| sa-east-1 | 300 |
+| sa-east-1 | 296 |
 | sa-west-1 | 56 |
-| us-east-1 | 1,313 |
-| us-east-2 | 608 |
+| us-east-1 | 1,311 |
+| us-east-2 | 607 |
 | us-gov-east-1 | 121 |
 | us-gov-west-1 | 149 |
-| us-south-1 | 45 |
+| us-south-1 | 46 |
 | us-west-1 | 558 |
-| us-west-2 | 737 |
+| us-west-2 | 728 |
 
