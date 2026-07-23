@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-07-22 11:41:24 UTC
+Last updated: 2026-07-23 11:45:15 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 706
-- **IPv4 ranges**: 278 (99,328 addresses)
-- **IPv6 ranges**: 428 (28,049,408 /64 subnets)
+- **Total IPs/Ranges**: 702
+- **IPv4 ranges**: 277 (99,072 addresses)
+- **IPv6 ranges**: 425 (27,852,800 /64 subnets)
 
 ## Regions (127)
 
@@ -78,7 +78,7 @@ Last updated: 2026-07-22 11:41:24 UTC
 | Lagos, NG | 2 |
 | Lima, PE | 4 |
 | Lisbon, PT | 4 |
-| London, GB | 16 |
+| London, GB | 12 |
 | Los Angeles, US | 13 |
 | Los Lunas, US | 4 |
 | Lulea, SE | 2 |
