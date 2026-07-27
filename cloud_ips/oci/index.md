@@ -1,34 +1,34 @@
 # OCI IP Ranges
 
-Last updated: 2026-07-26 11:12:56 UTC
+Last updated: 2026-07-27 12:49:54 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,089
-- **IPv4 ranges**: 1,089 (4,190,346 addresses)
+- **Total IPs/Ranges**: 1,102
+- **IPv4 ranges**: 1,102 (4,295,690 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
-| OBJECT_STORAGE | 67 |
-| OCI | 550 |
-| OSN | 539 |
+| OBJECT_STORAGE | 68 |
+| OCI | 555 |
+| OSN | 547 |
 
-## Regions (55)
+## Regions (56)
 
 | Region | IP Ranges |
 |--------|----------:|
 | af-casablanca-1 | 12 |
 | af-johannesburg-1 | 14 |
-| ap-batam-1 | 10 |
+| ap-batam-1 | 12 |
 | ap-chuncheon-1 | 25 |
 | ap-delhi-1 | 10 |
 | ap-hyderabad-1 | 22 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 20 |
-| ap-mumbai-1 | 28 |
-| ap-osaka-1 | 19 |
+| ap-mumbai-1 | 30 |
+| ap-osaka-1 | 20 |
 | ap-seoul-1 | 28 |
 | ap-singapore-1 | 22 |
 | ap-singapore-2 | 10 |
@@ -39,7 +39,7 @@ Last updated: 2026-07-26 11:12:56 UTC
 | eu-amsterdam-1 | 33 |
 | eu-dublin-3 | 10 |
 | eu-frankfurt-1 | 61 |
-| eu-jovanovac-1 | 9 |
+| eu-jovanovac-1 | 7 |
 | eu-madrid-1 | 14 |
 | eu-madrid-3 | 10 |
 | eu-marseille-1 | 14 |
@@ -61,7 +61,7 @@ Last updated: 2026-07-26 11:12:56 UTC
 | sa-valparaiso-1 | 11 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 15 |
-| uk-london-1 | 43 |
+| uk-london-1 | 44 |
 | us-abilene-1 | 10 |
 | us-ashburn-1 | 72 |
 | us-boardman-1 | 9 |
@@ -72,6 +72,7 @@ Last updated: 2026-07-26 11:12:56 UTC
 | us-phoenix-1 | 57 |
 | us-quincy-1 | 9 |
 | us-saltlake-2 | 8 |
+| us-sanantonio-1 | 9 |
 | us-sanjose-1 | 31 |
 | us-shawnee-1 | 9 |
 
