@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-07-28 11:49:55 UTC
+Last updated: 2026-07-29 11:53:47 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 702
-- **IPv4 ranges**: 277 (99,072 addresses)
-- **IPv6 ranges**: 425 (27,852,800 /64 subnets)
+- **Total IPs/Ranges**: 705
+- **IPv4 ranges**: 278 (99,840 addresses)
+- **IPv6 ranges**: 427 (27,983,872 /64 subnets)
 
 ## Regions (127)
 
@@ -16,7 +16,7 @@ Last updated: 2026-07-28 11:49:55 UTC
 | Altoona, US | 4 |
 | Amsterdam, NL | 4 |
 | Apodaca, MX | 4 |
-| Ashburn, US | 35 |
+| Ashburn, US | 34 |
 | Atlanta, US | 12 |
 | Auckland, NZ | 4 |
 | Aurora, US | 2 |
@@ -66,7 +66,7 @@ Last updated: 2026-07-28 11:49:55 UTC
 | Huechuraba, CL | 2 |
 | Huntsville, US | 4 |
 | Hyderabad, IN | 6 |
-| Istanbul, TR | 6 |
+| Istanbul, TR | 8 |
 | Jakarta, ID | 9 |
 | Jeffersonville, US | 2 |
 | Johannesburg, ZA | 4 |
@@ -79,7 +79,7 @@ Last updated: 2026-07-28 11:49:55 UTC
 | Lima, PE | 4 |
 | Lisbon, PT | 4 |
 | London, GB | 12 |
-| Los Angeles, US | 13 |
+| Los Angeles, US | 14 |
 | Los Lunas, US | 4 |
 | Lulea, SE | 2 |
 | Madrid, ES | 8 |
@@ -117,7 +117,7 @@ Last updated: 2026-07-28 11:49:55 UTC
 | San Francisco, US | 2 |
 | San Jose, US | 12 |
 | Sandston, US | 4 |
-| Santa Clara, US | 17 |
+| Santa Clara, US | 18 |
 | Santiago de Queretaro, MX | 9 |
 | Seattle, US | 10 |
 | Seongnam, KR | 4 |
