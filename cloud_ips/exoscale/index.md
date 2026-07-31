@@ -1,11 +1,11 @@
 # Exoscale IP Ranges
 
-Last updated: 2026-07-30 11:44:53 UTC
+Last updated: 2026-07-31 11:51:37 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 69
-- **IPv4 ranges**: 43 (36,352 addresses)
+- **Total IPs/Ranges**: 72
+- **IPv4 ranges**: 46 (39,424 addresses)
 - **IPv6 ranges**: 26 (77,317,799,936 /64 subnets)
 
 ## Regions (10)
@@ -14,10 +14,10 @@ Last updated: 2026-07-30 11:44:53 UTC
 |--------|----------:|
 | at-vie-1 | 10 |
 | at-vie-2 | 5 |
-| bg-sof-1 | 5 |
+| bg-sof-1 | 6 |
 | ch-dk-2 | 14 |
-| ch-gva-2 | 13 |
-| de-fra-1 | 9 |
+| ch-gva-2 | 14 |
+| de-fra-1 | 10 |
 | de-muc-1 | 5 |
 | es-mad-1 | 2 |
 | fr-par-1 | 2 |
