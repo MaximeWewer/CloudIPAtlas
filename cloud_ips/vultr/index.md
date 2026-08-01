@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2026-07-31 11:51:36 UTC
+Last updated: 2026-08-01 11:10:12 UTC
 
 ## Summary Statistics
 
 - **Total IPs/Ranges**: 492
-- **IPv4 ranges**: 439 (1,027,072 addresses)
+- **IPv4 ranges**: 439 (1,029,120 addresses)
 - **IPv6 ranges**: 53 (281,551,212,511,232 /64 subnets)
 
 ## Regions (35)
