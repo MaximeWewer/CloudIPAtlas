@@ -1,69 +1,69 @@
 # GCP IP Ranges
 
-Last updated: 2026-08-04 11:55:25 UTC
+Last updated: 2026-08-05 11:50:23 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,045
+- **Total IPs/Ranges**: 1,091
 - **IPv4 ranges**: 997 (19,091,840 addresses)
-- **IPv6 ranges**: 48 (49,348,608 /64 subnets)
+- **IPv6 ranges**: 94 (97,583,104 /64 subnets)
 
 ## Services (1)
 
 | Service | IP Ranges |
 |---------|----------:|
-| Google Cloud | 1,045 |
+| Google Cloud | 1,091 |
 
 ## Regions (48)
 
 | Region | IP Ranges |
 |--------|----------:|
-| africa-south1 | 7 |
-| asia-east1 | 31 |
-| asia-east2 | 12 |
-| asia-northeast1 | 26 |
-| asia-northeast2 | 10 |
-| asia-northeast3 | 27 |
-| asia-south1 | 33 |
-| asia-south2 | 15 |
-| asia-southeast1 | 44 |
-| asia-southeast2 | 17 |
-| asia-southeast3 | 5 |
-| australia-southeast1 | 26 |
-| australia-southeast2 | 9 |
-| europe-central2 | 9 |
-| europe-north1 | 9 |
-| europe-north2 | 5 |
-| europe-southwest1 | 10 |
-| europe-west1 | 56 |
-| europe-west10 | 5 |
-| europe-west12 | 12 |
+| africa-south1 | 8 |
+| asia-east1 | 32 |
+| asia-east2 | 13 |
+| asia-northeast1 | 27 |
+| asia-northeast2 | 11 |
+| asia-northeast3 | 28 |
+| asia-south1 | 34 |
+| asia-south2 | 16 |
+| asia-southeast1 | 45 |
+| asia-southeast2 | 18 |
+| asia-southeast3 | 6 |
+| australia-southeast1 | 27 |
+| australia-southeast2 | 10 |
+| europe-central2 | 10 |
+| europe-north1 | 10 |
+| europe-north2 | 6 |
+| europe-southwest1 | 11 |
+| europe-west1 | 57 |
+| europe-west10 | 6 |
+| europe-west12 | 13 |
 | europe-west15 | 5 |
-| europe-west2 | 37 |
-| europe-west3 | 32 |
-| europe-west4 | 37 |
-| europe-west6 | 11 |
-| europe-west8 | 16 |
-| europe-west9 | 8 |
+| europe-west2 | 38 |
+| europe-west3 | 33 |
+| europe-west4 | 38 |
+| europe-west6 | 12 |
+| europe-west8 | 17 |
+| europe-west9 | 9 |
 | global | 44 |
-| me-central1 | 7 |
-| me-central2 | 16 |
-| me-west1 | 13 |
-| northamerica-northeast1 | 25 |
-| northamerica-northeast2 | 12 |
-| northamerica-south1 | 5 |
-| southamerica-east1 | 15 |
-| southamerica-west1 | 15 |
-| us-central1 | 108 |
-| us-central2 | 13 |
-| us-east1 | 49 |
-| us-east4 | 52 |
-| us-east5 | 18 |
-| us-east7 | 9 |
-| us-south1 | 17 |
-| us-west1 | 61 |
-| us-west2 | 20 |
-| us-west3 | 15 |
-| us-west4 | 12 |
-| us-west8 | 5 |
+| me-central1 | 8 |
+| me-central2 | 17 |
+| me-west1 | 14 |
+| northamerica-northeast1 | 26 |
+| northamerica-northeast2 | 13 |
+| northamerica-south1 | 6 |
+| southamerica-east1 | 16 |
+| southamerica-west1 | 16 |
+| us-central1 | 109 |
+| us-central2 | 14 |
+| us-east1 | 50 |
+| us-east4 | 53 |
+| us-east5 | 19 |
+| us-east7 | 10 |
+| us-south1 | 18 |
+| us-west1 | 62 |
+| us-west2 | 21 |
+| us-west3 | 16 |
+| us-west4 | 13 |
+| us-west8 | 6 |
 

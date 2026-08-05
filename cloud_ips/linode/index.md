@@ -1,11 +1,11 @@
 # Linode IP Ranges
 
-Last updated: 2026-08-04 11:55:32 UTC
+Last updated: 2026-08-05 11:50:28 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,441
-- **IPv4 ranges**: 5,345 (1,376,256 addresses)
+- **Total IPs/Ranges**: 5,505
+- **IPv4 ranges**: 5,409 (1,392,640 addresses)
 - **IPv6 ranges**: 96 (154,823,294,976 /64 subnets)
 
 ## Regions (39)
@@ -22,14 +22,14 @@ Last updated: 2026-08-04 11:55:32 UTC
 | Chennai, IN | 98 |
 | Chicago, US | 259 |
 | Denver, US | 4 |
-| Frankfurt, DE | 429 |
+| Frankfurt, DE | 461 |
 | Fremont, US | 295 |
 | Hamburg, DE | 4 |
 | Houston, US | 4 |
 | Jakarta, ID | 82 |
 | Johannesburg, ZA | 4 |
 | Kuala Lumpur, MY | 4 |
-| London, GB | 394 |
+| London, GB | 426 |
 | Los Angeles, US | 162 |
 | Madrid, ES | 66 |
 | Marseille, FR | 4 |
