@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-08-05 11:50:33 UTC
+Last updated: 2026-08-06 11:56:38 UTC
 
 ## Summary Statistics
 
 - **Total IPs/Ranges**: 712
-- **IPv4 ranges**: 281 (101,376 addresses)
+- **IPv4 ranges**: 281 (101,120 addresses)
 - **IPv6 ranges**: 431 (28,246,016 /64 subnets)
 
-## Regions (127)
+## Regions (128)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -39,7 +39,7 @@ Last updated: 2026-08-05 11:50:33 UTC
 | Chandler, US | 2 |
 | Chennai, IN | 10 |
 | Cheyenne, US | 2 |
-| Chicago, US | 12 |
+| Chicago, US | 10 |
 | Clonee, IE | 2 |
 | Dallas, US | 16 |
 | Dekalb, US | 2 |
@@ -87,6 +87,7 @@ Last updated: 2026-08-05 11:50:33 UTC
 | Manila, PH | 11 |
 | Marseille, FR | 8 |
 | Mastemau, IN | 4 |
+| Meridian, US | 2 |
 | Mesa, US | 2 |
 | Miami, US | 16 |
 | Milan, IT | 8 |
