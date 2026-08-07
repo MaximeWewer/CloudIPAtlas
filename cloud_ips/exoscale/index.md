@@ -1,6 +1,6 @@
 # Exoscale IP Ranges
 
-Last updated: 2026-08-06 11:56:35 UTC
+Last updated: 2026-08-07 10:42:05 UTC
 
 ## Summary Statistics
 
@@ -20,6 +20,6 @@ Last updated: 2026-08-06 11:56:35 UTC
 | de-fra-1 | 10 |
 | de-muc-1 | 5 |
 | es-mad-1 | 2 |
-| fr-par-1 | 2 |
 | hr-zag-1 | 4 |
+| it-mil-1 | 2 |
 
