@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2026-08-08 10:20:37 UTC
+Last updated: 2026-08-09 10:22:07 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 494
-- **IPv4 ranges**: 440 (1,031,168 addresses)
+- **Total IPs/Ranges**: 495
+- **IPv4 ranges**: 441 (1,033,216 addresses)
 - **IPv6 ranges**: 54 (281,551,279,620,096 /64 subnets)
 
 ## Regions (36)
@@ -19,7 +19,7 @@ Last updated: 2026-08-08 10:20:37 UTC
 | Bangalore, IN | 4 |
 | Dallas, US | 29 |
 | Eagan, US | 9 |
-| Elk Grove Village, US | 38 |
+| Elk Grove Village, US | 39 |
 | Frankfurt, DE | 29 |
 | Honolulu, US | 3 |
 | Isando Gauteng, ZA | 2 |
