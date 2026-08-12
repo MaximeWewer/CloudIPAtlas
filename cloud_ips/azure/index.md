@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-08-11 10:41:31 UTC
+Last updated: 2026-08-12 10:51:16 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 60,054
-- **IPv4 ranges**: 43,781 (52,927,723 addresses)
-- **IPv6 ranges**: 16,273 (107,188,947 /64 subnets)
+- **Total IPs/Ranges**: 60,072
+- **IPv4 ranges**: 43,800 (53,026,405 addresses)
+- **IPv6 ranges**: 16,272 (107,188,950 /64 subnets)
 
 ## Services (99)
 
@@ -26,7 +26,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | AzureAttestation | 647 |
 | AzureBackup | 568 |
 | AzureBotService | 206 |
-| AzureCloud | 15,364 |
+| AzureCloud | 15,367 |
 | AzureCognitiveSearch | 169 |
 | AzureConnectors | 609 |
 | AzureContainerRegistry | 1,240 |
@@ -36,7 +36,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | AzureDatabricks | 654 |
 | AzureDevOps | 147 |
 | AzureDevSpaces | 36 |
-| AzureDeviceUpdate | 157 |
+| AzureDeviceUpdate | 169 |
 | AzureDigitalTwins | 371 |
 | AzureEventGrid | 606 |
 | AzureFrontDoor | 541 |
@@ -55,7 +55,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | AzureResourceManager | 379 |
 | AzureSecurityCenter | 402 |
 | AzureSentinel | 456 |
-| AzureSignalR | 189 |
+| AzureSignalR | 191 |
 | AzureSiteRecovery | 866 |
 | AzureSphere | 40 |
 | AzureSpringCloud | 267 |
@@ -88,7 +88,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | MicrosoftAzureFluidRelay | 78 |
 | MicrosoftCloudAppSecurity | 2,299 |
 | MicrosoftContainerRegistry | 371 |
-| MicrosoftDefenderForEndpoint | 30 |
+| MicrosoftDefenderForEndpoint | 31 |
 | MicrosoftPurviewPolicyDistribution | 55 |
 | OneDsCollector | 190 |
 | PowerBI | 918 |
@@ -212,7 +212,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | canadaeast | 124 |
 | centralfrance | 232 |
 | centralindia | 220 |
-| centralus | 999 |
+| centralus | 1,000 |
 | centraluseuap | 267 |
 | chilec | 87 |
 | denmarkeast | 73 |
@@ -220,7 +220,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | eastus | 631 |
 | eastus2 | 1,692 |
 | eastus2euap | 579 |
-| eastus3 | 57 |
+| eastus3 | 56 |
 | germanyn | 96 |
 | germanywc | 174 |
 | indiasouthcentral | 56 |
@@ -238,9 +238,9 @@ Last updated: 2026-08-11 10:41:31 UTC
 | malaysiawest | 94 |
 | mexicocentral | 105 |
 | newzealandnorth | 103 |
-| northcentralus | 336 |
+| northcentralus | 337 |
 | northeastus5 | 40 |
-| northeurope | 453 |
+| northeurope | 454 |
 | northeurope2 | 10 |
 | norwaye | 120 |
 | norwayw | 89 |
@@ -258,7 +258,7 @@ Last updated: 2026-08-11 10:41:31 UTC
 | southindia | 137 |
 | southwestus | 40 |
 | spaincentral | 104 |
-| swedencentral | 195 |
+| swedencentral | 196 |
 | swedensouth | 82 |
 | switzerlandn | 147 |
 | switzerlandw | 100 |
