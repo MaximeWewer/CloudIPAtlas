@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-08-12 10:51:16 UTC
+Last updated: 2026-08-13 10:52:40 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 711
-- **IPv4 ranges**: 280 (100,864 addresses)
-- **IPv6 ranges**: 431 (28,246,016 /64 subnets)
+- **Total IPs/Ranges**: 717
+- **IPv4 ranges**: 283 (102,144 addresses)
+- **IPv6 ranges**: 434 (28,442,624 /64 subnets)
 
-## Regions (128)
+## Regions (129)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -16,7 +16,7 @@ Last updated: 2026-08-12 10:51:16 UTC
 | Altoona, US | 4 |
 | Amsterdam, NL | 4 |
 | Apodaca, MX | 4 |
-| Ashburn, US | 34 |
+| Ashburn, US | 36 |
 | Atlanta, US | 12 |
 | Auckland, NZ | 6 |
 | Aurora, US | 2 |
@@ -26,6 +26,7 @@ Last updated: 2026-08-12 10:51:16 UTC
 | Bangkok, TH | 6 |
 | Barcelona, ES | 4 |
 | Barka, OM | 6 |
+| Beaver Dam, US | 2 |
 | Bengaluru, IN | 4 |
 | Berlin, DE | 4 |
 | Boston, US | 2 |
@@ -114,7 +115,7 @@ Last updated: 2026-08-12 10:51:16 UTC
 | Rome, IT | 4 |
 | Rosemount, US | 2 |
 | Sahibzada Ajit Singh Nagar, IN | 2 |
-| Saint-Denis, FR | 8 |
+| Saint-Denis, FR | 10 |
 | San Francisco, US | 2 |
 | San Jose, US | 12 |
 | Sandston, US | 4 |

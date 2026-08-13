@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-08-12 10:51:11 UTC
+Last updated: 2026-08-13 10:52:33 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,964
-- **IPv4 ranges**: 7,871 (102,424,038 addresses)
-- **IPv6 ranges**: 3,093 (89,001,444,120 /64 subnets)
+- **Total IPs/Ranges**: 10,981
+- **IPv4 ranges**: 7,882 (102,426,854 addresses)
+- **IPv6 ranges**: 3,099 (89,068,553,496 /64 subnets)
 
 ## Services (27)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,951 |
+| AMAZON | 8,968 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -21,11 +21,11 @@ Last updated: 2026-08-12 10:51:11 UTC
 | CHIME_VOICECONNECTOR | 24 |
 | CLOUD9 | 44 |
 | CLOUDFRONT | 243 |
-| CLOUDFRONT_ORIGIN_FACING | 48 |
+| CLOUDFRONT_ORIGIN_FACING | 49 |
 | CODEBUILD | 60 |
 | DYNAMODB | 94 |
 | EBS | 102 |
-| EC2 | 4,129 |
+| EC2 | 4,148 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 171 |
 | GLOBALACCELERATOR | 176 |
@@ -37,7 +37,7 @@ Last updated: 2026-08-12 10:51:11 UTC
 | ROUTE53_HEALTHCHECKS | 57 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 950 |
+| S3 | 954 |
 | WORKSPACES_GATEWAYS | 116 |
 
 ## Regions (43)
@@ -48,13 +48,13 @@ Last updated: 2026-08-12 10:51:11 UTC
 | af-south-1 | 147 |
 | ap-east-1 | 163 |
 | ap-east-2 | 87 |
-| ap-northeast-1 | 402 |
-| ap-northeast-2 | 265 |
+| ap-northeast-1 | 403 |
+| ap-northeast-2 | 266 |
 | ap-northeast-3 | 174 |
 | ap-south-1 | 293 |
 | ap-south-2 | 120 |
-| ap-southeast-1 | 413 |
-| ap-southeast-2 | 335 |
+| ap-southeast-1 | 416 |
+| ap-southeast-2 | 336 |
 | ap-southeast-3 | 137 |
 | ap-southeast-4 | 114 |
 | ap-southeast-5 | 106 |
@@ -64,13 +64,13 @@ Last updated: 2026-08-12 10:51:11 UTC
 | ca-west-1 | 97 |
 | cn-north-1 | 144 |
 | cn-northwest-1 | 142 |
-| eu-central-1 | 609 |
+| eu-central-1 | 610 |
 | eu-central-2 | 99 |
-| eu-north-1 | 212 |
+| eu-north-1 | 215 |
 | eu-south-1 | 233 |
 | eu-south-2 | 165 |
-| eu-west-1 | 513 |
-| eu-west-2 | 407 |
+| eu-west-1 | 514 |
+| eu-west-2 | 408 |
 | eu-west-3 | 227 |
 | eusc-de-east-1 | 79 |
 | il-central-1 | 110 |
@@ -80,11 +80,11 @@ Last updated: 2026-08-12 10:51:11 UTC
 | mx-central-1 | 87 |
 | sa-east-1 | 303 |
 | sa-west-1 | 56 |
-| us-east-1 | 1,356 |
-| us-east-2 | 623 |
+| us-east-1 | 1,357 |
+| us-east-2 | 624 |
 | us-gov-east-1 | 120 |
 | us-gov-west-1 | 148 |
 | us-south-1 | 74 |
 | us-west-1 | 574 |
-| us-west-2 | 744 |
+| us-west-2 | 747 |
 
