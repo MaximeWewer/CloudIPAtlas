@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2026-08-14 10:48:51 UTC
+Last updated: 2026-08-15 10:12:24 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 495
-- **IPv4 ranges**: 441 (1,033,216 addresses)
+- **Total IPs/Ranges**: 496
+- **IPv4 ranges**: 442 (1,035,264 addresses)
 - **IPv6 ranges**: 54 (281,551,279,620,096 /64 subnets)
 
 ## Regions (36)
@@ -26,7 +26,7 @@ Last updated: 2026-08-14 10:48:51 UTC
 | Kent, US | 15 |
 | London, GB | 25 |
 | Los Angeles, US | 27 |
-| Madrid, ES | 5 |
+| Madrid, ES | 6 |
 | Maryland Heights, US | 7 |
 | Miami, US | 22 |
 | Milan, IT | 3 |
