@@ -1,6 +1,6 @@
 # Ahrefs IP Ranges
 
-Last updated: 2026-08-16 10:13:01 UTC
+Last updated: 2026-08-17 10:21:43 UTC
 
 ## Summary Statistics
 
