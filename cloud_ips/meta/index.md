@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-08-17 10:21:43 UTC
+Last updated: 2026-08-18 10:17:27 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 717
-- **IPv4 ranges**: 283 (102,144 addresses)
-- **IPv6 ranges**: 434 (28,442,624 /64 subnets)
+- **Total IPs/Ranges**: 721
+- **IPv4 ranges**: 285 (103,168 addresses)
+- **IPv6 ranges**: 436 (28,573,696 /64 subnets)
 
-## Regions (129)
+## Regions (130)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -130,6 +130,7 @@ Last updated: 2026-08-17 10:21:43 UTC
 | Southfield, US | 2 |
 | Springfield, US | 4 |
 | Sterling, US | 2 |
+| Surabaya, ID | 4 |
 | Sydney, AU | 4 |
 | Taipei, TW | 6 |
 | Tempe, US | 2 |

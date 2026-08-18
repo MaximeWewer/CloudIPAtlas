@@ -1,6 +1,6 @@
 # Vultr IP Ranges
 
-Last updated: 2026-08-17 10:21:38 UTC
+Last updated: 2026-08-18 10:17:24 UTC
 
 ## Summary Statistics
 
@@ -18,8 +18,8 @@ Last updated: 2026-08-17 10:21:38 UTC
 | Atlanta, US | 23 |
 | Bangalore, IN | 4 |
 | Dallas, US | 29 |
-| Eagan, US | 9 |
-| Elk Grove Village, US | 39 |
+| Eagan, US | 7 |
+| Elk Grove Village, US | 42 |
 | Frankfurt, DE | 29 |
 | Honolulu, US | 3 |
 | Isando Gauteng, ZA | 2 |
@@ -44,7 +44,7 @@ Last updated: 2026-08-17 10:21:38 UTC
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
 | Spanga, SE | 3 |
-| Springfield, US | 2 |
+| Springfield, US | 1 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
 | Warsaw, PL | 3 |
