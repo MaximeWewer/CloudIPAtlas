@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-08-18 10:17:27 UTC
+Last updated: 2026-08-19 10:18:22 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 721
-- **IPv4 ranges**: 285 (103,168 addresses)
-- **IPv6 ranges**: 436 (28,573,696 /64 subnets)
+- **Total IPs/Ranges**: 717
+- **IPv4 ranges**: 284 (102,912 addresses)
+- **IPv6 ranges**: 433 (28,377,088 /64 subnets)
 
 ## Regions (130)
 
@@ -42,7 +42,7 @@ Last updated: 2026-08-18 10:17:27 UTC
 | Cheyenne, US | 2 |
 | Chicago, US | 10 |
 | Clonee, IE | 2 |
-| Dallas, US | 16 |
+| Dallas, US | 12 |
 | Dekalb, US | 2 |
 | Denver, US | 6 |
 | Doha, QA | 4 |
