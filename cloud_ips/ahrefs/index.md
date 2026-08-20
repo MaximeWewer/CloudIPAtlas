@@ -1,9 +1,9 @@
 # Ahrefs IP Ranges
 
-Last updated: 2026-08-19 10:18:23 UTC
+Last updated: 2026-08-20 10:19:39 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,370
-- **IPv4 single IPs**: 10,370
+- **Total IPs/Ranges**: 10,030
+- **IPv4 single IPs**: 10,030
 
