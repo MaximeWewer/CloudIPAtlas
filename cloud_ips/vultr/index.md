@@ -1,6 +1,6 @@
 # Vultr IP Ranges
 
-Last updated: 2026-08-20 10:19:35 UTC
+Last updated: 2026-08-21 10:19:27 UTC
 
 ## Summary Statistics
 
@@ -29,7 +29,7 @@ Last updated: 2026-08-20 10:19:35 UTC
 | Madrid, ES | 6 |
 | Maryland Heights, US | 7 |
 | Miami, US | 22 |
-| Milan, IT | 6 |
+| Milan, IT | 3 |
 | Mumbai, IN | 2 |
 | Noida, IN | 2 |
 | Osaka, JP | 3 |
@@ -44,7 +44,7 @@ Last updated: 2026-08-20 10:19:35 UTC
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
 | Spanga, SE | 3 |
-| Springfield, US | 1 |
+| Springfield, US | 4 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
 | Warsaw, PL | 3 |
