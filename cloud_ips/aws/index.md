@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-08-21 10:19:25 UTC
+Last updated: 2026-08-22 10:12:44 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 11,005
-- **IPv4 ranges**: 7,899 (102,432,646 addresses)
-- **IPv6 ranges**: 3,106 (89,067,702,808 /64 subnets)
+- **Total IPs/Ranges**: 11,013
+- **IPv4 ranges**: 7,905 (102,451,974 addresses)
+- **IPv6 ranges**: 3,108 (89,067,703,320 /64 subnets)
 
 ## Services (28)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,982 |
+| AMAZON | 8,985 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -25,9 +25,9 @@ Last updated: 2026-08-21 10:19:25 UTC
 | CODEBUILD | 61 |
 | DYNAMODB | 94 |
 | EBS | 105 |
-| EC2 | 4,151 |
+| EC2 | 4,154 |
 | EC2_INSTANCE_CONNECT | 74 |
-| EFS | 177 |
+| EFS | 182 |
 | GLOBALACCELERATOR | 176 |
 | IOT_CORE | 41 |
 | IVS_LOW_LATENCY | 2 |
@@ -56,15 +56,15 @@ Last updated: 2026-08-21 10:19:25 UTC
 | ap-south-2 | 120 |
 | ap-southeast-1 | 416 |
 | ap-southeast-2 | 336 |
-| ap-southeast-3 | 137 |
+| ap-southeast-3 | 138 |
 | ap-southeast-4 | 114 |
 | ap-southeast-5 | 106 |
 | ap-southeast-6 | 84 |
 | ap-southeast-7 | 89 |
-| ca-central-1 | 224 |
+| ca-central-1 | 226 |
 | ca-west-1 | 97 |
 | cn-north-1 | 146 |
-| cn-northwest-1 | 142 |
+| cn-northwest-1 | 144 |
 | eu-central-1 | 611 |
 | eu-central-2 | 99 |
 | eu-north-1 | 216 |
@@ -73,7 +73,7 @@ Last updated: 2026-08-21 10:19:25 UTC
 | eu-west-1 | 515 |
 | eu-west-2 | 409 |
 | eu-west-3 | 227 |
-| eusc-de-east-1 | 81 |
+| eusc-de-east-1 | 82 |
 | il-central-1 | 110 |
 | me-central-1 | 103 |
 | me-south-1 | 184 |
@@ -84,7 +84,7 @@ Last updated: 2026-08-21 10:19:25 UTC
 | us-east-1 | 1,363 |
 | us-east-2 | 624 |
 | us-gov-east-1 | 122 |
-| us-gov-west-1 | 150 |
+| us-gov-west-1 | 152 |
 | us-south-1 | 74 |
 | us-west-1 | 574 |
 | us-west-2 | 749 |
