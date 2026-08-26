@@ -1,18 +1,18 @@
 # OCI IP Ranges
 
-Last updated: 2026-08-25 10:21:07 UTC
+Last updated: 2026-08-26 10:24:08 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,102
-- **IPv4 ranges**: 1,102 (4,295,690 addresses)
+- **Total IPs/Ranges**: 1,107
+- **IPv4 ranges**: 1,107 (4,349,962 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 68 |
-| OCI | 555 |
+| OCI | 560 |
 | OSN | 547 |
 
 ## Regions (56)
@@ -24,7 +24,7 @@ Last updated: 2026-08-25 10:21:07 UTC
 | ap-batam-1 | 12 |
 | ap-chuncheon-1 | 25 |
 | ap-delhi-1 | 10 |
-| ap-hyderabad-1 | 22 |
+| ap-hyderabad-1 | 23 |
 | ap-kulai-1 | 10 |
 | ap-melbourne-1 | 20 |
 | ap-mumbai-1 | 30 |
@@ -47,18 +47,18 @@ Last updated: 2026-08-25 10:21:07 UTC
 | eu-paris-1 | 15 |
 | eu-stockholm-1 | 15 |
 | eu-zurich-1 | 16 |
-| il-jerusalem-1 | 14 |
+| il-jerusalem-1 | 15 |
 | me-abudhabi-1 | 10 |
 | me-dubai-1 | 16 |
 | me-jeddah-1 | 21 |
-| me-riyadh-1 | 11 |
+| me-riyadh-1 | 12 |
 | mx-monterrey-1 | 10 |
 | mx-queretaro-1 | 13 |
 | sa-bogota-1 | 10 |
 | sa-riodejaneiro-2 | 9 |
 | sa-santiago-1 | 22 |
 | sa-saopaulo-1 | 41 |
-| sa-valparaiso-1 | 11 |
+| sa-valparaiso-1 | 13 |
 | sa-vinhedo-1 | 22 |
 | uk-cardiff-1 | 15 |
 | uk-london-1 | 44 |
