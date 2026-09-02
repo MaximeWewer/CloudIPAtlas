@@ -1,14 +1,14 @@
 # Vultr IP Ranges
 
-Last updated: 2026-09-01 14:23:51 UTC
+Last updated: 2026-09-02 13:57:21 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 497
-- **IPv4 ranges**: 443 (1,037,312 addresses)
+- **Total IPs/Ranges**: 498
+- **IPv4 ranges**: 444 (1,037,568 addresses)
 - **IPv6 ranges**: 54 (281,551,279,620,096 /64 subnets)
 
-## Regions (36)
+## Regions (37)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -18,12 +18,13 @@ Last updated: 2026-09-01 14:23:51 UTC
 | Atlanta, US | 24 |
 | Bangalore, IN | 4 |
 | Dallas, US | 29 |
-| Eagan, US | 6 |
+| Eagan, US | 2 |
 | Elk Grove Village, US | 39 |
 | Frankfurt, DE | 29 |
 | Honolulu, US | 3 |
 | Isando Gauteng, ZA | 2 |
 | Kent, US | 15 |
+| Lithia Springs, US | 7 |
 | London, GB | 25 |
 | Los Angeles, US | 27 |
 | Madrid, ES | 6 |
@@ -33,7 +34,7 @@ Last updated: 2026-09-01 14:23:51 UTC
 | Mumbai, IN | 2 |
 | Noida, IN | 2 |
 | Osaka, JP | 3 |
-| Osasco, BR | 3 |
+| Osasco, BR | 4 |
 | Piscataway, US | 64 |
 | Port Melbourne, AU | 3 |
 | Rosh HaAyin, IL | 3 |
@@ -44,7 +45,7 @@ Last updated: 2026-09-01 14:23:51 UTC
 | Shinagawa-ku, JP | 44 |
 | Singapore, SG | 19 |
 | Spanga, SE | 3 |
-| Springfield, US | 5 |
+| Springfield, US | 2 |
 | Swinton, Manchester, GB | 3 |
 | Toronto, ON, CA | 5 |
 | Warsaw, PL | 3 |

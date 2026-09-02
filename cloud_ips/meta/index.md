@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-09-01 14:23:55 UTC
+Last updated: 2026-09-02 13:57:24 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 719
-- **IPv4 ranges**: 286 (104,192 addresses)
-- **IPv6 ranges**: 433 (28,377,088 /64 subnets)
+- **Total IPs/Ranges**: 717
+- **IPv4 ranges**: 286 (104,448 addresses)
+- **IPv6 ranges**: 431 (28,246,016 /64 subnets)
 
 ## Regions (130)
 
@@ -115,7 +115,7 @@ Last updated: 2026-09-01 14:23:55 UTC
 | Rome, IT | 4 |
 | Rosemount, US | 2 |
 | Sahibzada Ajit Singh Nagar, IN | 2 |
-| Saint-Denis, FR | 10 |
+| Saint-Denis, FR | 8 |
 | San Francisco, US | 2 |
 | San Jose, US | 12 |
 | Sandston, US | 4 |
