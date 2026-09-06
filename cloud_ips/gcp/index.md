@@ -1,18 +1,18 @@
 # GCP IP Ranges
 
-Last updated: 2026-09-05 13:05:53 UTC
+Last updated: 2026-09-06 13:17:22 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,098
-- **IPv4 ranges**: 1,003 (19,093,376 addresses)
+- **Total IPs/Ranges**: 1,102
+- **IPv4 ranges**: 1,007 (19,134,336 addresses)
 - **IPv6 ranges**: 95 (97,845,248 /64 subnets)
 
 ## Services (1)
 
 | Service | IP Ranges |
 |---------|----------:|
-| Google Cloud | 1,098 |
+| Google Cloud | 1,102 |
 
 ## Regions (48)
 
@@ -21,7 +21,7 @@ Last updated: 2026-09-05 13:05:53 UTC
 | africa-south1 | 8 |
 | asia-east1 | 32 |
 | asia-east2 | 13 |
-| asia-northeast1 | 27 |
+| asia-northeast1 | 28 |
 | asia-northeast2 | 13 |
 | asia-northeast3 | 28 |
 | asia-south1 | 34 |
@@ -41,7 +41,7 @@ Last updated: 2026-09-05 13:05:53 UTC
 | europe-west15 | 5 |
 | europe-west2 | 38 |
 | europe-west3 | 33 |
-| europe-west4 | 38 |
+| europe-west4 | 39 |
 | europe-west6 | 12 |
 | europe-west8 | 17 |
 | europe-west9 | 9 |
@@ -60,8 +60,8 @@ Last updated: 2026-09-05 13:05:53 UTC
 | us-east4 | 53 |
 | us-east5 | 19 |
 | us-east7 | 10 |
-| us-south1 | 18 |
-| us-west1 | 62 |
+| us-south1 | 19 |
+| us-west1 | 63 |
 | us-west2 | 23 |
 | us-west3 | 16 |
 | us-west4 | 15 |
