@@ -1,53 +1,53 @@
 # Azure IP Ranges
 
-Last updated: 2026-09-07 15:23:33 UTC
+Last updated: 2026-09-08 13:59:31 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 60,788
-- **IPv4 ranges**: 43,929 (104,190,083 addresses)
-- **IPv6 ranges**: 16,859 (612,505,156 /64 subnets)
+- **Total IPs/Ranges**: 60,805
+- **IPv4 ranges**: 43,957 (104,296,463 addresses)
+- **IPv6 ranges**: 16,848 (612,570,778 /64 subnets)
 
 ## Services (99)
 
 | Service | IP Ranges |
 |---------|----------:|
-| ActionGroup | 311 |
+| ActionGroup | 312 |
 | ApiManagement | 451 |
 | AppConfiguration | 733 |
 | AppService | 1,297 |
-| AppServiceManagement | 513 |
+| AppServiceManagement | 515 |
 | ApplicationInsightsAvailability | 31 |
 | AutonomousDevelopmentPlatform | 133 |
 | AzureActiveDirectory | 1,687 |
 | AzureActiveDirectoryDomainServices | 113 |
 | AzureAdvancedThreatProtection | 182 |
-| AzureArcInfrastructure | 575 |
+| AzureArcInfrastructure | 577 |
 | AzureAttestation | 649 |
 | AzureBackup | 568 |
 | AzureBotService | 206 |
-| AzureCloud | 15,604 |
+| AzureCloud | 15,556 |
 | AzureCognitiveSearch | 169 |
-| AzureConnectors | 609 |
-| AzureContainerRegistry | 1,240 |
+| AzureConnectors | 610 |
+| AzureContainerRegistry | 1,241 |
 | AzureCosmosDB | 801 |
 | AzureDataExplorerManagement | 314 |
 | AzureDataLake | 21 |
-| AzureDatabricks | 654 |
+| AzureDatabricks | 656 |
 | AzureDevOps | 147 |
 | AzureDevSpaces | 36 |
 | AzureDeviceUpdate | 169 |
 | AzureDigitalTwins | 371 |
 | AzureEventGrid | 606 |
 | AzureFrontDoor | 549 |
-| AzureHealthcareAPIs | 386 |
+| AzureHealthcareAPIs | 387 |
 | AzureInformationProtection | 147 |
 | AzureIoTHub | 814 |
 | AzureKeyVault | 717 |
 | AzureLoadTestingInstanceManagement | 24 |
 | AzureMachineLearning | 809 |
-| AzureMachineLearningInference | 470 |
-| AzureManagedGrafana | 432 |
+| AzureMachineLearningInference | 472 |
+| AzureManagedGrafana | 433 |
 | AzureMonitor | 3,166 |
 | AzureMonitorForSAP | 20 |
 | AzureOpenDatasets | 50 |
@@ -55,59 +55,59 @@ Last updated: 2026-09-07 15:23:33 UTC
 | AzureResourceManager | 379 |
 | AzureSecurityCenter | 402 |
 | AzureSentinel | 456 |
-| AzureSignalR | 191 |
+| AzureSignalR | 194 |
 | AzureSiteRecovery | 1,292 |
 | AzureSphere | 40 |
 | AzureSpringCloud | 267 |
 | AzureStack | 23 |
 | AzureTrafficManager | 369 |
 | AzureUpdateDelivery | 184 |
-| AzureWebPubSub | 193 |
+| AzureWebPubSub | 196 |
 | BatchNodeManagement | 457 |
 | ChaosStudio | 121 |
 | CognitiveServicesFrontend | 150 |
-| CognitiveServicesManagement | 1,508 |
+| CognitiveServicesManagement | 1,509 |
 | CopilotActions | 17 |
-| DataFactory | 967 |
-| DataFactoryManagement | 671 |
+| DataFactory | 993 |
+| DataFactoryManagement | 688 |
 | Dynamics365BusinessCentral | 120 |
 | Dynamics365ForMarketingEmail | 39 |
 | EOPExternalPublishedIPs | 149 |
 | EventHub | 663 |
-| GatewayManager | 383 |
+| GatewayManager | 384 |
 | Grafana | 1 |
-| GuestAndHybridManagement | 906 |
+| GuestAndHybridManagement | 907 |
 | HDInsight | 298 |
 | KustoAnalytics | 178 |
-| LogicApps | 1,918 |
-| LogicAppsManagement | 823 |
+| LogicApps | 1,921 |
+| LogicAppsManagement | 824 |
 | M365LighthouseProd | 28 |
 | M365ManagementActivityApi | 429 |
 | M365ManagementActivityApiWebhook | 375 |
 | Marketplace | 121 |
 | MicrosoftAzureFluidRelay | 78 |
 | MicrosoftCloudAppSecurity | 2,299 |
-| MicrosoftContainerRegistry | 371 |
-| MicrosoftDefenderForEndpoint | 31 |
+| MicrosoftContainerRegistry | 373 |
+| MicrosoftDefenderForEndpoint | 32 |
 | MicrosoftPurviewPolicyDistribution | 55 |
 | OneDsCollector | 190 |
 | PowerBI | 925 |
 | PowerPlatformInfra | 1,577 |
 | PowerPlatformPlex | 475 |
-| PowerQueryOnline | 649 |
+| PowerQueryOnline | 651 |
 | SCCservice | 95 |
-| Scuba | 262 |
+| Scuba | 263 |
 | SecurityCopilot | 37 |
-| SerialConsole | 217 |
+| SerialConsole | 220 |
 | ServiceBus | 710 |
-| ServiceFabric | 466 |
+| ServiceFabric | 468 |
 | Sql | 1,517 |
-| SqlManagement | 868 |
-| Storage | 2,030 |
+| SqlManagement | 870 |
+| Storage | 2,034 |
 | StorageMover | 24 |
 | StorageSyncService | 237 |
 | SystemServiceAzureSpringAppsResourceProvider | 32 |
-| VideoIndexer | 230 |
+| VideoIndexer | 231 |
 | WindowsAdminCenter | 140 |
 | WindowsVirtualDesktop | 188 |
 | ZeroTrustSegmentation | 48 |
@@ -126,7 +126,7 @@ Last updated: 2026-09-07 15:23:33 UTC
 | BrazilSouth | 520 |
 | BrazilSoutheast | 251 |
 | CanadaCentral | 607 |
-| CanadaEast | 415 |
+| CanadaEast | 438 |
 | CentralIndia | 535 |
 | CentralUS | 845 |
 | CentralUSEUAP | 324 |
@@ -138,7 +138,7 @@ Last updated: 2026-09-07 15:23:33 UTC
 | EastUS2 | 978 |
 | EastUS2EUAP | 502 |
 | EastUS2Stage | 2 |
-| EastUS3 | 145 |
+| EastUS3 | 151 |
 | EastUSSTG | 225 |
 | FirstParty | 69 |
 | FranceCentral | 541 |
@@ -201,24 +201,24 @@ Last updated: 2026-09-07 15:23:33 UTC
 | WestUS3 | 559 |
 | australiacentral | 72 |
 | australiacentral2 | 57 |
-| australiaeast | 253 |
-| australiasoutheast | 187 |
+| australiaeast | 254 |
+| australiasoutheast | 188 |
 | austriaeast | 87 |
 | belgiumcentral | 59 |
 | brazilne | 4 |
 | brazilse | 102 |
 | brazilsouth | 212 |
 | canadacentral | 184 |
-| canadaeast | 128 |
+| canadaeast | 136 |
 | centralfrance | 236 |
 | centralindia | 223 |
-| centralus | 938 |
+| centralus | 924 |
 | centraluseuap | 267 |
 | chilec | 90 |
 | denmarkeast | 75 |
 | eastasia | 245 |
 | eastus | 637 |
-| eastus2 | 1,507 |
+| eastus2 | 1,487 |
 | eastus2euap | 585 |
 | eastus3 | 62 |
 | germanyn | 102 |
@@ -238,7 +238,7 @@ Last updated: 2026-09-07 15:23:33 UTC
 | malaysiawest | 93 |
 | mexicocentral | 110 |
 | newzealandnorth | 110 |
-| northcentralus | 341 |
+| northcentralus | 343 |
 | northeastus5 | 39 |
 | northeurope | 460 |
 | northeurope2 | 10 |
@@ -248,8 +248,8 @@ Last updated: 2026-09-07 15:23:33 UTC
 | qatarcentral | 102 |
 | southafricanorth | 158 |
 | southafricawest | 98 |
-| southcentralus | 736 |
-| southcentralus2 | 39 |
+| southcentralus | 710 |
+| southcentralus2 | 40 |
 | southeastasia | 269 |
 | southeastus | 37 |
 | southeastus3 | 38 |
@@ -258,7 +258,7 @@ Last updated: 2026-09-07 15:23:33 UTC
 | southindia | 141 |
 | southwestus | 39 |
 | spaincentral | 114 |
-| swedencentral | 204 |
+| swedencentral | 205 |
 | swedensouth | 86 |
 | switzerlandn | 152 |
 | switzerlandw | 104 |
@@ -266,14 +266,14 @@ Last updated: 2026-09-07 15:23:33 UTC
 | taiwannorthwest | 85 |
 | uaecentral | 106 |
 | uaenorth | 151 |
-| uksouth | 240 |
-| ukwest | 145 |
+| uksouth | 242 |
+| ukwest | 147 |
 | usstagec | 82 |
 | usstagee | 84 |
-| westcentralus | 226 |
+| westcentralus | 227 |
 | westeurope | 533 |
 | westindia | 109 |
 | westus | 490 |
 | westus2 | 444 |
-| westus3 | 233 |
+| westus3 | 225 |
 
