@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-09-09 14:01:29 UTC
+Last updated: 2026-09-10 13:56:48 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 10,986
-- **IPv4 ranges**: 7,804 (102,486,728 addresses)
-- **IPv6 ranges**: 3,182 (89,639,859,224 /64 subnets)
+- **Total IPs/Ranges**: 11,225
+- **IPv4 ranges**: 7,808 (102,487,512 addresses)
+- **IPv6 ranges**: 3,417 (94,750,487,576 /64 subnets)
 
 ## Services (28)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 8,956 |
+| AMAZON | 9,195 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
@@ -25,11 +25,11 @@ Last updated: 2026-09-09 14:01:29 UTC
 | CODEBUILD | 61 |
 | DYNAMODB | 96 |
 | EBS | 105 |
-| EC2 | 4,180 |
+| EC2 | 4,398 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 184 |
 | GLOBALACCELERATOR | 176 |
-| IOT_CORE | 41 |
+| IOT_CORE | 45 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 253 |
 | KINESIS_VIDEO_STREAMS | 105 |
@@ -38,7 +38,7 @@ Last updated: 2026-09-09 14:01:29 UTC
 | ROUTE53_HEALTHCHECKS | 57 |
 | ROUTE53_HEALTHCHECKS_PUBLISHING | 39 |
 | ROUTE53_RESOLVER | 638 |
-| S3 | 1,005 |
+| S3 | 1,127 |
 | WORKSPACES_GATEWAYS | 116 |
 
 ## Regions (43)
@@ -46,46 +46,46 @@ Last updated: 2026-09-09 14:01:29 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | GLOBAL | 395 |
-| af-south-1 | 146 |
-| ap-east-1 | 163 |
-| ap-east-2 | 85 |
-| ap-northeast-1 | 402 |
-| ap-northeast-2 | 264 |
-| ap-northeast-3 | 173 |
-| ap-south-1 | 296 |
-| ap-south-2 | 119 |
-| ap-southeast-1 | 414 |
-| ap-southeast-2 | 338 |
-| ap-southeast-3 | 135 |
-| ap-southeast-4 | 111 |
-| ap-southeast-5 | 105 |
-| ap-southeast-6 | 81 |
-| ap-southeast-7 | 91 |
-| ca-central-1 | 227 |
-| ca-west-1 | 94 |
+| af-south-1 | 148 |
+| ap-east-1 | 165 |
+| ap-east-2 | 87 |
+| ap-northeast-1 | 406 |
+| ap-northeast-2 | 267 |
+| ap-northeast-3 | 175 |
+| ap-south-1 | 298 |
+| ap-south-2 | 121 |
+| ap-southeast-1 | 418 |
+| ap-southeast-2 | 340 |
+| ap-southeast-3 | 137 |
+| ap-southeast-4 | 113 |
+| ap-southeast-5 | 107 |
+| ap-southeast-6 | 83 |
+| ap-southeast-7 | 93 |
+| ca-central-1 | 261 |
+| ca-west-1 | 96 |
 | cn-north-1 | 146 |
 | cn-northwest-1 | 144 |
-| eu-central-1 | 610 |
-| eu-central-2 | 96 |
-| eu-north-1 | 215 |
-| eu-south-1 | 232 |
-| eu-south-2 | 164 |
-| eu-west-1 | 513 |
-| eu-west-2 | 409 |
-| eu-west-3 | 226 |
+| eu-central-1 | 643 |
+| eu-central-2 | 98 |
+| eu-north-1 | 242 |
+| eu-south-1 | 234 |
+| eu-south-2 | 166 |
+| eu-west-1 | 515 |
+| eu-west-2 | 411 |
+| eu-west-3 | 228 |
 | eusc-de-east-1 | 83 |
-| il-central-1 | 109 |
-| me-central-1 | 103 |
-| me-south-1 | 186 |
-| me-west-1 | 52 |
-| mx-central-1 | 84 |
-| sa-east-1 | 303 |
-| sa-west-1 | 57 |
-| us-east-1 | 1,371 |
-| us-east-2 | 561 |
-| us-gov-east-1 | 122 |
-| us-gov-west-1 | 152 |
-| us-south-1 | 79 |
-| us-west-1 | 578 |
-| us-west-2 | 752 |
+| il-central-1 | 111 |
+| me-central-1 | 105 |
+| me-south-1 | 188 |
+| me-west-1 | 54 |
+| mx-central-1 | 86 |
+| sa-east-1 | 305 |
+| sa-west-1 | 59 |
+| us-east-1 | 1,394 |
+| us-east-2 | 568 |
+| us-gov-east-1 | 124 |
+| us-gov-west-1 | 154 |
+| us-south-1 | 87 |
+| us-west-1 | 580 |
+| us-west-2 | 790 |
 
