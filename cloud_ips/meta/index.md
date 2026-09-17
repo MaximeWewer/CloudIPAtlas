@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-09-16 14:27:33 UTC
+Last updated: 2026-09-17 14:31:59 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 715
-- **IPv4 ranges**: 285 (103,936 addresses)
-- **IPv6 ranges**: 430 (28,180,480 /64 subnets)
+- **Total IPs/Ranges**: 713
+- **IPv4 ranges**: 285 (104,192 addresses)
+- **IPv6 ranges**: 428 (28,049,408 /64 subnets)
 
 ## Regions (130)
 
@@ -50,7 +50,7 @@ Last updated: 2026-09-16 14:27:33 UTC
 | Dusseldorf, DE | 4 |
 | Eagle Mountain, US | 4 |
 | El Paso, US | 2 |
-| El Talar, AR | 6 |
+| El Talar, AR | 4 |
 | Forest City, US | 2 |
 | Fort Worth, US | 2 |
 | Fortaleza, BR | 4 |
