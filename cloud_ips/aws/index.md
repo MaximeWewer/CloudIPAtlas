@@ -1,22 +1,22 @@
 # AWS IP Ranges
 
-Last updated: 2026-09-22 14:15:15 UTC
+Last updated: 2026-09-23 14:32:04 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 11,278
-- **IPv4 ranges**: 7,800 (102,496,216 addresses)
-- **IPv6 ranges**: 3,478 (94,750,829,592 /64 subnets)
+- **Total IPs/Ranges**: 11,267
+- **IPv4 ranges**: 7,801 (102,496,344 addresses)
+- **IPv6 ranges**: 3,466 (94,381,733,400 /64 subnets)
 
 ## Services (28)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 9,216 |
+| AMAZON | 9,203 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 214 |
-| AURORA_DSQL | 40 |
+| AURORA_DSQL | 42 |
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 24 |
 | CLOUD9 | 44 |
@@ -25,11 +25,11 @@ Last updated: 2026-09-22 14:15:15 UTC
 | CODEBUILD | 61 |
 | DYNAMODB | 96 |
 | EBS | 105 |
-| EC2 | 4,410 |
+| EC2 | 4,397 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 184 |
 | GLOBALACCELERATOR | 176 |
-| IOT_CORE | 45 |
+| IOT_CORE | 23 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 253 |
 | KINESIS_VIDEO_STREAMS | 105 |
@@ -46,28 +46,28 @@ Last updated: 2026-09-22 14:15:15 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | GLOBAL | 398 |
-| af-south-1 | 149 |
+| af-south-1 | 148 |
 | ap-east-1 | 167 |
-| ap-east-2 | 88 |
+| ap-east-2 | 87 |
 | ap-northeast-1 | 408 |
 | ap-northeast-2 | 269 |
-| ap-northeast-3 | 177 |
+| ap-northeast-3 | 176 |
 | ap-south-1 | 297 |
-| ap-south-2 | 123 |
-| ap-southeast-1 | 420 |
+| ap-south-2 | 122 |
+| ap-southeast-1 | 419 |
 | ap-southeast-2 | 338 |
-| ap-southeast-3 | 138 |
-| ap-southeast-4 | 116 |
+| ap-southeast-3 | 137 |
+| ap-southeast-4 | 115 |
 | ap-southeast-5 | 109 |
-| ap-southeast-6 | 84 |
-| ap-southeast-7 | 91 |
-| ca-central-1 | 264 |
-| ca-west-1 | 98 |
-| cn-north-1 | 146 |
-| cn-northwest-1 | 144 |
-| eu-central-1 | 646 |
-| eu-central-2 | 100 |
-| eu-north-1 | 244 |
+| ap-southeast-6 | 83 |
+| ap-southeast-7 | 90 |
+| ca-central-1 | 263 |
+| ca-west-1 | 97 |
+| cn-north-1 | 147 |
+| cn-northwest-1 | 145 |
+| eu-central-1 | 644 |
+| eu-central-2 | 99 |
+| eu-north-1 | 243 |
 | eu-south-1 | 237 |
 | eu-south-2 | 168 |
 | eu-west-1 | 517 |
@@ -78,14 +78,14 @@ Last updated: 2026-09-22 14:15:15 UTC
 | me-central-1 | 105 |
 | me-south-1 | 188 |
 | me-west-1 | 61 |
-| mx-central-1 | 88 |
+| mx-central-1 | 87 |
 | sa-east-1 | 307 |
-| sa-west-1 | 59 |
-| us-east-1 | 1,395 |
-| us-east-2 | 569 |
+| sa-west-1 | 58 |
+| us-east-1 | 1,397 |
+| us-east-2 | 571 |
 | us-gov-east-1 | 124 |
 | us-gov-west-1 | 154 |
-| us-south-1 | 87 |
+| us-south-1 | 86 |
 | us-west-1 | 578 |
-| us-west-2 | 789 |
+| us-west-2 | 790 |
 
