@@ -1,6 +1,6 @@
 # Perplexity IP Ranges
 
-Last updated: 2026-09-24 14:31:02 UTC
+Last updated: 2026-09-25 14:51:26 UTC
 
 ## Summary Statistics
 
