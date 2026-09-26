@@ -1,11 +1,11 @@
 # Linode IP Ranges
 
-Last updated: 2026-09-25 14:51:22 UTC
+Last updated: 2026-09-26 13:57:53 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 5,506
-- **IPv4 ranges**: 5,410 (1,392,896 addresses)
+- **Total IPs/Ranges**: 5,505
+- **IPv4 ranges**: 5,409 (1,392,640 addresses)
 - **IPv6 ranges**: 96 (154,823,294,976 /64 subnets)
 
 ## Regions (39)
