@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-09-28 17:52:15 UTC
+Last updated: 2026-09-29 16:14:28 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 715
-- **IPv4 ranges**: 286 (104,704 addresses)
-- **IPv6 ranges**: 429 (28,114,944 /64 subnets)
+- **Total IPs/Ranges**: 711
+- **IPv4 ranges**: 285 (104,448 addresses)
+- **IPv6 ranges**: 426 (27,918,336 /64 subnets)
 
 ## Regions (130)
 
@@ -54,7 +54,7 @@ Last updated: 2026-09-28 17:52:15 UTC
 | Forest City, US | 2 |
 | Fort Worth, US | 2 |
 | Fortaleza, BR | 4 |
-| Frankfurt, DE | 16 |
+| Frankfurt, DE | 12 |
 | Gallatin, US | 2 |
 | Garland, US | 2 |
 | Gift City Gandhinagar, IN | 2 |
