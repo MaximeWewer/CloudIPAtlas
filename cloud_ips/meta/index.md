@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-09-30 16:09:25 UTC
+Last updated: 2026-10-01 16:47:13 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 707
-- **IPv4 ranges**: 284 (104,192 addresses)
-- **IPv6 ranges**: 423 (27,721,728 /64 subnets)
+- **Total IPs/Ranges**: 709
+- **IPv4 ranges**: 285 (104,704 addresses)
+- **IPv6 ranges**: 424 (27,787,264 /64 subnets)
 
 ## Regions (130)
 
@@ -87,7 +87,7 @@ Last updated: 2026-09-30 16:09:25 UTC
 | Manchester, GB | 4 |
 | Manila, PH | 11 |
 | Marseille, FR | 8 |
-| Mastemau, IN | 4 |
+| Mastemau, IN | 6 |
 | Meridian, US | 2 |
 | Mesa, US | 2 |
 | Miami, US | 16 |
