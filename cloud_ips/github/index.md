@@ -1,6 +1,6 @@
 # GitHub IP Ranges
 
-Last updated: 2026-10-01 16:47:14 UTC
+Last updated: 2026-10-02 16:01:08 UTC
 
 ## Summary Statistics
 

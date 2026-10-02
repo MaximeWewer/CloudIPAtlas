@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-10-01 16:47:13 UTC
+Last updated: 2026-10-02 16:01:09 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 709
-- **IPv4 ranges**: 285 (104,704 addresses)
-- **IPv6 ranges**: 424 (27,787,264 /64 subnets)
+- **Total IPs/Ranges**: 711
+- **IPv4 ranges**: 286 (105,216 addresses)
+- **IPv6 ranges**: 425 (27,852,800 /64 subnets)
 
-## Regions (130)
+## Regions (131)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -112,6 +112,7 @@ Last updated: 2026-10-01 16:47:13 UTC
 | Puerto Colombia, CO | 2 |
 | Reston, US | 6 |
 | Rio de Janeiro, BR | 6 |
+| Rivers State, NG | 2 |
 | Rome, IT | 4 |
 | Rosemount, US | 2 |
 | Sahibzada Ajit Singh Nagar, IN | 2 |
