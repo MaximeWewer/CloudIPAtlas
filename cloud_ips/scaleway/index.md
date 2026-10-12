@@ -1,12 +1,12 @@
 # Scaleway IP Ranges
 
-Last updated: 2026-10-11 16:03:24 UTC
+Last updated: 2026-10-12 19:30:09 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 53
-- **IPv4 single IPs**: 21
-- **IPv4 ranges**: 13 (573,717 addresses)
+- **Total IPs/Ranges**: 59
+- **IPv4 single IPs**: 27
+- **IPv4 ranges**: 13 (573,723 addresses)
 - **IPv6 single IPs**: 18
 - **IPv6 ranges**: 1 (4,294,967,296 /64 subnets)
 
@@ -16,7 +16,7 @@ Last updated: 2026-10-11 16:03:24 UTC
 |---------|----------:|
 | Core-IPv4-Ranges | 12 |
 | Core-IPv6-Ranges | 1 |
-| DNS-NTP-Servers | 36 |
+| DNS-NTP-Servers | 42 |
 | Monitoring | 1 |
 | RPN-VPN | 1 |
 | Rdate-Server | 2 |
@@ -33,5 +33,5 @@ Last updated: 2026-10-11 16:03:24 UTC
 | Netherlands-Amsterdam-3 | 4 |
 | Poland-Warsaw-1 | 4 |
 | Poland-Warsaw-2 | 4 |
-| Poland-Warsaw-3 | 8 |
+| Poland-Warsaw-3 | 14 |
 
