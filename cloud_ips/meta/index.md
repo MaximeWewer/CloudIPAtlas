@@ -1,14 +1,14 @@
 # Meta IP Ranges
 
-Last updated: 2026-10-12 19:30:16 UTC
+Last updated: 2026-10-13 17:14:31 UTC
 
 ## Summary Statistics
 
 - **Total IPs/Ranges**: 719
-- **IPv4 ranges**: 292 (107,520 addresses)
-- **IPv6 ranges**: 427 (27,983,872 /64 subnets)
+- **IPv4 ranges**: 293 (108,288 addresses)
+- **IPv6 ranges**: 426 (27,918,336 /64 subnets)
 
-## Regions (131)
+## Regions (132)
 
 | Region | IP Ranges |
 |--------|----------:|
@@ -68,11 +68,12 @@ Last updated: 2026-10-12 19:30:16 UTC
 | Huntsville, US | 4 |
 | Hyderabad, IN | 6 |
 | Istanbul, TR | 8 |
+| Jaipur, IN | 2 |
 | Jakarta, ID | 8 |
 | Jeffersonville, US | 2 |
 | Johannesburg, ZA | 4 |
 | Kansas City, US | 2 |
-| Kolkata, IN | 10 |
+| Kolkata, IN | 8 |
 | Kuala Lumpur, MY | 9 |
 | Kuna, US | 2 |
 | Kyiv, UA | 4 |

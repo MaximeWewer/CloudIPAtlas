@@ -1,10 +1,10 @@
 # Fastly IP Ranges
 
-Last updated: 2026-10-12 19:30:09 UTC
+Last updated: 2026-10-13 17:14:28 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 21
-- **IPv4 ranges**: 19 (304,128 addresses)
-- **IPv6 ranges**: 2 (8,589,934,592 /64 subnets)
+- **Total IPs/Ranges**: 24
+- **IPv4 ranges**: 21 (353,280 addresses)
+- **IPv6 ranges**: 3 (17,179,869,184 /64 subnets)
 

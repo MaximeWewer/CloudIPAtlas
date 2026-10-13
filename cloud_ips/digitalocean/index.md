@@ -1,11 +1,11 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2026-10-12 19:30:11 UTC
+Last updated: 2026-10-13 17:14:28 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,230
-- **IPv4 ranges**: 1,082 (3,128,704 addresses)
+- **Total IPs/Ranges**: 1,234
+- **IPv4 ranges**: 1,086 (3,134,848 addresses)
 - **IPv6 ranges**: 148 (65,683 /64 subnets)
 
 ## Regions (16)
@@ -19,13 +19,13 @@ Last updated: 2026-10-12 19:30:11 UTC
 | Frankfurt, DE | 111 |
 | Kansas City, US | 4 |
 | London, GB | 67 |
-| Memphis, US | 4 |
+| Memphis, US | 5 |
 | North Bergen, US | 158 |
 | San Francisco, US | 151 |
-| Sandston, US | 3 |
+| Sandston, US | 5 |
 | Santa Clara, US | 133 |
 | Secaucus, US | 89 |
 | Singapore, SG | 90 |
 | Sydney, AU | 13 |
-| Toronto, CA | 31 |
+| Toronto, CA | 32 |
 
