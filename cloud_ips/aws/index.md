@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-10-14 14:46:27 UTC
+Last updated: 2026-10-15 14:32:16 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 11,336
-- **IPv4 ranges**: 7,863 (102,542,776 addresses)
-- **IPv6 ranges**: 3,473 (94,248,222,232 /64 subnets)
+- **Total IPs/Ranges**: 11,347
+- **IPv4 ranges**: 7,865 (102,543,033 addresses)
+- **IPv6 ranges**: 3,482 (94,248,877,592 /64 subnets)
 
 ## Services (27)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 9,263 |
+| AMAZON | 9,274 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 215 |
@@ -25,7 +25,7 @@ Last updated: 2026-10-14 14:46:27 UTC
 | CODEBUILD | 61 |
 | DYNAMODB | 96 |
 | EBS | 105 |
-| EC2 | 4,423 |
+| EC2 | 4,431 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 191 |
 | GLOBALACCELERATOR | 176 |
@@ -45,32 +45,32 @@ Last updated: 2026-10-14 14:46:27 UTC
 | Region | IP Ranges |
 |--------|----------:|
 | GLOBAL | 412 |
-| af-south-1 | 149 |
+| af-south-1 | 151 |
 | ap-east-1 | 166 |
 | ap-east-2 | 87 |
 | ap-northeast-1 | 407 |
 | ap-northeast-2 | 269 |
 | ap-northeast-3 | 177 |
-| ap-south-1 | 296 |
+| ap-south-1 | 297 |
 | ap-south-2 | 122 |
-| ap-southeast-1 | 424 |
+| ap-southeast-1 | 425 |
 | ap-southeast-2 | 337 |
 | ap-southeast-3 | 138 |
 | ap-southeast-4 | 115 |
 | ap-southeast-5 | 108 |
 | ap-southeast-6 | 83 |
 | ap-southeast-7 | 90 |
-| ca-central-1 | 263 |
+| ca-central-1 | 264 |
 | ca-west-1 | 97 |
 | cn-north-1 | 148 |
 | cn-northwest-1 | 145 |
 | eu-central-1 | 647 |
 | eu-central-2 | 99 |
-| eu-north-1 | 242 |
-| eu-south-1 | 236 |
+| eu-north-1 | 244 |
+| eu-south-1 | 237 |
 | eu-south-2 | 167 |
 | eu-west-1 | 521 |
-| eu-west-2 | 413 |
+| eu-west-2 | 414 |
 | eu-west-3 | 229 |
 | eusc-de-east-1 | 85 |
 | il-central-1 | 112 |
@@ -78,10 +78,10 @@ Last updated: 2026-10-14 14:46:27 UTC
 | me-south-1 | 188 |
 | me-west-1 | 68 |
 | mx-central-1 | 87 |
-| sa-east-1 | 306 |
+| sa-east-1 | 307 |
 | sa-west-1 | 67 |
 | us-east-1 | 1,422 |
-| us-east-2 | 572 |
+| us-east-2 | 573 |
 | us-gov-east-1 | 123 |
 | us-gov-west-1 | 153 |
 | us-south-1 | 86 |

@@ -1,12 +1,12 @@
 # Azure IP Ranges
 
-Last updated: 2026-10-14 14:46:34 UTC
+Last updated: 2026-10-15 14:32:19 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 61,098
-- **IPv4 ranges**: 44,193 (104,868,614 addresses)
-- **IPv6 ranges**: 16,905 (612,605,321 /64 subnets)
+- **Total IPs/Ranges**: 62,011
+- **IPv4 ranges**: 44,840 (102,997,694 addresses)
+- **IPv6 ranges**: 17,171 (612,605,400 /64 subnets)
 
 ## Services (99)
 
@@ -26,7 +26,7 @@ Last updated: 2026-10-14 14:46:34 UTC
 | AzureAttestation | 657 |
 | AzureBackup | 594 |
 | AzureBotService | 206 |
-| AzureCloud | 15,668 |
+| AzureCloud | 16,587 |
 | AzureCognitiveSearch | 169 |
 | AzureConnectors | 610 |
 | AzureContainerRegistry | 1,242 |
@@ -48,13 +48,13 @@ Last updated: 2026-10-14 14:46:34 UTC
 | AzureMachineLearning | 809 |
 | AzureMachineLearningInference | 486 |
 | AzureManagedGrafana | 434 |
-| AzureMonitor | 3,222 |
+| AzureMonitor | 3,227 |
 | AzureMonitorForSAP | 20 |
 | AzureOpenDatasets | 50 |
 | AzurePortal | 356 |
-| AzureResourceManager | 379 |
+| AzureResourceManager | 385 |
 | AzureSecurityCenter | 402 |
-| AzureSentinel | 457 |
+| AzureSentinel | 461 |
 | AzureSignalR | 199 |
 | AzureSiteRecovery | 1,292 |
 | AzureSphere | 40 |
@@ -129,14 +129,14 @@ Last updated: 2026-10-14 14:46:34 UTC
 | CanadaEast | 451 |
 | CentralIndia | 536 |
 | CentralUS | 849 |
-| CentralUSEUAP | 326 |
+| CentralUSEUAP | 328 |
 | ChileCentral | 208 |
-| Core | 1,038 |
+| Core | 1,041 |
 | DenmarkEast | 179 |
 | EastAsia | 584 |
 | EastUS | 1,351 |
-| EastUS2 | 979 |
-| EastUS2EUAP | 505 |
+| EastUS2 | 980 |
+| EastUS2EUAP | 507 |
 | EastUS2Stage | 2 |
 | EastUS3 | 153 |
 | EastUSSTG | 225 |
@@ -173,7 +173,7 @@ Last updated: 2026-10-14 14:46:34 UTC
 | ServiceEndpoint | 1,286 |
 | SouthAfricaNorth | 435 |
 | SouthAfricaWest | 285 |
-| SouthCentralUS | 860 |
+| SouthCentralUS | 862 |
 | SouthCentralUS2 | 129 |
 | SouthCentralUSSTG | 105 |
 | SouthIndia | 371 |
@@ -201,7 +201,7 @@ Last updated: 2026-10-14 14:46:34 UTC
 | WestUS3 | 561 |
 | australiacentral | 74 |
 | australiacentral2 | 57 |
-| australiaeast | 254 |
+| australiaeast | 255 |
 | australiasoutheast | 188 |
 | austriaeast | 86 |
 | belgiumcentral | 65 |
@@ -211,24 +211,24 @@ Last updated: 2026-10-14 14:46:34 UTC
 | canadacentral | 186 |
 | canadaeast | 140 |
 | centralfrance | 236 |
-| centralindia | 228 |
+| centralindia | 224 |
 | centralus | 933 |
-| centraluseuap | 275 |
+| centraluseuap | 409 |
 | chilec | 91 |
 | denmarkeast | 76 |
-| eastasia | 244 |
+| eastasia | 377 |
 | eastus | 622 |
-| eastus2 | 1,495 |
+| eastus2 | 1,497 |
 | eastus2euap | 593 |
-| eastus3 | 64 |
+| eastus3 | 66 |
 | germanyn | 105 |
 | germanywc | 180 |
 | indiasouthcentral | 57 |
-| indonesiacentral | 97 |
-| israelcentral | 113 |
+| indonesiacentral | 108 |
+| israelcentral | 135 |
 | israelnorthwest | 56 |
-| italynorth | 142 |
-| japaneast | 277 |
+| italynorth | 193 |
+| japaneast | 383 |
 | japanwest | 228 |
 | jioindiacentral | 46 |
 | jioindiawest | 52 |
@@ -236,44 +236,44 @@ Last updated: 2026-10-14 14:46:34 UTC
 | koreasouth | 115 |
 | malaysiasouth | 135 |
 | malaysiawest | 95 |
-| mexicocentral | 110 |
+| mexicocentral | 138 |
 | newzealandnorth | 115 |
-| northcentralus | 347 |
+| northcentralus | 348 |
 | northeastus5 | 37 |
 | northeurope | 461 |
 | northeurope2 | 10 |
-| norwaye | 124 |
-| norwayw | 93 |
-| polandcentral | 122 |
+| norwaye | 157 |
+| norwayw | 117 |
+| polandcentral | 148 |
 | qatarcentral | 101 |
-| southafricanorth | 158 |
-| southafricawest | 97 |
-| southcentralus | 696 |
-| southcentralus2 | 42 |
+| southafricanorth | 219 |
+| southafricawest | 110 |
+| southcentralus | 697 |
+| southcentralus2 | 43 |
 | southeastasia | 272 |
-| southeastus | 39 |
+| southeastus | 37 |
 | southeastus3 | 41 |
 | southeastus5 | 42 |
 | southfrance | 108 |
-| southindia | 143 |
-| southwestus | 41 |
-| spaincentral | 119 |
+| southindia | 158 |
+| southwestus | 42 |
+| spaincentral | 130 |
 | swedencentral | 205 |
 | swedensouth | 86 |
-| switzerlandn | 153 |
-| switzerlandw | 106 |
-| taiwannorth | 97 |
-| taiwannorthwest | 85 |
-| uaecentral | 106 |
-| uaenorth | 152 |
+| switzerlandn | 185 |
+| switzerlandw | 123 |
+| taiwannorth | 109 |
+| taiwannorthwest | 106 |
+| uaecentral | 138 |
+| uaenorth | 202 |
 | uksouth | 246 |
 | ukwest | 150 |
 | usstagec | 82 |
 | usstagee | 85 |
 | westcentralus | 238 |
-| westeurope | 537 |
-| westindia | 108 |
-| westus | 492 |
-| westus2 | 449 |
-| westus3 | 233 |
+| westeurope | 538 |
+| westindia | 131 |
+| westus | 493 |
+| westus2 | 452 |
+| westus3 | 234 |
 
