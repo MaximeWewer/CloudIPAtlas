@@ -1,6 +1,6 @@
 # OpenAI IP Ranges
 
-Last updated: 2026-10-17 13:21:04 UTC
+Last updated: 2026-10-18 13:40:12 UTC
 
 ## Summary Statistics
 
