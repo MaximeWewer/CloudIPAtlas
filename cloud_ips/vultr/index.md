@@ -1,11 +1,11 @@
 # Vultr IP Ranges
 
-Last updated: 2026-10-22 14:45:36 UTC
+Last updated: 2026-10-24 13:43:15 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 495
-- **IPv4 ranges**: 443 (1,044,992 addresses)
+- **Total IPs/Ranges**: 494
+- **IPv4 ranges**: 442 (1,044,736 addresses)
 - **IPv6 ranges**: 52 (3,355,574,272 /64 subnets)
 
 ## Regions (38)
@@ -17,7 +17,7 @@ Last updated: 2026-10-22 14:45:36 UTC
 | Amsterdam, NL | 33 |
 | Atlanta, US | 25 |
 | Bangalore, IN | 4 |
-| Chicago, US | 2 |
+| Chicago, US | 1 |
 | Dallas, US | 29 |
 | Eagan, US | 2 |
 | Elk Grove Village, US | 39 |
