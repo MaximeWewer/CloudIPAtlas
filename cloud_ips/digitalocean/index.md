@@ -1,11 +1,11 @@
 # DigitalOcean IP Ranges
 
-Last updated: 2026-10-25 14:00:25 UTC
+Last updated: 2026-10-26 16:22:19 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,236
-- **IPv4 ranges**: 1,088 (3,143,040 addresses)
+- **Total IPs/Ranges**: 1,235
+- **IPv4 ranges**: 1,087 (3,138,944 addresses)
 - **IPv6 ranges**: 148 (65,683 /64 subnets)
 
 ## Regions (16)
@@ -25,7 +25,7 @@ Last updated: 2026-10-25 14:00:25 UTC
 | Sandston, US | 5 |
 | Santa Clara, US | 133 |
 | Secaucus, US | 89 |
-| Singapore, SG | 91 |
+| Singapore, SG | 90 |
 | Sydney, AU | 13 |
 | Toronto, CA | 32 |
 

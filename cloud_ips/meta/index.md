@@ -1,6 +1,6 @@
 # Meta IP Ranges
 
-Last updated: 2026-10-25 14:00:31 UTC
+Last updated: 2026-10-26 16:22:27 UTC
 
 ## Summary Statistics
 
