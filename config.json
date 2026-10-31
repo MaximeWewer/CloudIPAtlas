@@ -27,7 +27,7 @@
     "url": "https://docs.oracle.com/en-us/iaas/tools/public_ip_ranges.json"
   },
   "ovh": {
-    "url": "https://help.ovhcloud.com/csm/en-web-hosting-clusters-ip-addresses?id=kb_article_view&sysparm_article=KB0052388"
+    "url": "https://docs.ovhcloud.com/en/guides/web-cloud/web-hosting/clusters-and-shared-hosting-ip"
   },
   "scaleway": {
     "url": "https://raw.githubusercontent.com/scaleway/docs-content/main/pages/account/support/scaleway-network-information.mdx"

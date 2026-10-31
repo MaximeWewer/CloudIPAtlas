@@ -30,7 +30,7 @@ jobs:
 
       - name: Install necessary packages
         run: |
-          packages="requests beautifulsoup4 selenium"
+          packages="requests beautifulsoup4"
 
           if [ ! -d ".venv_cloud_ips" ]; then
             python -m venv .venv_cloud_ips
@@ -65,11 +65,6 @@ jobs:
         with:
           key: venv-${{ runner.os }}-python-${{ steps.setup_python.outputs.python-version }}
           path: .venv_cloud_ips
-
-      - name: Set up Chrome (for Selenium)
-        uses: browser-actions/setup-chrome@v2
-        with:
-          chrome-version: stable
 
       - name: Remove previous cloud ips
         run: |

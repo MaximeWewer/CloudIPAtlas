@@ -2,37 +2,19 @@
 """
 OVH IP Sync - Download OVH IP ranges from HTML documentation and generate organized files.
 
-This script uses Selenium to scrape dynamically-loaded content from OVH's website
-and extract IP range information organized by clusters.
+This script parses OVH's web hosting documentation page and extracts
+IP range information organized by clusters.
 """
 
 import os
 import sys
 import json
 import re
-import time
 import requests
 import logging
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:
-    logger.info("Error: BeautifulSoup4 is required for HTML parsing.")
-    logger.info("Install with: pip install beautifulsoup4")
-    sys.exit(1)
-
-try:
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
-    from selenium.webdriver.chrome.options import Options as ChromeOptions
-    SELENIUM_AVAILABLE = True
-except ImportError:
-    SELENIUM_AVAILABLE = False
-    logger.info("Warning: Selenium not available. Install with: pip install selenium")
 
 from .ip_utils import (
     separate_ipv4_ipv6,
@@ -49,14 +31,12 @@ from .ip_utils import (
 class OVHIP:
     """OVH IP ranges synchronization manager."""
 
-    def __init__(self, config_path: str = "config.json", data_file: str = "ovh_data.json", use_selenium: bool = True):
+    def __init__(self, config_path: str = "config.json"):
         """
         Initialize the OVH IP Sync manager.
 
         Args:
             config_path: Path to configuration file
-            data_file: Path to OVH data JSON file (fallback if scraping fails)
-            use_selenium: Whether to use Selenium for scraping (default: True)
         """
         with open(config_path, 'r', encoding='utf-8') as f:
             config = json.load(f)
@@ -66,73 +46,11 @@ class OVHIP:
         self.clusters_dir = os.path.join(self.output_dir, "clusters")
         self.services_dir = os.path.join(self.output_dir, "services")
         self.countries_dir = os.path.join(self.output_dir, "countries")
-        self.data_file = data_file
         self.html_content = None
-        self.use_selenium = use_selenium and SELENIUM_AVAILABLE
-        self.use_static_data = False  # Will be set to True if scraping fails
-
-    def scrape_with_selenium(self) -> str:
-        """
-        Scrape OVH page using Selenium to handle JavaScript-loaded content.
-
-        Returns:
-            str: Rendered HTML content after JavaScript execution
-
-        Raises:
-            Exception: If scraping fails
-        """
-        logger.info(f"Scraping with Selenium from: {self.url}")
-
-        # Setup Chrome options
-        chrome_options = ChromeOptions()
-        chrome_options.add_argument('--headless')  # Run in background
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--window-size=1920,1080')
-        chrome_options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
-
-        driver = None
-        try:
-            # Initialize Chrome driver
-            driver = webdriver.Chrome(options=chrome_options)
-
-            # Load page
-            logger.info("Loading page...")
-            driver.get(self.url)
-
-            # Wait for content to load (look for cluster headers)
-            logger.info("Waiting for JavaScript to load content...")
-            try:
-                # Wait up to 30 seconds for at least one cluster to appear
-                WebDriverWait(driver, 30).until(
-                    EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'Cluster')]"))
-                )
-                logger.info("Content loaded successfully")
-            except Exception as e:
-                logger.info(f"Warning: Timeout waiting for content: {e}")
-
-            # Additional wait to ensure all content is rendered
-            time.sleep(3)
-
-            # Get rendered HTML
-            html_content = driver.page_source
-            logger.info(f"Successfully scraped ({len(html_content)} bytes)")
-
-            return html_content
-
-        except Exception as e:
-            logger.error(f"Error during scraping: {e}")
-            raise
-
-        finally:
-            if driver:
-                driver.quit()
 
     def download_data(self) -> str:
         """
         Download the OVH IP documentation HTML page.
-        Uses Selenium if available, otherwise falls back to simple requests.
 
         Returns:
             str: HTML content
@@ -140,86 +58,30 @@ class OVHIP:
         Raises:
             requests.RequestException: If download fails
         """
-        if self.use_selenium:
-            try:
-                self.html_content = self.scrape_with_selenium()
-                return self.html_content
-            except Exception as e:
-                logger.info(f"Selenium scraping failed: {e}")
-                logger.info("Falling back to static data file...")
-                self.use_static_data = True
-                return ""
-        else:
-            logger.info(f"Downloading from: {self.url} (basic request)")
-            try:
-                response = requests.get(self.url, timeout=60)
-                response.raise_for_status()
-                self.html_content = response.text
-                logger.info(f"Downloaded HTML content ({len(self.html_content)} bytes)")
-                return self.html_content
-            except requests.RequestException as e:
-                logger.error(f"Error downloading data: {e}")
-                self.use_static_data = True
-                return ""
+        logger.info(f"Downloading from: {self.url}")
+        try:
+            response = requests.get(self.url, timeout=60)
+            response.raise_for_status()
+            self.html_content = response.text
+            logger.info(f"Downloaded HTML content ({len(self.html_content)} bytes)")
+            return self.html_content
+        except requests.RequestException as e:
+            logger.error(f"Error downloading data: {e}")
+            raise
 
-    def extract_ips_from_static_data(self) -> tuple:
-        """
-        Extract IP ranges from static JSON data file.
-
-        Returns:
-            Tuple of (services_ips, all_ips)
-            - services_ips: Dict mapping cluster/service names to IP sets
-            - all_ips: Set of all IP ranges
-        """
-        logger.info(f"Using static data file: {self.data_file}")
-
-        with open(self.data_file, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-
-        services_ips = {}
-        all_ips = set()
-
-        # Process clusters
-        for cluster_num, cluster_data in data.get('clusters', {}).items():
-            cluster_name = f"Cluster-{cluster_num}"
-
-            # Main cluster IPs
-            if 'main' in cluster_data:
-                for country, ips in cluster_data['main'].items():
-                    for ip in ips:
-                        if is_valid_ip(ip):
-                            # Add to cluster
-                            if cluster_name not in services_ips:
-                                services_ips[cluster_name] = set()
-                            services_ips[cluster_name].add(ip)
-                            all_ips.add(ip)
-
-            # CDN IPs
-            if 'cdn' in cluster_data:
-                cdn_name = f"{cluster_name}-CDN"
-                for ip in cluster_data['cdn']:
-                    if is_valid_ip(ip):
-                        if cdn_name not in services_ips:
-                            services_ips[cdn_name] = set()
-                        services_ips[cdn_name].add(ip)
-                        all_ips.add(ip)
-
-            # Gateway IPs
-            if 'gateway' in cluster_data:
-                gateway_name = f"{cluster_name}-Gateway"
-                for ip in cluster_data['gateway']:
-                    if is_valid_ip(ip):
-                        if gateway_name not in services_ips:
-                            services_ips[gateway_name] = set()
-                        services_ips[gateway_name].add(ip)
-                        all_ips.add(ip)
-
-        return services_ips, all_ips
+    @staticmethod
+    def _ips_in(element) -> set:
+        """Return every valid IPv4/IPv6 address found in an element's text."""
+        tokens = re.findall(r'[0-9a-fA-F:.]+', element.get_text(' '))
+        return {t for t in tokens if ('.' in t or ':' in t) and is_valid_ip(t)}
 
     def extract_ips_from_html(self) -> tuple:
         """
         Parse HTML content to extract IP ranges from OVH clusters.
-        Works with Selenium-rendered content.
+
+        Each cluster is a <details> block: a <summary> holding the "Cluster NNN"
+        heading, a per-country table, then <p> labels ("Shared CDN",
+        "outgoing IP address") each followed by a <div> holding the IP.
 
         Returns:
             Tuple of (clusters_data, countries_data, all_ips)
@@ -235,129 +97,55 @@ class OVHIP:
         countries_data = {}
         all_ips = set()
 
-        # Pattern to match IP addresses (relaxed boundaries to handle "Copy" button text)
-        ipv4_pattern = re.compile(r'(?:[0-9]{1,3}\.){3}[0-9]{1,3}')
-        ipv6_pattern = re.compile(r'(?:[0-9a-fA-F]{1,4}:){3,7}[0-9a-fA-F]{1,4}')
-
-        # Pattern to detect country codes (2 uppercase letters)
-        country_code_pattern = re.compile(r'\b([A-Z]{2})\b')
-
-        # Find all h3 elements containing cluster headers
-        cluster_headers = soup.find_all('h3', string=re.compile(r'Cluster\s+\d+', re.IGNORECASE))
-
-        logger.info(f"Found {len(cluster_headers)} clusters")
-
-        for h3 in cluster_headers:
-            # Extract cluster number
-            cluster_match = re.search(r'Cluster\s+(\d+)', h3.get_text(), re.IGNORECASE)
+        for details in soup.find_all('details'):
+            summary = details.find('summary')
+            cluster_match = re.search(r'Cluster\s+(\d+)', summary.get_text() if summary else '', re.IGNORECASE)
             if not cluster_match:
                 continue
 
             cluster_num = cluster_match.group(1).zfill(3)
-
-            # Initialize cluster data structure
-            clusters_data[cluster_num] = {
+            cluster = clusters_data[cluster_num] = {
                 'main': set(),
                 'cdn': set(),
                 'gateway': set(),
                 'countries': {}
             }
 
-            # Find the table following this h3
-            table = h3.find_next('table')
+            # Per-country table: Country | Country Code | IPv4 | IPv6
+            table = details.find('table')
             if table:
-                # Extract IPs from table rows (organized by country)
                 for row in table.find_all('tr'):
-                    cells = row.find_all(['td', 'th'])
-
+                    cells = row.find_all('td')
                     if len(cells) < 3:  # Skip header or incomplete rows
                         continue
 
-                    row_text = ' '.join([cell.get_text() for cell in cells])
-
-                    # Try to find country code in this row
-                    country_match = country_code_pattern.search(row_text)
-                    current_country = country_match.group(1) if country_match else None
-
-                    # Extract all IPs from this row
+                    country = cells[1].get_text(strip=True).upper()
                     row_ips = set()
+                    for cell in cells[2:]:
+                        row_ips |= self._ips_in(cell)
+                    if not row_ips:
+                        continue
 
-                    for cell in cells:
-                        text = cell.get_text()
+                    cluster['main'] |= row_ips
+                    all_ips |= row_ips
+                    if re.fullmatch(r'[A-Z]{2}', country):
+                        cluster['countries'].setdefault(country, set()).update(row_ips)
+                        countries_data.setdefault(country, set()).update(row_ips)
 
-                        # Extract IPv4
-                        for ip in ipv4_pattern.findall(text):
-                            if is_valid_ip(ip):
-                                row_ips.add(ip)
-                                all_ips.add(ip)
-
-                        # Extract IPv6
-                        for ip in ipv6_pattern.findall(text):
-                            if is_valid_ip(ip):
-                                row_ips.add(ip)
-                                all_ips.add(ip)
-
-                    # Add IPs to cluster main
-                    clusters_data[cluster_num]['main'].update(row_ips)
-
-                    # Add IPs to country if we found one
-                    if current_country and row_ips:
-                        # Add to this cluster's country data
-                        if current_country not in clusters_data[cluster_num]['countries']:
-                            clusters_data[cluster_num]['countries'][current_country] = set()
-                        clusters_data[cluster_num]['countries'][current_country].update(row_ips)
-
-                        # Add to global countries data
-                        if current_country not in countries_data:
-                            countries_data[current_country] = set()
-                        countries_data[current_country].update(row_ips)
-
-            # Look for CDN and Gateway info after the table
-            next_sibling = table.find_next_sibling() if table else h3.find_next_sibling()
-            section_count = 0
-            while next_sibling and section_count < 10:  # Limit search
-                text = next_sibling.get_text()
-
-                # CDN section - look for "CDN" keyword, then check this and next element for IPs
-                if 'CDN' in text or 'cdn' in text.lower():
-                    # Check current element
-                    for ip in ipv4_pattern.findall(text):
-                        if is_valid_ip(ip):
-                            clusters_data[cluster_num]['cdn'].add(ip)
-                            all_ips.add(ip)
-
-                    # Also check next sibling (IP might be in next <div>/<pre> element)
-                    next_elem = next_sibling.find_next_sibling()
-                    if next_elem:
-                        next_text = next_elem.get_text()
-                        for ip in ipv4_pattern.findall(next_text):
-                            if is_valid_ip(ip):
-                                clusters_data[cluster_num]['cdn'].add(ip)
-                                all_ips.add(ip)
-
-                # Gateway section - look for "gateway" or "outgoing" keywords
-                if 'gateway' in text.lower() or 'outgoing' in text.lower():
-                    # Check current element
-                    for ip in ipv4_pattern.findall(text):
-                        if is_valid_ip(ip):
-                            clusters_data[cluster_num]['gateway'].add(ip)
-                            all_ips.add(ip)
-
-                    # Also check next sibling (IP might be in next <div>/<pre> element)
-                    next_elem = next_sibling.find_next_sibling()
-                    if next_elem:
-                        next_text = next_elem.get_text()
-                        for ip in ipv4_pattern.findall(next_text):
-                            if is_valid_ip(ip):
-                                clusters_data[cluster_num]['gateway'].add(ip)
-                                all_ips.add(ip)
-
-                # Stop if we hit next cluster
-                if re.search(r'Cluster\s+\d+', text, re.IGNORECASE):
-                    break
-
-                next_sibling = next_sibling.find_next_sibling()
-                section_count += 1
+            # CDN and gateway: a <p> label followed by the IP in the next element
+            for label in details.find_all('p'):
+                text = label.get_text(' ').lower()
+                if 'cdn' in text:
+                    key = 'cdn'
+                elif 'gateway' in text or 'outgoing' in text:
+                    key = 'gateway'
+                else:
+                    continue
+                target = label.find_next_sibling()
+                if target:
+                    ips = {ip for ip in self._ips_in(target) if '.' in ip}
+                    cluster[key] |= ips
+                    all_ips |= ips
 
         logger.info(f"Extracted {len(clusters_data)} clusters")
         logger.info(f"Extracted {len(countries_data)} countries")
@@ -380,23 +168,14 @@ class OVHIP:
         ensure_directory(self.services_dir)
         ensure_directory(self.countries_dir)
 
-        # Try scraping first
         if not self.html_content:
             self.download_data()
 
-        # Extract data from HTML
-        if not self.use_static_data:
-            logger.info("Parsing scraped content...")
-            clusters_data, countries_data, all_ips = self.extract_ips_from_html()
-        else:
-            logger.info("Error: Static data fallback not yet implemented for new structure")
-            clusters_data, countries_data, all_ips = {}, {}, set()
+        logger.info("Parsing HTML content...")
+        clusters_data, countries_data, all_ips = self.extract_ips_from_html()
 
         if not all_ips:
-            logger.info("Warning: No IP ranges found!")
-            if not SELENIUM_AVAILABLE:
-                logger.info("Tip: Install Selenium for automatic scraping: pip install selenium")
-            return
+            raise ValueError("No IP ranges found, page structure may have changed")
 
         # Convert sets to lists and separate IPv4/IPv6 for global files
         logger.info("Separating IPv4/IPv6...")
