@@ -84,7 +84,7 @@ class MetaIP:
 
         except requests.RequestException as e:
             logger.error(f"Error downloading: {e}")
-            return [], {}
+            raise
 
     def generate_files(self) -> None:
         logger.info("\nStarting IP range extraction...")
@@ -93,8 +93,7 @@ class MetaIP:
 
         all_ips_list, regions_ips = self.download_data()
         if not all_ips_list:
-            logger.info("Warning: No IP ranges found!")
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6
         logger.info("Separating IPv4/IPv6...")

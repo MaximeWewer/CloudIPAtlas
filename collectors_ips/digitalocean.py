@@ -82,7 +82,7 @@ class DigitalOceanIP:
 
         except requests.RequestException as e:
             logger.error(f"Error: {e}")
-            return [], {}
+            raise
 
     def generate_files(self) -> None:
         logger.info("\nStarting IP range extraction...")
@@ -91,7 +91,7 @@ class DigitalOceanIP:
 
         all_ips_list, regions_ips = self.download_data()
         if not all_ips_list:
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6 for global files
         all_ipv4, all_ipv6 = separate_ipv4_ipv6(all_ips_list)

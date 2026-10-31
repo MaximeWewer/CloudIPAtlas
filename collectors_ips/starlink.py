@@ -51,14 +51,14 @@ class StarlinkIP:
             return all_ips
         except requests.RequestException as e:
             logger.error(f"Error: {e}")
-            return []
+            raise
 
     def generate_files(self) -> None:
         logger.info("\nStarting IP range extraction...")
         ensure_directory(self.output_dir)
         all_ips_list = self.download_data()
         if not all_ips_list:
-            return
+            raise ValueError("No IP ranges found")
 
         all_ipv4, all_ipv6 = separate_ipv4_ipv6(all_ips_list)
         all_combined = all_ipv4 + all_ipv6

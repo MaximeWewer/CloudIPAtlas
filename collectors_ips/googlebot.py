@@ -44,7 +44,7 @@ class GooglebotIP:
             return data
         except requests.RequestException as e:
             logger.error(f"Error: {e}")
-            return {}
+            raise
 
     def extract_ips(self, data: dict) -> list:
         """
@@ -75,12 +75,11 @@ class GooglebotIP:
 
         data = self.download_data()
         if not data:
-            return
+            raise ValueError("No IP ranges found")
 
         all_ips_list = self.extract_ips(data)
         if not all_ips_list:
-            logger.info("Warning: No IP ranges found!")
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6
         logger.info("Separating IPv4/IPv6...")

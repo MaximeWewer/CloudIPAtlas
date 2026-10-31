@@ -130,9 +130,7 @@ class OutscaleIP:
         regions_ips, all_ips = self.extract_ips_from_html()
 
         if not all_ips:
-            logger.info("Warning: No IP ranges found in HTML content!")
-            logger.info("The page structure may have changed. Manual review needed.")
-            return
+            raise ValueError("No IP ranges found, page structure may have changed")
 
         # Convert sets to lists and separate IPv4/IPv6
         logger.info("Separating IPv4/IPv6...")

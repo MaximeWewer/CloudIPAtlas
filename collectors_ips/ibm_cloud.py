@@ -53,7 +53,7 @@ class IBMCloudIP:
             return response.text
         except requests.RequestException as e:
             logger.error(f"Error: {e}")
-            return ""
+            raise
 
     def extract_ips(self, html: str) -> tuple:
         """
@@ -156,14 +156,13 @@ class IBMCloudIP:
 
         html = self.download_data()
         if not html:
-            return
+            raise ValueError("No IP ranges found")
 
         logger.info("Extracting IP ranges from HTML...")
         all_ips_list, services_ips = self.extract_ips(html)
 
         if not all_ips_list:
-            logger.info("Warning: No IP ranges found!")
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6 for global files
         all_ipv4, all_ipv6 = separate_ipv4_ipv6(all_ips_list)

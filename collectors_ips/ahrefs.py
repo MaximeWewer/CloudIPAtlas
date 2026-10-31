@@ -62,6 +62,7 @@ class AhrefsIP:
 
         except requests.RequestException as e:
             logger.error(f"Error downloading from {self.url}: {e}")
+            raise
 
         return all_ips
 
@@ -71,8 +72,7 @@ class AhrefsIP:
 
         all_ips_list = self.download_data()
         if not all_ips_list:
-            logger.info("Warning: No IP addresses found!")
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6
         logger.info("Separating IPv4/IPv6...")

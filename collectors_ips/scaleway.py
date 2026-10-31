@@ -194,8 +194,7 @@ class ScalewayIP:
         services_ips, regions_ips, all_ips = self.extract_ips_from_html()
 
         if not all_ips:
-            logger.info("[Scaleway] Warning: No IP ranges found in HTML content!")
-            logger.info("[Scaleway] The page structure may have changed. Manual review needed.")
+            raise ValueError("No IP ranges found, page structure may have changed")
 
         # Convert sets to lists and separate IPv4/IPv6
         logger.info("[Scaleway] Separating IPv4/IPv6...")

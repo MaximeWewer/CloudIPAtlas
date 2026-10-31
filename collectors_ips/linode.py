@@ -92,7 +92,7 @@ class LinodeIP:
 
         except requests.RequestException as e:
             logger.error(f"Error downloading data: {e}")
-            return [], {}
+            raise
 
     def generate_files(self) -> None:
         """Generate all IP range files for Linode."""
@@ -102,8 +102,7 @@ class LinodeIP:
 
         all_ips_list, regions_ips = self.download_data()
         if not all_ips_list:
-            logger.info("Warning: No IP ranges found!")
-            return
+            raise ValueError("No IP ranges found")
 
         # Separate IPv4/IPv6 for global files
         logger.info("Separating IPv4/IPv6...")
