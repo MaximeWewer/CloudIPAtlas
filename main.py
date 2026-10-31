@@ -14,6 +14,8 @@ import threading
 from typing import Dict, Set
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+from collectors_ips import COLLECTORS
+
 # Custom formatter for cleaner logs
 class CleanFormatter(logging.Formatter):
     """Custom formatter for cleaner output."""
@@ -105,12 +107,18 @@ class ProgressMonitor:
         """Stop the monitoring loop."""
         self.stop_event.set()
 
-def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
+def cli_name(provider_name: str) -> str:
+    """CLI identifier of a provider (e.g. "IBM_Cloud" -> "ibm-cloud")."""
+    return provider_name.lower().replace('_', '-')
+
+
+def run_provider(provider_name: str, config_path: str, monitor: ProgressMonitor = None) -> Dict:
     """
     Run a provider script and capture results.
 
     Args:
-        provider_name: Name of cloud provider
+        provider_name: Name of cloud provider (key of COLLECTORS)
+        config_path: Path to configuration file
         monitor: Progress monitor instance
 
     Returns:
@@ -122,78 +130,7 @@ def run_provider(provider_name: str, monitor: ProgressMonitor = None) -> Dict:
     start_time = time.time()
 
     try:
-        # Import and run the collector module
-        if provider_name == "Azure":
-            from collectors_ips.azure import AzureIP
-            collector = AzureIP()
-        elif provider_name == "AWS":
-            from collectors_ips.aws import AWSIP
-            collector = AWSIP()
-        elif provider_name == "GCP":
-            from collectors_ips.gcp import GCPIP
-            collector = GCPIP()
-        elif provider_name == "OCI":
-            from collectors_ips.oci import OCIIP
-            collector = OCIIP()
-        elif provider_name == "OVH":
-            from collectors_ips.ovh import OVHIP
-            collector = OVHIP()
-        elif provider_name == "Scaleway":
-            from collectors_ips.scaleway import ScalewayIP
-            collector = ScalewayIP()
-        elif provider_name == "Cloudflare":
-            from collectors_ips.cloudflare import CloudflareIP
-            collector = CloudflareIP()
-        elif provider_name == "Fastly":
-            from collectors_ips.fastly import FastlyIP
-            collector = FastlyIP()
-        elif provider_name == "Linode":
-            from collectors_ips.linode import LinodeIP
-            collector = LinodeIP()
-        elif provider_name == "DigitalOcean":
-            from collectors_ips.digitalocean import DigitalOceanIP
-            collector = DigitalOceanIP()
-        elif provider_name == "Starlink":
-            from collectors_ips.starlink import StarlinkIP
-            collector = StarlinkIP()
-        elif provider_name == "Vultr":
-            from collectors_ips.vultr import VultrIP
-            collector = VultrIP()
-        elif provider_name == "Zscaler":
-            from collectors_ips.zscaler import ZscalerIP
-            collector = ZscalerIP()
-        elif provider_name == "IBM_Cloud":
-            from collectors_ips.ibm_cloud import IBMCloudIP
-            collector = IBMCloudIP()
-        elif provider_name == "Exoscale":
-            from collectors_ips.exoscale import ExoscaleIP
-            collector = ExoscaleIP()
-        elif provider_name == "Googlebot":
-            from collectors_ips.googlebot import GooglebotIP
-            collector = GooglebotIP()
-        elif provider_name == "Outscale":
-            from collectors_ips.outscale import OutscaleIP
-            collector = OutscaleIP()
-        elif provider_name == "Bingbot":
-            from collectors_ips.bingbot import BingbotIP
-            collector = BingbotIP()
-        elif provider_name == "Meta":
-            from collectors_ips.meta import MetaIP
-            collector = MetaIP()
-        elif provider_name == "OpenAI":
-            from collectors_ips.openai import OpenAIIP
-            collector = OpenAIIP()
-        elif provider_name == "Perplexity":
-            from collectors_ips.perplexity import PerplexityIP
-            collector = PerplexityIP()
-        elif provider_name == "GitHub":
-            from collectors_ips.github import GitHubIP
-            collector = GitHubIP()
-        elif provider_name == "Ahrefs":
-            from collectors_ips.ahrefs import AhrefsIP
-            collector = AhrefsIP()
-        else:
-            raise ValueError(f"Unknown provider: {provider_name}")
+        collector = COLLECTORS[provider_name](config_path=config_path)
 
         # Generate files
         collector.generate_files()
@@ -284,9 +221,7 @@ def main():
     parser.add_argument(
         "-p", "--providers",
         nargs='+',
-        choices=['azure', 'aws', 'gcp', 'oci', 'ovh', 'scaleway',
-                 'cloudflare', 'fastly', 'linode', 'digitalocean',
-                 'starlink', 'vultr', 'zscaler', 'ibm-cloud', 'exoscale', 'googlebot', 'outscale', 'bingbot', 'meta', 'openai', 'perplexity', 'github', 'ahrefs', 'all'],
+        choices=[cli_name(name) for name in COLLECTORS] + ['all'],
         default=['all'],
         help="Specific providers to process (default: all)"
     )
@@ -303,21 +238,13 @@ def main():
         logger.error(f"Error: Configuration file '{args.config}' not found!")
         sys.exit(1)
 
-    # Define all available providers
-    all_providers = [
-        'Azure', 'AWS', 'GCP', 'OCI', 'OVH', 'Scaleway',
-        'Cloudflare', 'Fastly', 'Linode', 'DigitalOcean',
-        'Starlink', 'Vultr', 'Zscaler', 'IBM_Cloud', 'Exoscale', 'Googlebot', 'Outscale', 'Bingbot', 'Meta', 'OpenAI', 'Perplexity', 'GitHub', 'Ahrefs'
-    ]
+    all_providers = list(COLLECTORS)
 
     # Filter providers based on arguments
     if 'all' in args.providers:
         providers_to_process = all_providers
     else:
-        providers_to_process = [
-            name for name in all_providers
-            if name.lower().replace('_', '') in [p.replace('-', '').replace('_', '') for p in args.providers]
-        ]
+        providers_to_process = [name for name in all_providers if cli_name(name) in args.providers]
 
     logger.info(f"\n{'='*70}")
     logger.info("MULTI-CLOUD IP RANGES COLLECTOR")
@@ -343,7 +270,7 @@ def main():
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         # Submit all providers to the thread pool
         future_to_provider = {
-            executor.submit(run_provider, provider_name, monitor): provider_name
+            executor.submit(run_provider, provider_name, args.config, monitor): provider_name
             for provider_name in providers_to_process
         }
 
