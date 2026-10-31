@@ -1,10 +1,19 @@
 # Googlebot IP Ranges
 
-Last updated: 2026-10-26 16:22:23 UTC
+Last updated: 2026-10-31 17:14:01 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 317
-- **IPv4 ranges**: 170 (5,088 addresses)
-- **IPv6 ranges**: 147 (147 /64 subnets)
+- **Total IPs/Ranges**: 2,161
+- **IPv4 ranges**: 1,092 (34,592 addresses)
+- **IPv6 ranges**: 1,069 (1,069 /64 subnets)
+
+## Services (4)
+
+| Service | IP Ranges |
+|---------|----------:|
+| googlebot | 317 |
+| special-crawlers | 272 |
+| user-triggered-fetchers | 1,068 |
+| user-triggered-fetchers-google | 504 |
 

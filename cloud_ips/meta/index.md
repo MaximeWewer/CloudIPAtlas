@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-10-26 16:22:27 UTC
+Last updated: 2026-10-31 17:14:03 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 715
-- **IPv4 ranges**: 293 (108,800 addresses)
-- **IPv6 ranges**: 422 (27,656,192 /64 subnets)
+- **Total IPs/Ranges**: 705
+- **IPv4 ranges**: 289 (107,520 addresses)
+- **IPv6 ranges**: 416 (27,262,976 /64 subnets)
 
 ## Regions (132)
 
@@ -16,7 +16,7 @@ Last updated: 2026-10-26 16:22:27 UTC
 | Altoona, US | 4 |
 | Amsterdam, NL | 4 |
 | Apodaca, MX | 4 |
-| Ashburn, US | 36 |
+| Ashburn, US | 34 |
 | Atlanta, US | 10 |
 | Auckland, NZ | 6 |
 | Aurora, US | 2 |
@@ -36,7 +36,7 @@ Last updated: 2026-10-26 16:22:27 UTC
 | Brussels, BE | 4 |
 | Bucharest, RO | 4 |
 | Cape Town, ZA | 4 |
-| Chai Wan, HK | 6 |
+| Chai Wan, HK | 4 |
 | Chandler, US | 2 |
 | Chennai, IN | 10 |
 | Cheyenne, US | 2 |
@@ -77,7 +77,7 @@ Last updated: 2026-10-26 16:22:27 UTC
 | Kuala Lumpur, MY | 9 |
 | Kuna, US | 2 |
 | Kyiv, UA | 4 |
-| Lagos, NG | 6 |
+| Lagos, NG | 2 |
 | Lima, PE | 4 |
 | Lisbon, PT | 4 |
 | London, GB | 12 |
@@ -119,7 +119,7 @@ Last updated: 2026-10-26 16:22:27 UTC
 | Sahibzada Ajit Singh Nagar, IN | 2 |
 | Saint-Denis, FR | 8 |
 | San Francisco, US | 2 |
-| San Jose, US | 12 |
+| San Jose, US | 10 |
 | Sandston, US | 4 |
 | Santa Clara, US | 18 |
 | Santiago de Queretaro, MX | 9 |

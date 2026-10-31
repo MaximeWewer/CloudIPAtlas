@@ -1,12 +1,12 @@
 # Exoscale IP Ranges
 
-Last updated: 2026-10-26 16:22:23 UTC
+Last updated: 2026-10-31 17:13:59 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 72
+- **Total IPs/Ranges**: 65
 - **IPv4 ranges**: 46 (39,424 addresses)
-- **IPv6 ranges**: 26 (77,317,799,936 /64 subnets)
+- **IPv6 ranges**: 19 (47,253,028,864 /64 subnets)
 
 ## Regions (10)
 

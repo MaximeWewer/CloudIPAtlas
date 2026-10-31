@@ -1,42 +1,43 @@
 # OCI IP Ranges
 
-Last updated: 2026-10-26 16:22:16 UTC
+Last updated: 2026-10-31 17:13:52 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,107
-- **IPv4 ranges**: 1,107 (4,349,962 addresses)
+- **Total IPs/Ranges**: 1,118
+- **IPv4 ranges**: 1,118 (4,483,082 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 68 |
-| OCI | 560 |
+| OCI | 571 |
 | OSN | 547 |
 
-## Regions (56)
+## Regions (57)
 
 | Region | IP Ranges |
 |--------|----------:|
 | af-casablanca-1 | 12 |
-| af-johannesburg-1 | 14 |
+| af-johannesburg-1 | 15 |
 | ap-batam-1 | 12 |
 | ap-chuncheon-1 | 25 |
 | ap-delhi-1 | 10 |
 | ap-hyderabad-1 | 23 |
 | ap-kulai-1 | 10 |
+| ap-kulai-2 | 3 |
 | ap-melbourne-1 | 20 |
 | ap-mumbai-1 | 30 |
 | ap-osaka-1 | 20 |
 | ap-seoul-1 | 28 |
-| ap-singapore-1 | 22 |
+| ap-singapore-1 | 24 |
 | ap-singapore-2 | 10 |
 | ap-sydney-1 | 31 |
 | ap-tokyo-1 | 38 |
 | ca-montreal-1 | 15 |
 | ca-toronto-1 | 23 |
-| eu-amsterdam-1 | 33 |
+| eu-amsterdam-1 | 34 |
 | eu-dublin-3 | 10 |
 | eu-frankfurt-1 | 61 |
 | eu-jovanovac-1 | 7 |
@@ -49,14 +50,14 @@ Last updated: 2026-10-26 16:22:16 UTC
 | eu-zurich-1 | 16 |
 | il-jerusalem-1 | 15 |
 | me-abudhabi-1 | 10 |
-| me-dubai-1 | 16 |
+| me-dubai-1 | 18 |
 | me-jeddah-1 | 21 |
 | me-riyadh-1 | 12 |
 | mx-monterrey-1 | 10 |
 | mx-queretaro-1 | 13 |
-| sa-bogota-1 | 10 |
+| sa-bogota-1 | 11 |
 | sa-riodejaneiro-2 | 9 |
-| sa-santiago-1 | 22 |
+| sa-santiago-1 | 23 |
 | sa-saopaulo-1 | 41 |
 | sa-valparaiso-1 | 13 |
 | sa-vinhedo-1 | 22 |

@@ -1,6 +1,6 @@
 # Scaleway IP Ranges
 
-Last updated: 2026-10-26 16:22:18 UTC
+Last updated: 2026-10-31 17:13:54 UTC
 
 ## Summary Statistics
 
@@ -8,7 +8,7 @@ Last updated: 2026-10-26 16:22:18 UTC
 - **IPv4 single IPs**: 27
 - **IPv4 ranges**: 13 (573,723 addresses)
 - **IPv6 single IPs**: 18
-- **IPv6 ranges**: 1 (4,294,967,296 /64 subnets)
+- **IPv6 ranges**: 1 (4,294,967,314 /64 subnets)
 
 ## Services (6)
 

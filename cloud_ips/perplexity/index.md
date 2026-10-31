@@ -1,16 +1,16 @@
 # Perplexity IP Ranges
 
-Last updated: 2026-10-26 16:22:24 UTC
+Last updated: 2026-10-31 17:14:00 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 12
-- **IPv4 ranges**: 12 (32 addresses)
+- **Total IPs/Ranges**: 23
+- **IPv4 ranges**: 23 (23 addresses)
 
 ## Services (2)
 
 | Service | IP Ranges |
 |---------|----------:|
-| perplexity-user | 4 |
-| perplexitybot | 8 |
+| perplexity-user | 10 |
+| perplexitybot | 13 |
 
