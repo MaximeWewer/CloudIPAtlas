@@ -14,16 +14,16 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
         id: setup_python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.14'
 
       - name: Restore cached virtualenv
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           key: venv-${{ runner.os }}-python-${{ steps.setup_python.outputs.python-version }}
           path: .venv_cloud_ips
@@ -61,7 +61,7 @@ jobs:
           echo "VIRTUAL_ENV=$PWD/.venv_cloud_ips" >> $GITHUB_ENV
 
       - name: Save cached virtualenv
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           key: venv-${{ runner.os }}-python-${{ steps.setup_python.outputs.python-version }}
           path: .venv_cloud_ips
