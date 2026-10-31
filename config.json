@@ -82,5 +82,8 @@
   },
   "amazonbot": {
     "url": "https://developer.amazon.com/amazonbot/ip-addresses/"
+  },
+  "yandex": {
+    "url": "https://yandex.com/ips"
   }
 }

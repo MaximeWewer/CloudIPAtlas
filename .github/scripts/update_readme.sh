@@ -118,6 +118,10 @@ get_provider_info() {
             name="Amazonbot"
             desc="Amazon crawler (Amazonbot) IP ranges"
             ;;
+        yandex)
+            name="Yandex"
+            desc="Yandex network IP ranges (incl. YandexBot)"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
