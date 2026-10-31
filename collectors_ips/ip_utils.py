@@ -160,8 +160,8 @@ def calculate_total_ips(ip_list: List[str]) -> int:
         try:
             network = ipaddress.ip_network(ip_range, strict=False)
             if isinstance(network, ipaddress.IPv6Network):
-                # For IPv6, count /64 subnets instead of individual IPs
-                total += network.num_addresses // (2 ** (128 - 64))
+                # For IPv6, count /64 subnets instead of individual IPs (at least one per prefix)
+                total += max(1, network.num_addresses // (2 ** (128 - 64)))
             else:
                 total += network.num_addresses
         except ValueError:
