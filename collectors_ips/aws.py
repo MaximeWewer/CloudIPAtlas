@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 AWS IP Sync - Download AWS IP ranges and generate organized files.
 
@@ -7,7 +6,6 @@ IP range files organized by services and regions.
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -242,32 +240,3 @@ class AWSIP:
             'output_dir': self.output_dir
         }
         print_summary("AWS", stats)
-
-
-def main():
-    """Main entry point for the script."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Download AWS IP ranges and generate organized files"
-    )
-    parser.add_argument(
-        "-c", "--config",
-        default="config.json",
-        help="Path to configuration file (default: config.json)"
-    )
-
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = AWSIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

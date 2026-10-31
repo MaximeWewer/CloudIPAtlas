@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Fastly IP Sync - Download Fastly IP ranges and generate organized files.
 
@@ -6,7 +5,6 @@ Fastly provides a JSON API with IP addresses.
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -155,32 +153,3 @@ class FastlyIP:
             'output_dir': self.output_dir
         }
         print_summary("Fastly", stats)
-
-
-def main():
-    """Main entry point for the script."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Download Fastly IP ranges and generate organized files"
-    )
-    parser.add_argument(
-        "-c", "--config",
-        default="config.json",
-        help="Path to configuration file (default: config.json)"
-    )
-
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = FastlyIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

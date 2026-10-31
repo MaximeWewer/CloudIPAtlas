@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 GitHub IP Sync - Download GitHub IP ranges and generate organized files.
 
@@ -16,7 +15,6 @@ GitHub provides a meta API endpoint with IP ranges for various services:
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -167,23 +165,3 @@ class GitHubIP:
             'output_dir': self.output_dir
         }
         print_summary("GitHub", stats)
-
-
-def main():
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", default="config.json")
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = GitHubIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

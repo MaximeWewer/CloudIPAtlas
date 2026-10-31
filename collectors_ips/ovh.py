@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 OVH IP Sync - Download OVH IP ranges from HTML documentation and generate organized files.
 
@@ -7,7 +6,6 @@ IP range information organized by clusters.
 """
 
 import os
-import sys
 import json
 import re
 import requests
@@ -292,32 +290,3 @@ class OVHIP:
         }
         print_summary("OVH", stats)
         logger.info(f"Additional files: {service_file_count} service files, {len(country_counts)} country files")
-
-
-def main():
-    """Main entry point for the script."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Download OVH IP ranges from HTML and generate organized files"
-    )
-    parser.add_argument(
-        "-c", "--config",
-        default="config.json",
-        help="Path to configuration file (default: config.json)"
-    )
-
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = OVHIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

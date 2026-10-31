@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Googlebot IP Sync - Download Googlebot IP ranges and generate organized files.
 
@@ -6,7 +5,6 @@ Googlebot provides a JSON file with IPv4 and IPv6 prefixes used by Google's craw
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -121,23 +119,3 @@ class GooglebotIP:
             'output_dir': self.output_dir
         }
         print_summary("Googlebot", stats)
-
-
-def main():
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", default="config.json")
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = GooglebotIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

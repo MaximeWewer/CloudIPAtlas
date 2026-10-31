@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Scaleway IP Sync - Download Scaleway IP ranges from HTML documentation and generate organized files.
 
@@ -290,32 +289,3 @@ class ScalewayIP:
             'output_dir': self.output_dir
         }
         print_summary("Scaleway", stats)
-
-
-def main():
-    """Main entry point for the script."""
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Download Scaleway IP ranges from HTML and generate organized files"
-    )
-    parser.add_argument(
-        "-c", "--config",
-        default="config.json",
-        help="Path to configuration file (default: config.json)"
-    )
-
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = ScalewayIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\n[Scaleway] Error: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

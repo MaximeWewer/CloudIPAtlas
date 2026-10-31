@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Bingbot IP Sync - Download Bingbot IP ranges and generate organized files.
 
@@ -6,7 +5,6 @@ Bingbot provides a JSON file with IPv4 prefixes used by Bing's crawlers.
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -121,23 +119,3 @@ class BingbotIP:
             'output_dir': self.output_dir
         }
         print_summary("Bingbot", stats)
-
-
-def main():
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", default="config.json")
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = BingbotIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

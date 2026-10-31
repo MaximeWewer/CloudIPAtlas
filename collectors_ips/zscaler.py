@@ -1,10 +1,8 @@
-#!/usr/bin/env python3
 """
 Zscaler IP Sync - Download Zscaler IP ranges and generate organized files.
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -103,23 +101,3 @@ class ZscalerIP:
             'output_dir': self.output_dir
         }
         print_summary("Zscaler", stats)
-
-
-def main():
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-c", "--config", default="config.json")
-    args = parser.parse_args()
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    try:
-        syncer = ZscalerIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()

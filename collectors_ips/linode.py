@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Linode IP Sync - Download Linode IP ranges and generate organized files.
 
@@ -6,7 +5,6 @@ Linode provides IP ranges in CSV format.
 """
 
 import os
-import sys
 import json
 import logging
 import requests
@@ -169,25 +167,3 @@ class LinodeIP:
             'output_dir': self.output_dir
         }
         print_summary("Linode", stats)
-
-
-def main():
-    """Main entry point for the script."""
-    import argparse
-
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
-
-    parser = argparse.ArgumentParser(description="Download Linode IP ranges")
-    parser.add_argument("-c", "--config", default="config.json")
-    args = parser.parse_args()
-
-    try:
-        syncer = LinodeIP(config_path=args.config)
-        syncer.generate_files()
-    except Exception as e:
-        logger.error(f"\nError: {e}")
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
