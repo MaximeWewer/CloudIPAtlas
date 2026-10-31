@@ -8,10 +8,13 @@ replaced once the new one is fully written.
 """
 
 import os
+import io
+import csv
 import json
 import shutil
 import logging
 from abc import ABC, abstractmethod
+from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict, Iterable, List
 
@@ -121,6 +124,7 @@ class BaseCollector(ABC):
 
         return stats, {subdir: len(c) for subdir, c in counts.items()}
 
+
 def json_prefixes(data: dict) -> List[str]:
     """IPs of the Google-style format: {"prefixes": [{"ipv4Prefix" or "ipv6Prefix": ...}]}."""
     return [
@@ -141,3 +145,22 @@ class BotListCollector(BaseCollector):
             bot = next((b for b in self.bots if b in url), 'unknown')
             services.setdefault(bot, set()).update(json_prefixes(self.fetch(url).json()))
         return Collected(ips=set().union(*services.values()), groups={'services': services})
+
+
+class GeofeedCollector(BaseCollector):
+    """Geofeed CSV (RFC 8805: IP, Country, Region, City, Postal) grouped by "City, Country"."""
+
+    def collect(self) -> Collected:
+        text = self.fetch(self.config['url']).text
+
+        all_ips = []
+        regions = defaultdict(set)
+        for row in csv.reader(io.StringIO(text)):
+            if len(row) < 4 or row[0].startswith('#'):
+                continue
+            ip, country, city = row[0].strip(), row[1].strip(), row[3].strip()
+            all_ips.append(ip)
+            if city:
+                regions[f"{city}, {country}" if country else city].add(ip)
+
+        return Collected(ips=all_ips, groups={'regions': regions})
