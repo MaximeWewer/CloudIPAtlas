@@ -85,5 +85,8 @@
   },
   "yandex": {
     "url": "https://yandex.com/ips"
+  },
+  "bunnycdn": {
+    "urls": ["https://bunnycdn.com/api/system/edgeserverlist", "https://bunnycdn.com/api/system/edgeserverlist/ipv6"]
   }
 }
