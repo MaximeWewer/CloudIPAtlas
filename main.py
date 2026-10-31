@@ -85,8 +85,6 @@ class ProgressMonitor:
         with self.lock:
             elapsed = time.time() - self.start_time
             completed_count = len(self.completed)
-            in_progress_count = len(self.in_progress)
-            pending_count = self.total_providers - completed_count - in_progress_count
 
             status_line = f"[{elapsed:>6.1f}s] Progress: {completed_count}/{self.total_providers} completed"
 

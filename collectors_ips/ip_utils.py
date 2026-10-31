@@ -6,8 +6,8 @@ Provides common functions for IP validation, sorting, file operations, and repor
 import os
 import logging
 import ipaddress
-from typing import Iterable, List, Dict, Tuple, Optional
-from datetime import datetime
+from typing import Collection, Iterable, List, Dict, Tuple, Optional
+from datetime import datetime, timezone
 
 logger = logging.getLogger(__name__)
 
@@ -243,120 +243,84 @@ def write_ip_group(base_path: str, ip_list: Iterable[str]) -> Tuple[List[str], L
     return ipv4, ipv6
 
 
+def calculate_detailed_stats(all_ips: Collection[str], all_ipv4: List[str], all_ipv6: List[str]) -> Dict[str, int]:
+    """
+    Calculate statistics distinguishing single IPs from CIDR ranges.
+
+    Args:
+        all_ips: All IP addresses/ranges
+        all_ipv4: IPv4 addresses/ranges
+        all_ipv6: IPv6 addresses/ranges
+
+    Returns:
+        Dictionary with:
+        - total: Number of IPs/ranges
+        - ipv4_count: Number of IPv4 addresses covered
+        - ipv6_count: Number of IPv6 /64 subnets covered
+        - ipv4_single / ipv6_single: Number of single IPs (no CIDR)
+        - ipv4_ranges / ipv6_ranges: Number of CIDR ranges
+    """
+    ipv4_single, ipv4_ranges = separate_single_ips_and_ranges(all_ipv4)
+    ipv6_single, ipv6_ranges = separate_single_ips_and_ranges(all_ipv6)
+
+    return {
+        'total': len(all_ips),
+        'ipv4_count': calculate_total_ips(all_ipv4),
+        'ipv6_count': calculate_total_ips(all_ipv6),
+        'ipv4_single': len(ipv4_single),
+        'ipv6_single': len(ipv6_single),
+        'ipv4_ranges': len(ipv4_ranges),
+        'ipv6_ranges': len(ipv6_ranges)
+    }
+
+
 def generate_index_markdown(
     provider_name: str,
-    total_ranges: int,
-    ipv4_ranges: int,
-    ipv6_ranges: int,
-    ipv4_count: int,
-    ipv6_count: int,
+    stats: Dict[str, int],
     services: Optional[Dict[str, int]] = None,
     regions: Optional[Dict[str, int]] = None,
-    last_updated: Optional[str] = None,
-    ipv4_single: Optional[int] = None,
-    ipv6_single: Optional[int] = None,
-    ipv4_ranges_only: Optional[int] = None,
-    ipv6_ranges_only: Optional[int] = None
+    last_updated: Optional[str] = None
 ) -> str:
     """
     Generate markdown content for index.md file.
 
     Args:
         provider_name: Cloud provider name (e.g., "Azure", "AWS")
-        total_ranges: Total number of IP ranges
-        ipv4_ranges: Number of IPv4 ranges
-        ipv6_ranges: Number of IPv6 ranges
-        ipv4_count: Total IPv4 addresses
-        ipv6_count: Total IPv6 addresses (or /64 subnets)
+        stats: Statistics from calculate_detailed_stats()
         services: Optional dict of service names to IP range counts
         regions: Optional dict of region names to IP range counts
         last_updated: Optional timestamp string (uses current time if None)
-        ipv4_single: Number of single IPv4 addresses (no CIDR)
-        ipv6_single: Number of single IPv6 addresses (no CIDR)
-        ipv4_ranges_only: Number of IPv4 CIDR ranges
-        ipv6_ranges_only: Number of IPv6 CIDR ranges
 
     Returns:
         Markdown formatted string
     """
     if last_updated is None:
-        last_updated = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+        last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
     md = f"# {provider_name} IP Ranges\n\n"
     md += f"Last updated: {last_updated}\n\n"
     md += "## Summary Statistics\n\n"
-
-    # If detailed stats provided, show breakdown
-    if ipv4_single is not None and ipv4_ranges_only is not None:
-        md += f"- **Total IPs/Ranges**: {total_ranges:,}\n"
-        if ipv4_single > 0:
-            md += f"- **IPv4 single IPs**: {ipv4_single:,}\n"
-        if ipv4_ranges_only > 0:
-            md += f"- **IPv4 ranges**: {ipv4_ranges_only:,} ({ipv4_count:,} addresses)\n"
-        if ipv6_single is not None and ipv6_single > 0:
-            md += f"- **IPv6 single IPs**: {ipv6_single:,}\n"
-        if ipv6_ranges_only is not None and ipv6_ranges_only > 0:
-            md += f"- **IPv6 ranges**: {ipv6_ranges_only:,} ({ipv6_count:,} /64 subnets)\n"
-    else:
-        # Legacy format
-        md += f"- **Total IP ranges**: {total_ranges:,}\n"
-        md += f"- **IPv4 ranges**: {ipv4_ranges:,} ({ipv4_count:,} addresses)\n"
-        md += f"- **IPv6 ranges**: {ipv6_ranges:,} ({ipv6_count:,} /64 subnets)\n"
-
+    md += f"- **Total IPs/Ranges**: {stats['total']:,}\n"
+    if stats['ipv4_single']:
+        md += f"- **IPv4 single IPs**: {stats['ipv4_single']:,}\n"
+    if stats['ipv4_ranges']:
+        md += f"- **IPv4 ranges**: {stats['ipv4_ranges']:,} ({stats['ipv4_count']:,} addresses)\n"
+    if stats['ipv6_single']:
+        md += f"- **IPv6 single IPs**: {stats['ipv6_single']:,}\n"
+    if stats['ipv6_ranges']:
+        md += f"- **IPv6 ranges**: {stats['ipv6_ranges']:,} ({stats['ipv6_count']:,} /64 subnets)\n"
     md += "\n"
 
-    if services:
-        md += f"## Services ({len(services)})\n\n"
-        md += "| Service | IP Ranges |\n"
-        md += "|---------|----------:|\n"
-        for service, count in sorted(services.items()):
-            md += f"| {service} | {count:,} |\n"
-        md += "\n"
-
-    if regions:
-        md += f"## Regions ({len(regions)})\n\n"
-        md += "| Region | IP Ranges |\n"
-        md += "|--------|----------:|\n"
-        for region, count in sorted(regions.items()):
-            md += f"| {region} | {count:,} |\n"
-        md += "\n"
+    for title, column, counts in (("Services", "Service", services), ("Regions", "Region", regions)):
+        if counts:
+            md += f"## {title} ({len(counts)})\n\n"
+            md += f"| {column} | IP Ranges |\n"
+            md += f"|{'-' * (len(column) + 2)}|----------:|\n"
+            for name, count in sorted(counts.items()):
+                md += f"| {name} | {count:,} |\n"
+            md += "\n"
 
     return md
-
-
-def calculate_detailed_stats(all_ips: List[str], all_ipv4: List[str], all_ipv6: List[str]) -> Dict[str, int]:
-    """
-    Calculate detailed statistics distinguishing single IPs from ranges.
-
-    Args:
-        all_ips: List of all IP addresses/ranges
-        all_ipv4: List of IPv4 addresses/ranges
-        all_ipv6: List of IPv6 addresses/ranges
-
-    Returns:
-        Dictionary with detailed statistics including:
-        - total: Total count
-        - ipv4_ranges: Total IPv4 count
-        - ipv6_ranges: Total IPv6 count
-        - ipv4_count: Total IPv4 addresses
-        - ipv4_single: Number of single IPv4 addresses
-        - ipv6_single: Number of single IPv6 addresses
-        - ipv4_ranges_only: Number of IPv4 CIDR ranges
-        - ipv6_ranges_only: Number of IPv6 CIDR ranges
-    """
-    ipv4_single, ipv4_ranges_list = separate_single_ips_and_ranges(all_ipv4)
-    ipv6_single, ipv6_ranges_list = separate_single_ips_and_ranges(all_ipv6)
-
-    return {
-        'total': len(all_ips),
-        'ipv4_ranges': len(all_ipv4),
-        'ipv6_ranges': len(all_ipv6),
-        'ipv4_count': calculate_total_ips(all_ipv4),
-        'ipv4_single': len(ipv4_single),
-        'ipv6_single': len(ipv6_single),
-        'ipv4_ranges_only': len(ipv4_ranges_list),
-        'ipv6_ranges_only': len(ipv6_ranges_list)
-    }
 
 
 def sanitize_filename(name: str) -> str:
@@ -378,51 +342,31 @@ def sanitize_filename(name: str) -> str:
     return name
 
 
-def print_summary(provider_name: str, stats: Dict[str, any]) -> None:
+def print_summary(provider_name: str, stats: Dict[str, int], group_counts: Dict[str, int], output_dir: str) -> None:
     """
-    Print a summary of processed IP ranges to console.
+    Log a summary of processed IP ranges.
 
     Args:
         provider_name: Cloud provider name
-        stats: Dictionary with statistics (total, ipv4_count, ipv6_count, etc.)
-               Can include: ipv4_single, ipv6_single, ipv4_ranges_only, ipv6_ranges_only
+        stats: Statistics from calculate_detailed_stats()
+        group_counts: Group subdirectory (e.g. "services") -> number of groups
+        output_dir: Output directory of the provider
     """
     logger.info("")
-    logger.info("="*60)
+    logger.info("=" * 60)
     logger.info(f"{provider_name} IP Ranges Summary")
-    logger.info("="*60)
-
-    # Check if we have detailed breakdown
-    if 'ipv4_single' in stats or 'ipv4_ranges_only' in stats:
-        logger.info(f"Total IPs/ranges: {stats.get('total', 0):,}")
-
-        # IPv4 breakdown
-        ipv4_single = stats.get('ipv4_single', 0)
-        ipv4_ranges = stats.get('ipv4_ranges_only', 0)
-        if ipv4_single > 0:
-            logger.info(f"IPv4 single IPs: {ipv4_single:,}")
-        if ipv4_ranges > 0:
-            logger.info(f"IPv4 ranges: {ipv4_ranges:,} ({stats.get('ipv4_count', 0):,} IPs)")
-
-        # IPv6 breakdown
-        ipv6_single = stats.get('ipv6_single', 0)
-        ipv6_ranges = stats.get('ipv6_ranges_only', 0)
-        if ipv6_single > 0:
-            logger.info(f"IPv6 single IPs: {ipv6_single:,}")
-        if ipv6_ranges > 0:
-            logger.info(f"IPv6 ranges: {ipv6_ranges:,}")
-    else:
-        # Legacy format
-        logger.info(f"Total IP ranges: {stats.get('total', 0):,}")
-        logger.info(f"IPv4 ranges: {stats.get('ipv4_ranges', 0):,} ({stats.get('ipv4_count', 0):,} IPs)")
-        logger.info(f"IPv6 ranges: {stats.get('ipv6_ranges', 0):,}")
-
-    if 'services' in stats:
-        logger.info(f"Services: {stats['services']}")
-
-    if 'regions' in stats:
-        logger.info(f"Regions: {stats['regions']}")
-
-    logger.info(f"Output directory: {stats.get('output_dir', 'N/A')}")
-    logger.info("="*60)
+    logger.info("=" * 60)
+    logger.info(f"Total IPs/ranges: {stats['total']:,}")
+    if stats['ipv4_single']:
+        logger.info(f"IPv4 single IPs: {stats['ipv4_single']:,}")
+    if stats['ipv4_ranges']:
+        logger.info(f"IPv4 ranges: {stats['ipv4_ranges']:,} ({stats['ipv4_count']:,} IPs)")
+    if stats['ipv6_single']:
+        logger.info(f"IPv6 single IPs: {stats['ipv6_single']:,}")
+    if stats['ipv6_ranges']:
+        logger.info(f"IPv6 ranges: {stats['ipv6_ranges']:,}")
+    for group, count in group_counts.items():
+        logger.info(f"{group.capitalize()}: {count}")
+    logger.info(f"Output directory: {output_dir}")
+    logger.info("=" * 60)
     logger.info("")

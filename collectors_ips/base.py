@@ -19,7 +19,6 @@ from .ip_utils import (
     is_valid_ip,
     write_ip_group,
     generate_index_markdown,
-    calculate_total_ips,
     calculate_detailed_stats,
     sanitize_filename,
     print_summary,
@@ -97,27 +96,11 @@ class BaseCollector(ABC):
         regions = counts.get(self.regions_group) or None
         stats = calculate_detailed_stats(all_ips, all_ipv4, all_ipv6)
 
-        index_content = generate_index_markdown(
-            provider_name=self.name,
-            total_ranges=stats['total'],
-            ipv4_ranges=stats['ipv4_ranges'],
-            ipv6_ranges=stats['ipv6_ranges'],
-            ipv4_count=stats['ipv4_count'],
-            ipv6_count=calculate_total_ips(all_ipv6),
-            services=services,
-            regions=regions,
-            ipv4_single=stats['ipv4_single'],
-            ipv6_single=stats['ipv6_single'],
-            ipv4_ranges_only=stats['ipv4_ranges_only'],
-            ipv6_ranges_only=stats['ipv6_ranges_only']
-        )
+        index_content = generate_index_markdown(self.name, stats, services=services, regions=regions)
         with open(os.path.join(self.output_dir, "index.md"), 'w', encoding='utf-8') as f:
             f.write(index_content)
 
-        summary = {**stats, 'output_dir': self.output_dir}
-        for subdir, group_counts in counts.items():
-            summary[subdir] = len(group_counts)
-        print_summary(self.name, summary)
+        print_summary(self.name, stats, {subdir: len(c) for subdir, c in counts.items()}, self.output_dir)
 
 
 def json_prefixes(data: dict) -> List[str]:
