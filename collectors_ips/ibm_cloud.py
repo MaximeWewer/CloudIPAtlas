@@ -5,19 +5,13 @@ IBM Cloud provides IP ranges in HTML documentation organized by services.
 """
 
 import os
-import sys
 import json
 import logging
+from bs4 import BeautifulSoup
 import requests
 import re
 
 logger = logging.getLogger(__name__)
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:
-    logger.info("Error: BeautifulSoup4 is required. Install with: pip install beautifulsoup4")
-    sys.exit(1)
 
 from .ip_utils import (
     separate_ipv4_ipv6,

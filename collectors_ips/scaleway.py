@@ -6,20 +6,13 @@ IP range information organized by services and regions.
 """
 
 import os
-import sys
 import json
 import re
 import requests
 import logging
+from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
-
-try:
-    from bs4 import BeautifulSoup
-except ImportError:
-    logger.info("Error: BeautifulSoup4 is required for HTML parsing.")
-    logger.info("Install with: pip install beautifulsoup4")
-    sys.exit(1)
 
 # Import shared utilities
 from .ip_utils import (
