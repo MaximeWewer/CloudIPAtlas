@@ -84,7 +84,7 @@ get_provider_info() {
             ;;
         openai)
             name="OpenAI"
-            desc="OpenAI ChatGPT and GPTBot IP ranges"
+            desc="OpenAI ChatGPT-User, GPTBot and OAI-SearchBot IP ranges"
             ;;
         perplexity)
             name="Perplexity"

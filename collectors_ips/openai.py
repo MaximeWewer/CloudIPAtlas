@@ -1,5 +1,5 @@
 """
-OpenAI IP Sync - Download OpenAI crawler IP ranges (ChatGPT-User, GPTBot).
+OpenAI IP Sync - Download OpenAI crawler IP ranges (ChatGPT-User, GPTBot, OAI-SearchBot).
 """
 
 from .base import BotListCollector
@@ -10,4 +10,4 @@ class OpenAIIP(BotListCollector):
 
     key = "openai"
     name = "OpenAI"
-    bots = ['chatgpt-user', 'gptbot']
+    bots = ['chatgpt-user', 'gptbot', 'searchbot']

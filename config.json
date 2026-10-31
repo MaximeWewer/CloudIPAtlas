@@ -54,7 +54,7 @@
     "url": "https://www.facebook.com/peering/geofeed"
   },
   "openai": {
-    "urls": ["https://openai.com/chatgpt-user.json", "https://openai.com/gptbot.json"]
+    "urls": ["https://openai.com/chatgpt-user.json", "https://openai.com/gptbot.json", "https://openai.com/searchbot.json"]
   },
   "perplexity": {
     "urls": ["https://www.perplexity.ai/perplexitybot.json", "https://www.perplexity.ai/perplexity-user.json"]
