@@ -2,7 +2,7 @@
 Fastly IP Sync - Download Fastly CDN IP ranges.
 """
 
-from .base import BaseCollector, Collected
+from .base import BaseCollector, Collected, json_strings
 
 
 class FastlyIP(BaseCollector):
@@ -12,10 +12,5 @@ class FastlyIP(BaseCollector):
     name = "Fastly"
 
     def collect(self) -> Collected:
-        data = self.fetch(self.config['url']).json()
-        # Ranges are listed under several keys ("addresses", "ipv6_addresses", ...)
-        return Collected(ips=[
-            ip
-            for value in data.values() if isinstance(value, list)
-            for ip in value if isinstance(ip, str)
-        ])
+        # {"addresses": [...], "ipv6_addresses": [...]}
+        return Collected(ips=json_strings(self.fetch(self.config['url']).json()))

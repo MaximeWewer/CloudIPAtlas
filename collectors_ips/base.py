@@ -16,7 +16,7 @@ import logging
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from dataclasses import dataclass, field
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, Iterator, List
 
 import requests
 
@@ -133,6 +133,18 @@ def json_prefixes(data: dict) -> List[str]:
         if isinstance(prefix, dict)
     ]
 
+
+
+def json_strings(value) -> Iterator[str]:
+    """Yield every string nested anywhere in a JSON value (non-IP strings are filtered out later)."""
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, list):
+        for item in value:
+            yield from json_strings(item)
+    elif isinstance(value, dict):
+        for item in value.values():
+            yield from json_strings(item)
 
 class BotListCollector(BaseCollector):
     """Crawler published as one Google-style JSON list per bot (config "urls")."""
