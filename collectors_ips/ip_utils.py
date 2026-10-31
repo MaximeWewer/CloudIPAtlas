@@ -6,7 +6,7 @@ Provides common functions for IP validation, sorting, file operations, and repor
 import os
 import logging
 import ipaddress
-from typing import List, Dict, Tuple, Optional
+from typing import Iterable, List, Dict, Tuple, Optional
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
@@ -224,6 +224,23 @@ def write_separated_ip_files(base_path: str, ip_list: List[str], suffix: str = "
     # Write ranges file if any
     if cidr_ranges:
         write_ip_file(f"{base_path}_ranges_{suffix}.txt", cidr_ranges)
+
+def write_ip_group(base_path: str, ip_list: Iterable[str]) -> Tuple[List[str], List[str]]:
+    """
+    Write the all/ipv4/ipv6 files of one IP group (see write_separated_ip_files).
+
+    Args:
+        base_path: Base file path without extension (e.g., "azure/services/storage")
+        ip_list: IP addresses and CIDR ranges of the group
+
+    Returns:
+        Tuple of (ipv4_list, ipv6_list)
+    """
+    ipv4, ipv6 = separate_ipv4_ipv6(list(ip_list))
+    write_separated_ip_files(base_path, ipv4 + ipv6, "all")
+    write_separated_ip_files(base_path, ipv4, "ipv4")
+    write_separated_ip_files(base_path, ipv6, "ipv6")
+    return ipv4, ipv6
 
 
 def generate_index_markdown(
