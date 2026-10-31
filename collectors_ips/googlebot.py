@@ -1,15 +1,14 @@
 """
-Googlebot IP Sync - Download Google crawler IP ranges.
+Googlebot IP Sync - Download Google crawler and fetcher IP ranges.
 """
 
-from .base import BaseCollector, Collected, json_prefixes
+from .base import BotListCollector
 
 
-class GooglebotIP(BaseCollector):
-    """Google crawler IP ranges."""
+class GooglebotIP(BotListCollector):
+    """Google crawlers (Googlebot, special crawlers) and user-triggered fetchers, by list."""
 
     key = "googlebot"
     name = "Googlebot"
-
-    def collect(self) -> Collected:
-        return Collected(ips=json_prefixes(self.fetch(self.config['url']).json()))
+    # Most specific first: "user-triggered-fetchers" is a prefix of "user-triggered-fetchers-google"
+    bots = ['user-triggered-fetchers-google', 'user-triggered-fetchers', 'special-crawlers', 'googlebot']

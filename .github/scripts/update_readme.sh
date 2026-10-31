@@ -68,7 +68,7 @@ get_provider_info() {
             ;;
         googlebot)
             name="Googlebot"
-            desc="Google crawler IP ranges"
+            desc="Google crawlers and user-triggered fetchers IP ranges"
             ;;
         outscale)
             name="Outscale"
