@@ -88,5 +88,8 @@
   },
   "bunnycdn": {
     "urls": ["https://bunnycdn.com/api/system/edgeserverlist", "https://bunnycdn.com/api/system/edgeserverlist/ipv6"]
+  },
+  "gcore": {
+    "url": "https://api.gcore.com/cdn/public-ip-list"
   }
 }
