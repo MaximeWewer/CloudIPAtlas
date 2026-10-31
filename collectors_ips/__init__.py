@@ -33,6 +33,7 @@ from .amazonbot import AmazonbotIP
 from .yandex import YandexIP
 from .bunnycdn import BunnyCDNIP
 from .gcore import GcoreIP
+from .hetzner import HetznerIP
 
 # Provider display name -> collector class. The output directory is the lowercased name.
 COLLECTORS = {
@@ -67,6 +68,7 @@ COLLECTORS = {
     'Yandex': YandexIP,
     'BunnyCDN': BunnyCDNIP,
     'Gcore': GcoreIP,
+    'Hetzner': HetznerIP,
 }
 
 __all__ = ['COLLECTORS']

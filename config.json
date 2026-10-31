@@ -91,5 +91,8 @@
   },
   "gcore": {
     "url": "https://api.gcore.com/cdn/public-ip-list"
+  },
+  "hetzner": {
+    "url": "https://www.hetzner.com/geofeed.csv"
   }
 }

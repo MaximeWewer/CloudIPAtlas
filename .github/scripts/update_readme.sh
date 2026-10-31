@@ -130,6 +130,10 @@ get_provider_info() {
             name="Gcore"
             desc="Gcore CDN IP ranges"
             ;;
+        hetzner)
+            name="Hetzner"
+            desc="Hetzner IPv4 ranges by city"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
