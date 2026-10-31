@@ -79,5 +79,8 @@
   },
   "mistral": {
     "url": "https://mistral.ai/mistralai-user-ips.json"
+  },
+  "amazonbot": {
+    "url": "https://developer.amazon.com/amazonbot/ip-addresses/"
   }
 }

@@ -29,6 +29,7 @@ from .applebot import ApplebotIP
 from .duckduckbot import DuckDuckBotIP
 from .ccbot import CCBotIP
 from .mistral import MistralIP
+from .amazonbot import AmazonbotIP
 
 # Provider display name -> collector class. The output directory is the lowercased name.
 COLLECTORS = {
@@ -59,6 +60,7 @@ COLLECTORS = {
     'DuckDuckBot': DuckDuckBotIP,
     'CCBot': CCBotIP,
     'Mistral': MistralIP,
+    'Amazonbot': AmazonbotIP,
 }
 
 __all__ = ['COLLECTORS']
