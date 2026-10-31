@@ -33,6 +33,7 @@ from .ip_utils import (
 logger = logging.getLogger(__name__)
 
 OUTPUT_ROOT = "cloud_ips"
+USER_AGENT = "CloudIPAtlas (+https://github.com/MaximeWewer/CloudIPAtlas)"
 
 
 @dataclass
@@ -69,7 +70,7 @@ class BaseCollector(ABC):
     def fetch(self, url: str) -> requests.Response:
         """GET a URL, raising on network errors and HTTP error statuses."""
         logger.info(f"[{self.name}] Downloading from: {url}")
-        response = requests.get(url, timeout=self.timeout)
+        response = requests.get(url, timeout=self.timeout, headers={'User-Agent': USER_AGENT})
         response.raise_for_status()
         return response
 
