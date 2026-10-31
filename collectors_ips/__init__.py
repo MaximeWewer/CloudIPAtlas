@@ -25,6 +25,7 @@ from .openai import OpenAIIP
 from .perplexity import PerplexityIP
 from .github import GitHubIP
 from .ahrefs import AhrefsIP
+from .applebot import ApplebotIP
 
 # Provider display name -> collector class. The output directory is the lowercased name.
 COLLECTORS = {
@@ -51,6 +52,7 @@ COLLECTORS = {
     'Perplexity': PerplexityIP,
     'GitHub': GitHubIP,
     'Ahrefs': AhrefsIP,
+    'Applebot': ApplebotIP,
 }
 
 __all__ = ['COLLECTORS']

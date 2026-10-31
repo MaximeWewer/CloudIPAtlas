@@ -67,5 +67,8 @@
   },
   "ahrefs": {
     "url": "https://api.ahrefs.com/v3/public/crawler-ips"
+  },
+  "applebot": {
+    "url": "https://search.developer.apple.com/applebot.json"
   }
 }

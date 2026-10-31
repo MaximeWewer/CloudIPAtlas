@@ -98,6 +98,10 @@ get_provider_info() {
             name="Ahrefs"
             desc="Ahrefs SEO crawler IP addresses"
             ;;
+        applebot)
+            name="Applebot"
+            desc="Apple crawler IP ranges"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
