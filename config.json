@@ -70,5 +70,8 @@
   },
   "applebot": {
     "url": "https://search.developer.apple.com/applebot.json"
+  },
+  "duckduckbot": {
+    "url": "https://duckduckgo.com/duckduckbot.json"
   }
 }
