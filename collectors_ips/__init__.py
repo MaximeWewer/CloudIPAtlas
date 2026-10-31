@@ -28,6 +28,7 @@ from .ahrefs import AhrefsIP
 from .applebot import ApplebotIP
 from .duckduckbot import DuckDuckBotIP
 from .ccbot import CCBotIP
+from .mistral import MistralIP
 
 # Provider display name -> collector class. The output directory is the lowercased name.
 COLLECTORS = {
@@ -57,6 +58,7 @@ COLLECTORS = {
     'Applebot': ApplebotIP,
     'DuckDuckBot': DuckDuckBotIP,
     'CCBot': CCBotIP,
+    'Mistral': MistralIP,
 }
 
 __all__ = ['COLLECTORS']

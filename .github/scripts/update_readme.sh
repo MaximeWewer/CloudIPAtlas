@@ -110,6 +110,10 @@ get_provider_info() {
             name="Common Crawl"
             desc="Common Crawl crawler (CCBot) IP ranges"
             ;;
+        mistral)
+            name="Mistral AI"
+            desc="Mistral AI user-triggered fetcher IP ranges"
+            ;;
         *)
             # Fallback: capitalize provider_id
             name=$(echo "$provider_id" | sed 's/_/ /g' | awk '{for(i=1;i<=NF;i++)sub(/./,toupper(substr($i,1,1)),$i)}1')
