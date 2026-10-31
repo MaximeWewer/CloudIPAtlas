@@ -17,61 +17,20 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Set up Python
-        id: setup_python
         uses: actions/setup-python@v7
         with:
           python-version: '3.14'
-
-      - name: Restore cached virtualenv
-        uses: actions/cache/restore@v6
-        with:
-          key: venv-${{ runner.os }}-python-${{ steps.setup_python.outputs.python-version }}
-          path: .venv_cloud_ips
+          cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: Install necessary packages
-        run: |
-          packages="requests beautifulsoup4"
+        run: pip install -r requirements.txt
 
-          if [ ! -d ".venv_cloud_ips" ]; then
-            python -m venv .venv_cloud_ips
-            source .venv_cloud_ips/bin/activate
-            pip install $packages
-          else
-            source .venv_cloud_ips/bin/activate
-            installed_packages=$(pip freeze)
-            required_packages=($packages)
-
-            packages_installed=false
-
-            for package in "${required_packages[@]}"; do
-              if ! echo "$installed_packages" | grep -qi "^${package}"; then
-                echo "Missing or incorrect $package. Installing the required packages."
-                pip install $packages
-                packages_installed=true
-                break
-              fi
-            done
-
-            if [ "$packages_installed" = false ]; then
-              echo "Using cached virtualenv"
-            fi
-          fi
-
-          echo "$PWD/.venv_cloud_ips/bin" >> $GITHUB_PATH
-          echo "VIRTUAL_ENV=$PWD/.venv_cloud_ips" >> $GITHUB_ENV
-
-      - name: Save cached virtualenv
-        uses: actions/cache@v6
-        with:
-          key: venv-${{ runner.os }}-python-${{ steps.setup_python.outputs.python-version }}
-          path: .venv_cloud_ips
-
-      - name: Remove previous cloud ips
-        run: |
-          echo "Cleaning previous cloud ips"
-          rm -rf ./cloud_ips
-
+      # Each provider only replaces its own output on success: failed providers
+      # keep their previous data and successful ones are still committed.
       - name: Generate new cloud ips
+        id: generate
+        continue-on-error: true
         run: |
           python main.py
 
@@ -82,6 +41,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
+          git add -N cloud_ips
           git diff --quiet cloud_ips README.md || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push results
@@ -93,3 +53,9 @@ jobs:
           git add cloud_ips/ README.md
           git commit -m "Update cloud IPs - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
+
+      - name: Fail if a provider failed
+        if: steps.generate.outcome == 'failure'
+        run: |
+          echo "::error::At least one provider failed, see the 'Generate new cloud ips' step"
+          exit 1

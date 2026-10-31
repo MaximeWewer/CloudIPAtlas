@@ -3,11 +3,13 @@ Base class shared by all provider collectors.
 
 A collector only implements collect(): download its source and return the IPs,
 optionally split into named groups (services, regions, ...). generate_files()
-then writes every output file, index.md included.
+then writes every output file, index.md included. The previous output is only
+replaced once the new one is fully written.
 """
 
 import os
 import json
+import shutil
 import logging
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
@@ -80,28 +82,44 @@ class BaseCollector(ABC):
         if not all_ips:
             raise ValueError("No IP ranges found, source format may have changed")
 
-        ensure_directory(self.output_dir)
-        all_ipv4, all_ipv6 = write_ip_group(os.path.join(self.output_dir, "ips"), all_ips)
+        # Write to a staging directory, then swap it in place of the previous output
+        staging_dir = f"{self.output_dir}.tmp"
+        shutil.rmtree(staging_dir, ignore_errors=True)
+        try:
+            stats, group_counts = self._write_files(staging_dir, all_ips, result.groups)
+        except Exception:
+            shutil.rmtree(staging_dir, ignore_errors=True)
+            raise
+        shutil.rmtree(self.output_dir, ignore_errors=True)
+        os.rename(staging_dir, self.output_dir)
+
+        print_summary(self.name, stats, group_counts, self.output_dir)
+
+    def _write_files(self, output_dir: str, all_ips: set, groups: Dict[str, Dict[str, Iterable[str]]]):
+        """Write all files under output_dir. Returns (stats, groups count per subdirectory)."""
+        ensure_directory(output_dir)
+        all_ipv4, all_ipv6 = write_ip_group(os.path.join(output_dir, "ips"), all_ips)
 
         counts = {}
-        for subdir, groups in result.groups.items():
+        for subdir, named_groups in groups.items():
             counts[subdir] = {}
-            for group_name, ips in groups.items():
+            for group_name, ips in named_groups.items():
                 ips = {ip for ip in ips if is_valid_ip(ip)}
                 if ips:
-                    write_ip_group(os.path.join(self.output_dir, subdir, self.file_stem(group_name)), ips)
+                    write_ip_group(os.path.join(output_dir, subdir, self.file_stem(group_name)), ips)
                     counts[subdir][group_name] = len(ips)
 
-        services = counts.get(self.services_group) or None
-        regions = counts.get(self.regions_group) or None
         stats = calculate_detailed_stats(all_ips, all_ipv4, all_ipv6)
-
-        index_content = generate_index_markdown(self.name, stats, services=services, regions=regions)
-        with open(os.path.join(self.output_dir, "index.md"), 'w', encoding='utf-8') as f:
+        index_content = generate_index_markdown(
+            self.name,
+            stats,
+            services=counts.get(self.services_group) or None,
+            regions=counts.get(self.regions_group) or None
+        )
+        with open(os.path.join(output_dir, "index.md"), 'w', encoding='utf-8') as f:
             f.write(index_content)
 
-        print_summary(self.name, stats, {subdir: len(c) for subdir, c in counts.items()}, self.output_dir)
-
+        return stats, {subdir: len(c) for subdir, c in counts.items()}
 
 def json_prefixes(data: dict) -> List[str]:
     """IPs of the Google-style format: {"prefixes": [{"ipv4Prefix" or "ipv6Prefix": ...}]}."""
