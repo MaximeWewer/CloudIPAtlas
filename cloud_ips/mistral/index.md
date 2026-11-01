@@ -1,6 +1,6 @@
 # Mistral IP Ranges
 
-Last updated: 2026-10-31 17:14:02 UTC
+Last updated: 2026-11-01 16:30:16 UTC
 
 ## Summary Statistics
 
