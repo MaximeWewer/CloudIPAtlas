@@ -1,11 +1,11 @@
 # Meta IP Ranges
 
-Last updated: 2026-11-02 19:53:10 UTC
+Last updated: 2026-11-03 17:25:42 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 705
-- **IPv4 ranges**: 289 (107,520 addresses)
+- **Total IPs/Ranges**: 707
+- **IPv4 ranges**: 291 (108,288 addresses)
 - **IPv6 ranges**: 416 (27,262,976 /64 subnets)
 
 ## Regions (132)
@@ -20,7 +20,7 @@ Last updated: 2026-11-02 19:53:10 UTC
 | Atlanta, US | 10 |
 | Auckland, NZ | 6 |
 | Aurora, US | 2 |
-| BARUERI, BR | 14 |
+| BARUERI, BR | 12 |
 | BOGOTA, CO | 4 |
 | Ballerup, DK | 4 |
 | Bangkok, TH | 6 |
@@ -133,7 +133,7 @@ Last updated: 2026-11-02 19:53:10 UTC
 | Springfield, US | 4 |
 | Sterling, US | 2 |
 | Surabaya, ID | 4 |
-| Sydney, AU | 4 |
+| Sydney, AU | 8 |
 | Taipei, TW | 6 |
 | Tempe, US | 2 |
 | Temple, US | 2 |

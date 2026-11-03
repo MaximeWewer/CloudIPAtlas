@@ -1,6 +1,6 @@
 # Bunny CDN IP Ranges
 
-Last updated: 2026-11-02 19:53:12 UTC
+Last updated: 2026-11-03 17:25:44 UTC
 
 ## Summary Statistics
 
