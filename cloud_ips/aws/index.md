@@ -1,18 +1,18 @@
 # AWS IP Ranges
 
-Last updated: 2026-11-03 17:25:36 UTC
+Last updated: 2026-11-04 17:38:49 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 11,454
-- **IPv4 ranges**: 7,933 (102,644,091 addresses)
-- **IPv6 ranges**: 3,521 (94,503,879,738 /64 subnets)
+- **Total IPs/Ranges**: 11,467
+- **IPv4 ranges**: 7,942 (102,680,187 addresses)
+- **IPv6 ranges**: 3,525 (95,040,816,442 /64 subnets)
 
 ## Services (27)
 
 | Service | IP Ranges |
 |---------|----------:|
-| AMAZON | 9,366 |
+| AMAZON | 9,379 |
 | AMAZON_APPFLOW | 48 |
 | AMAZON_CONNECT | 36 |
 | API_GATEWAY | 216 |
@@ -20,15 +20,15 @@ Last updated: 2026-11-03 17:25:36 UTC
 | CHIME_MEETINGS | 2 |
 | CHIME_VOICECONNECTOR | 24 |
 | CLOUD9 | 44 |
-| CLOUDFRONT | 250 |
+| CLOUDFRONT | 251 |
 | CLOUDFRONT_ORIGIN_FACING | 87 |
 | CODEBUILD | 61 |
 | DYNAMODB | 96 |
 | EBS | 105 |
-| EC2 | 4,482 |
+| EC2 | 4,487 |
 | EC2_INSTANCE_CONNECT | 74 |
 | EFS | 195 |
-| GLOBALACCELERATOR | 179 |
+| GLOBALACCELERATOR | 180 |
 | IVS_LOW_LATENCY | 2 |
 | IVS_REALTIME | 254 |
 | KINESIS_VIDEO_STREAMS | 105 |
@@ -44,7 +44,7 @@ Last updated: 2026-11-03 17:25:36 UTC
 
 | Region | IP Ranges |
 |--------|----------:|
-| GLOBAL | 413 |
+| GLOBAL | 414 |
 | af-south-1 | 156 |
 | ap-east-1 | 166 |
 | ap-east-2 | 87 |
@@ -55,14 +55,14 @@ Last updated: 2026-11-03 17:25:36 UTC
 | ap-south-2 | 122 |
 | ap-southeast-1 | 428 |
 | ap-southeast-2 | 339 |
-| ap-southeast-3 | 137 |
+| ap-southeast-3 | 138 |
 | ap-southeast-4 | 115 |
 | ap-southeast-5 | 108 |
 | ap-southeast-6 | 83 |
-| ap-southeast-7 | 90 |
+| ap-southeast-7 | 91 |
 | ca-central-1 | 266 |
 | ca-west-1 | 97 |
-| cn-north-1 | 149 |
+| cn-north-1 | 153 |
 | cn-northwest-1 | 147 |
 | eu-central-1 | 653 |
 | eu-central-2 | 101 |
@@ -80,11 +80,11 @@ Last updated: 2026-11-03 17:25:36 UTC
 | mx-central-1 | 88 |
 | sa-east-1 | 308 |
 | sa-west-1 | 69 |
-| us-east-1 | 1,446 |
+| us-east-1 | 1,450 |
 | us-east-2 | 579 |
 | us-gov-east-1 | 125 |
 | us-gov-west-1 | 156 |
 | us-south-1 | 86 |
 | us-west-1 | 585 |
-| us-west-2 | 802 |
+| us-west-2 | 804 |
 
