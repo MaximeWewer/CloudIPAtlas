@@ -1,10 +1,10 @@
 # Gcore IP Ranges
 
-Last updated: 2026-11-04 17:38:59 UTC
+Last updated: 2026-11-05 17:45:10 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,842
-- **IPv4 ranges**: 992 (992 addresses)
+- **Total IPs/Ranges**: 1,844
+- **IPv4 ranges**: 994 (994 addresses)
 - **IPv6 ranges**: 850 (850 /64 subnets)
 

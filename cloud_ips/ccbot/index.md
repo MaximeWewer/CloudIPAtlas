@@ -1,6 +1,6 @@
 # CCBot IP Ranges
 
-Last updated: 2026-11-04 17:38:58 UTC
+Last updated: 2026-11-05 17:45:08 UTC
 
 ## Summary Statistics
 
