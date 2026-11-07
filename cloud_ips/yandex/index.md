@@ -1,6 +1,6 @@
 # Yandex IP Ranges
 
-Last updated: 2026-11-06 17:00:58 UTC
+Last updated: 2026-11-07 15:58:03 UTC
 
 ## Summary Statistics
 

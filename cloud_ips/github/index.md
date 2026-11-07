@@ -1,6 +1,6 @@
 # GitHub IP Ranges
 
-Last updated: 2026-11-06 17:00:56 UTC
+Last updated: 2026-11-07 15:57:59 UTC
 
 ## Summary Statistics
 
@@ -15,7 +15,7 @@ Last updated: 2026-11-06 17:00:56 UTC
 | actions | 8,350 |
 | actions_macos | 8 |
 | api | 27 |
-| copilot | 32 |
+| copilot | 57 |
 | git | 86 |
 | github_enterprise_importer | 8 |
 | hooks | 9 |
