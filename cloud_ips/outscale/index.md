@@ -1,18 +1,18 @@
 # Outscale IP Ranges
 
-Last updated: 2026-11-08 16:27:04 UTC
+Last updated: 2026-11-09 20:16:27 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 41
-- **IPv4 ranges**: 41 (74,752 addresses)
+- **Total IPs/Ranges**: 42
+- **IPv4 ranges**: 42 (75,264 addresses)
 
 ## Regions (5)
 
 | Region | IP Ranges |
 |--------|----------:|
 | ap-northeast-1 | 6 |
-| cloudgouv-eu-west-1 | 7 |
+| cloudgouv-eu-west-1 | 8 |
 | eu-west-2 | 16 |
 | us-east-2 | 7 |
 | us-west-1 | 5 |
