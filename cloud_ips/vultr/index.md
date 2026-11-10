@@ -1,6 +1,6 @@
 # Vultr IP Ranges
 
-Last updated: 2026-11-09 20:16:25 UTC
+Last updated: 2026-11-10 17:22:15 UTC
 
 ## Summary Statistics
 
@@ -47,7 +47,7 @@ Last updated: 2026-11-09 20:16:25 UTC
 | Singapore, SG | 19 |
 | Spanga, SE | 3 |
 | Springfield, US | 2 |
-| Swinton Manchester, GB | 3 |
-| Toronto ON, CA | 5 |
+| Swinton, GB | 3 |
+| Toronto, CA | 5 |
 | Warsaw, PL | 3 |
 
