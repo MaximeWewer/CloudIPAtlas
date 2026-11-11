@@ -1,6 +1,6 @@
 # Applebot IP Ranges
 
-Last updated: 2026-11-10 17:22:17 UTC
+Last updated: 2026-11-11 17:32:57 UTC
 
 ## Summary Statistics
 

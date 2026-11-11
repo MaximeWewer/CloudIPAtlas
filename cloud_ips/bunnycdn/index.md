@@ -1,10 +1,10 @@
 # Bunny CDN IP Ranges
 
-Last updated: 2026-11-10 17:22:19 UTC
+Last updated: 2026-11-11 17:32:58 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 906
-- **IPv4 single IPs**: 585
-- **IPv6 single IPs**: 321
+- **Total IPs/Ranges**: 924
+- **IPv4 single IPs**: 587
+- **IPv6 single IPs**: 337
 

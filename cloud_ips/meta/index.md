@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-11-10 17:22:17 UTC
+Last updated: 2026-11-11 17:32:58 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 709
-- **IPv4 ranges**: 292 (108,800 addresses)
-- **IPv6 ranges**: 417 (27,328,512 /64 subnets)
+- **Total IPs/Ranges**: 707
+- **IPv4 ranges**: 292 (109,056 addresses)
+- **IPv6 ranges**: 415 (27,197,440 /64 subnets)
 
 ## Regions (132)
 
@@ -119,7 +119,7 @@ Last updated: 2026-11-10 17:22:17 UTC
 | Sahibzada Ajit Singh Nagar, IN | 2 |
 | Saint-Denis, FR | 8 |
 | San Francisco, US | 2 |
-| San Jose, US | 10 |
+| San Jose, US | 8 |
 | Sandston, US | 4 |
 | Santa Clara, US | 18 |
 | Santiago de Queretaro, MX | 9 |
