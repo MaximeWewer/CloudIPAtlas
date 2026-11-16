@@ -1,12 +1,12 @@
 # Meta IP Ranges
 
-Last updated: 2026-11-15 16:42:02 UTC
+Last updated: 2026-11-16 19:55:58 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 707
-- **IPv4 ranges**: 292 (109,056 addresses)
-- **IPv6 ranges**: 415 (27,197,440 /64 subnets)
+- **Total IPs/Ranges**: 709
+- **IPv4 ranges**: 293 (109,568 addresses)
+- **IPv6 ranges**: 416 (27,262,976 /64 subnets)
 
 ## Regions (132)
 
@@ -128,7 +128,7 @@ Last updated: 2026-11-15 16:42:02 UTC
 | Seoul, KR | 6 |
 | Singapore, SG | 23 |
 | Social Circle, US | 4 |
-| Sofia, BG | 7 |
+| Sofia, BG | 9 |
 | Southfield, US | 2 |
 | Springfield, US | 4 |
 | Sterling, US | 2 |
