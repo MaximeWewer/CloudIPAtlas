@@ -1,11 +1,11 @@
 # Outscale IP Ranges
 
-Last updated: 2026-11-18 18:30:01 UTC
+Last updated: 2026-11-19 18:44:11 UTC
 
 ## Summary Statistics
 
 - **Total IPs/Ranges**: 42
-- **IPv4 ranges**: 42 (75,264 addresses)
+- **IPv4 ranges**: 42 (76,288 addresses)
 
 ## Regions (5)
 
