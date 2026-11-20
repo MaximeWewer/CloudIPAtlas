@@ -1,6 +1,6 @@
 # DuckDuckBot IP Ranges
 
-Last updated: 2026-11-19 18:44:12 UTC
+Last updated: 2026-11-20 18:07:45 UTC
 
 ## Summary Statistics
 
