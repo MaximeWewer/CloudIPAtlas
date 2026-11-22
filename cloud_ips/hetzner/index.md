@@ -1,6 +1,6 @@
 # Hetzner IP Ranges
 
-Last updated: 2026-11-21 17:00:26 UTC
+Last updated: 2026-11-22 17:29:25 UTC
 
 ## Summary Statistics
 
