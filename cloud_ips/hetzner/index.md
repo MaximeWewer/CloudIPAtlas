@@ -1,20 +1,20 @@
 # Hetzner IP Ranges
 
-Last updated: 2026-11-23 21:49:14 UTC
+Last updated: 2026-11-24 20:26:00 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 17,038
-- **IPv4 ranges**: 17,038 (3,181,666 addresses)
+- **Total IPs/Ranges**: 17,014
+- **IPv4 ranges**: 17,014 (3,197,591 addresses)
 
 ## Regions (6)
 
 | Region | IP Ranges |
 |--------|----------:|
 | Ashburn, US | 18 |
-| Falkenstein, DE | 11,530 |
-| Helsinki, FI | 965 |
+| Falkenstein, DE | 11,543 |
+| Helsinki, FI | 933 |
 | Hillsboro, US | 10 |
-| Nuremberg, DE | 4,504 |
+| Nuremberg, DE | 4,499 |
 | Singapore, SG | 11 |
 
