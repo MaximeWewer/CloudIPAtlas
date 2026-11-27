@@ -1,19 +1,19 @@
 # OCI IP Ranges
 
-Last updated: 2026-11-26 19:20:15 UTC
+Last updated: 2026-11-27 19:15:19 UTC
 
 ## Summary Statistics
 
-- **Total IPs/Ranges**: 1,118
-- **IPv4 ranges**: 1,118 (4,483,082 addresses)
+- **Total IPs/Ranges**: 1,121
+- **IPv4 ranges**: 1,121 (4,589,578 addresses)
 
 ## Services (3)
 
 | Service | IP Ranges |
 |---------|----------:|
 | OBJECT_STORAGE | 68 |
-| OCI | 571 |
-| OSN | 547 |
+| OCI | 573 |
+| OSN | 548 |
 
 ## Regions (57)
 
@@ -34,12 +34,12 @@ Last updated: 2026-11-26 19:20:15 UTC
 | ap-singapore-1 | 24 |
 | ap-singapore-2 | 10 |
 | ap-sydney-1 | 31 |
-| ap-tokyo-1 | 38 |
+| ap-tokyo-1 | 39 |
 | ca-montreal-1 | 15 |
 | ca-toronto-1 | 23 |
 | eu-amsterdam-1 | 34 |
 | eu-dublin-3 | 10 |
-| eu-frankfurt-1 | 61 |
+| eu-frankfurt-1 | 62 |
 | eu-jovanovac-1 | 7 |
 | eu-madrid-1 | 14 |
 | eu-madrid-3 | 10 |
@@ -75,5 +75,5 @@ Last updated: 2026-11-26 19:20:15 UTC
 | us-saltlake-2 | 8 |
 | us-sanantonio-1 | 9 |
 | us-sanjose-1 | 31 |
-| us-shawnee-1 | 9 |
+| us-shawnee-1 | 10 |
 
